@@ -113,7 +113,7 @@ Found 1104 files (864 from abi-root.yml, 240 from abi-json/)
   done in 1.14s
 ```
 
-## Add New ABI
+## How to add New ABI
 
 ### Get ABI JSON from node_modules version
 
