@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "levels",
+        "type": "uint8"
+      }
+    ],
+    "name": "BigStepLevelsTooMany",
+    "type": "error"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "handler",
+        "type": "address"
+      }
+    ],
+    "name": "setFallbackHandler",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "setFallbackHandler",
+    "inputs": [
+      {
+        "name": "handler",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

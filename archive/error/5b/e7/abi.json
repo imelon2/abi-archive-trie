@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidTemplateIndex",
+    "inputs": [
+      {
+        "name": "templateIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "expectedTemplateIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

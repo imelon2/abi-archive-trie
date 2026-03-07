@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "prover0",
+    "outputs": [
+      {
+        "internalType": "contract IOneStepProver",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

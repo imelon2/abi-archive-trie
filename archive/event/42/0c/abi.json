@@ -1,0 +1,27 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "target",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes4",
+        "name": "selector",
+        "type": "bytes4"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "ignored",
+        "type": "bool"
+      }
+    ],
+    "name": "AccessManagerIgnoredSet",
+    "type": "event"
+  }
+]

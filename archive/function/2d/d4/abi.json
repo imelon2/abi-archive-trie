@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "newSize",
+        "type": "uint64"
+      }
+    ],
+    "name": "setCacheSize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

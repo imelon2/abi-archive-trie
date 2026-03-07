@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "DKIMPublicKeyHashReactivated",
+    "inputs": [
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "authorizer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

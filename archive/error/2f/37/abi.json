@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "DelayNotPassed",
+    "inputs": [
+      {
+        "name": "blockTimestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "executeAfter",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

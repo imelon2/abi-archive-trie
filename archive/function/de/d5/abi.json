@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "useTopLevel",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "expected",
+        "type": "bool"
+      }
+    ],
+    "name": "checkIsTopLevelOrWasAliased",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

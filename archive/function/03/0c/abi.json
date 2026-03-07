@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "upgradeExecutorLogic",
+    "outputs": [
+      {
+        "internalType": "contract IUpgradeExecutor",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

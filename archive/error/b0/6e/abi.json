@@ -1,0 +1,12 @@
+[
+  {
+    "inputs": [],
+    "name": "FailedDeployment",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "FailedDeployment",
+    "inputs": []
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "guardians",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "guardianStatus",
+        "type": "uint8",
+        "internalType": "enum RecoveryController.GuardianStatus"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

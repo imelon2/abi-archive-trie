@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getCommandTemplate",
+    "inputs": [
+      {
+        "name": "_templateId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

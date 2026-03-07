@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "fillBlockRecover",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

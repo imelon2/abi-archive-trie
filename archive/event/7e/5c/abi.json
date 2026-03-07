@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "rollup",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "challengeManager",
+        "type": "address"
+      }
+    ],
+    "name": "RollupMigrated",
+    "type": "event"
+  }
+]

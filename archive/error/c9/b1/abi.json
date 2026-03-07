@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "ageInSeconds",
+        "type": "uint64"
+      }
+    ],
+    "name": "ProgramExpired",
+    "type": "error"
+  }
+]

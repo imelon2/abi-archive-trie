@@ -1,0 +1,76 @@
+[
+  {
+    "type": "function",
+    "name": "initSafe7579",
+    "inputs": [
+      {
+        "name": "safe7579",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "executors",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "fallbacks",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "hooks",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "attesters",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

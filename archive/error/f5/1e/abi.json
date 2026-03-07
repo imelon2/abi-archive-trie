@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "origin",
+        "type": "address"
+      }
+    ],
+    "name": "NotAllowedOrigin",
+    "type": "error"
+  }
+]

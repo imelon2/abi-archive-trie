@@ -1,0 +1,28 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "module",
+        "type": "address"
+      }
+    ],
+    "name": "EnabledModule",
+    "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "EnabledModule",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

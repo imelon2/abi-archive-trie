@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "roleId",
+        "type": "uint64"
+      },
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "getAccess",
+    "outputs": [
+      {
+        "internalType": "uint48",
+        "name": "since",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint32",
+        "name": "currentDelay",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "pendingDelay",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint48",
+        "name": "effect",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

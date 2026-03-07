@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "enum TrieProof.ProofError",
+        "name": "err",
+        "type": "uint8"
+      }
+    ],
+    "name": "TrieProofTraversalError",
+    "type": "error"
+  }
+]

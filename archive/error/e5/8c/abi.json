@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "staker",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "claimId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "EdgeNotLayerZero",
+    "type": "error"
+  }
+]

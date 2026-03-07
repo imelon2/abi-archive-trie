@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "prevModule",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "module",
+        "type": "address"
+      }
+    ],
+    "name": "disableModule",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "disableModule",
+    "inputs": [
+      {
+        "name": "prevModule",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

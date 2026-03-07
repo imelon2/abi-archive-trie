@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_l1Counterpart",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_beaconProxyFactory",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

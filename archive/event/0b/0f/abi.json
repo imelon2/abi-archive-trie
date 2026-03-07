@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newLoserStakerEscrow",
+        "type": "address"
+      }
+    ],
+    "name": "LoserStakeEscrowSet",
+    "type": "event"
+  }
+]

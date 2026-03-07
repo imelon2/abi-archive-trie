@@ -1,0 +1,107 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract L1GatewayRouter",
+            "name": "routerTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1ERC20Gateway",
+            "name": "standardGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1CustomGateway",
+            "name": "customGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1WethGateway",
+            "name": "wethGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1OrbitGatewayRouter",
+            "name": "feeTokenBasedRouterTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1OrbitERC20Gateway",
+            "name": "feeTokenBasedStandardGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract L1OrbitCustomGateway",
+            "name": "feeTokenBasedCustomGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IUpgradeExecutor",
+            "name": "upgradeExecutor",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct L1AtomicTokenBridgeCreator.L1Templates",
+        "name": "_l1Templates",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2TokenBridgeFactoryTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2RouterTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2StandardGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2CustomGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2WethGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2WethTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2MulticallTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Weth",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Multicall",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_gasLimitForL2FactoryDeployment",
+        "type": "uint256"
+      }
+    ],
+    "name": "setTemplates",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

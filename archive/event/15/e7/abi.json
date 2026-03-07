@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "challengeManager",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "NewEdgeStakingPoolCreated",
+    "type": "event"
+  }
+]

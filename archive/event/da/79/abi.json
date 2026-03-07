@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "enum GasRefunder.CommonParameterKey",
+        "name": "parameter",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "name": "CommonParameterSet",
+    "type": "event"
+  }
+]

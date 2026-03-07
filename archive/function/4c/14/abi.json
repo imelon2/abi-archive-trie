@@ -1,0 +1,99 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "inbox",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "router",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "weth",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct L1DeploymentAddresses",
+        "name": "l1Deployment",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "router",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "weth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "proxyAdmin",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "beaconProxyFactory",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "upgradeExecutor",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "multicall",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct L2DeploymentAddresses",
+        "name": "l2Deployment",
+        "type": "tuple"
+      }
+    ],
+    "name": "setDeployment",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "chainConfig",
+        "type": "string"
+      }
+    ],
+    "name": "setChainConfig",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

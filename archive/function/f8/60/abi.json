@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "bridgeCreator",
+    "outputs": [
+      {
+        "internalType": "contract BridgeCreator",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

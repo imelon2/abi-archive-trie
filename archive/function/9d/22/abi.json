@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "deployNexusBootstrap",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "bootstrap",
+        "type": "address",
+        "internalType": "contract INexusBootstrap"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "start",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "pageSize",
+        "type": "uint256"
+      }
+    ],
+    "name": "getModulesPaginated",
+    "outputs": [
+      {
+        "internalType": "address[]",
+        "name": "array",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address",
+        "name": "next",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getModulesPaginated",
+    "inputs": [
+      {
+        "name": "start",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "pageSize",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "array",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "next",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

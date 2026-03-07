@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "exposed_setupGuardians",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "weights",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

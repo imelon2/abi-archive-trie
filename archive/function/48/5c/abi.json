@@ -1,0 +1,164 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "_bridge",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_sequencerInbox",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "_bridge",
+        "type": "address"
+      },
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "_bridge",
+        "type": "address"
+      },
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "_sequencerInbox",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "rollup_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "nativeToken_",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_l1Counterpart",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_router",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_counterpartGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_defaultGateway",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_groth16Verifier",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_recoveryController",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_signer",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

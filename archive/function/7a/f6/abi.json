@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "blockCacheSize",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "count",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

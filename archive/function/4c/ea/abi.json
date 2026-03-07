@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "cacheCodehash",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

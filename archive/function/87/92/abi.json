@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "ownerToRemove",
+        "type": "address"
+      }
+    ],
+    "name": "removeChainOwner",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

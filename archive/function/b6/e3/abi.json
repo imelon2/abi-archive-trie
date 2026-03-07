@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "hexToBytes",
+    "inputs": [
+      {
+        "name": "hexStr",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

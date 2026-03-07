@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "mutualId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "EdgeConfirmedByOneStepProof",
+    "type": "event"
+  }
+]

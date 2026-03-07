@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId1",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "edgeId2",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint8",
+        "name": "level1",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "level2",
+        "type": "uint8"
+      }
+    ],
+    "name": "EdgeLevelInvalid",
+    "type": "error"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "lowerChildId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "upperChildId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "ChildrenAlreadySet",
+    "type": "error"
+  }
+]

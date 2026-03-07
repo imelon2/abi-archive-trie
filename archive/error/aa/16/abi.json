@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "signer",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint64",
+        "name": "weight",
+        "type": "uint64"
+      }
+    ],
+    "name": "MultiSignerERC7913WeightedInvalidWeight",
+    "type": "error"
+  }
+]

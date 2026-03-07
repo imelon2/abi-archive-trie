@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getPrevAssertionHash",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

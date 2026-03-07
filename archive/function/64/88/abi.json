@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "fillBlockMulMod",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

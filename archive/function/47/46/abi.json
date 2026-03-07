@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newSource",
+        "type": "address"
+      }
+    ],
+    "name": "updateWhitelistSource",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

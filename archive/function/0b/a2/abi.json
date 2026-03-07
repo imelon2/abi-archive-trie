@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "cancelRecovery",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

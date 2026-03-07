@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "clearTrustedForwarder",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidOldOwner",
+    "inputs": [
+      {
+        "name": "oldOwner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

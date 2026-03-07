@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "trustAttesters",
+    "inputs": [
+      {
+        "name": "threshold",
+        "type": "uint8",
+        "internalType": "uint8"
+      },
+      {
+        "name": "attesters",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "stakerAddress",
+        "type": "address"
+      }
+    ],
+    "name": "addToDeposit",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

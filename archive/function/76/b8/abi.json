@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "trustedForwarder",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "trustedForwarder",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

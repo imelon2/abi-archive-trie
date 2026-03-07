@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "batchPoster",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "isBatchPoster",
+        "type": "bool"
+      }
+    ],
+    "name": "BatchPosterSet",
+    "type": "event"
+  }
+]

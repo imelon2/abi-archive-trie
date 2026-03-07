@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "number",
+        "type": "uint64"
+      }
+    ],
+    "name": "customRevert",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

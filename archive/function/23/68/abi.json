@@ -1,0 +1,326 @@
+[
+  {
+    "type": "function",
+    "name": "getInstallFallbackData",
+    "inputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct AccountInstance",
+        "components": [
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accountType",
+            "type": "uint8",
+            "internalType": "enum AccountType"
+          },
+          {
+            "name": "accountHelper",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "aux",
+            "type": "tuple",
+            "internalType": "struct Auxiliary",
+            "components": [
+              {
+                "name": "entrypoint",
+                "type": "address",
+                "internalType": "contract IEntryPoint"
+              },
+              {
+                "name": "gasSimulation",
+                "type": "address",
+                "internalType": "contract UserOpGasLog"
+              },
+              {
+                "name": "registry",
+                "type": "address",
+                "internalType": "contract IERC7484"
+              },
+              {
+                "name": "mockFactory",
+                "type": "address",
+                "internalType": "contract MockFactory"
+              },
+              {
+                "name": "smartSession",
+                "type": "address",
+                "internalType": "contract ISmartSession"
+              }
+            ]
+          },
+          {
+            "name": "defaultValidator",
+            "type": "address",
+            "internalType": "contract IValidator"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountFactory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "smartSession",
+            "type": "address",
+            "internalType": "contract ISmartSession"
+          },
+          {
+            "name": "defaultSessionValidator",
+            "type": "address",
+            "internalType": "contract ISessionValidator"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "initData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getInstallFallbackData",
+    "inputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct AccountInstance",
+        "components": [
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accountType",
+            "type": "uint8",
+            "internalType": "enum AccountType"
+          },
+          {
+            "name": "accountHelper",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "aux",
+            "type": "tuple",
+            "internalType": "struct Auxiliary",
+            "components": [
+              {
+                "name": "entrypoint",
+                "type": "address",
+                "internalType": "contract IEntryPoint"
+              },
+              {
+                "name": "gasSimulation",
+                "type": "address",
+                "internalType": "contract UserOpGasLog"
+              },
+              {
+                "name": "registry",
+                "type": "address",
+                "internalType": "contract IERC7484"
+              },
+              {
+                "name": "mockFactory",
+                "type": "address",
+                "internalType": "contract MockFactory"
+              },
+              {
+                "name": "smartSession",
+                "type": "address",
+                "internalType": "contract ISmartSession"
+              }
+            ]
+          },
+          {
+            "name": "defaultValidator",
+            "type": "address",
+            "internalType": "contract IValidator"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountFactory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "smartSession",
+            "type": "address",
+            "internalType": "contract ISmartSession"
+          },
+          {
+            "name": "defaultSessionValidator",
+            "type": "address",
+            "internalType": "contract ISessionValidator"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "initData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "getInstallFallbackData",
+    "inputs": [
+      {
+        "name": "instance",
+        "type": "tuple",
+        "internalType": "struct AccountInstance",
+        "components": [
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accountType",
+            "type": "uint8",
+            "internalType": "enum AccountType"
+          },
+          {
+            "name": "accountHelper",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "aux",
+            "type": "tuple",
+            "internalType": "struct Auxiliary",
+            "components": [
+              {
+                "name": "entrypoint",
+                "type": "address",
+                "internalType": "contract IEntryPoint"
+              },
+              {
+                "name": "gasSimulation",
+                "type": "address",
+                "internalType": "contract UserOpGasLog"
+              },
+              {
+                "name": "registry",
+                "type": "address",
+                "internalType": "contract IERC7484"
+              },
+              {
+                "name": "mockFactory",
+                "type": "address",
+                "internalType": "contract MockFactory"
+              },
+              {
+                "name": "smartSession",
+                "type": "address",
+                "internalType": "contract ISmartSession"
+              }
+            ]
+          },
+          {
+            "name": "defaultValidator",
+            "type": "address",
+            "internalType": "contract IValidator"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountFactory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "smartSession",
+            "type": "address",
+            "internalType": "contract ISmartSession"
+          },
+          {
+            "name": "defaultSessionValidator",
+            "type": "address",
+            "internalType": "contract ISessionValidator"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "initData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

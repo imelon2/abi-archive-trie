@@ -1,0 +1,12 @@
+[
+  {
+    "inputs": [],
+    "name": "Create2EmptyBytecode",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "Create2EmptyBytecode",
+    "inputs": []
+  }
+]

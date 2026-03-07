@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "qx",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "qy",
+        "type": "bytes32"
+      }
+    ],
+    "name": "SignerP256InvalidPublicKey",
+    "type": "error"
+  }
+]

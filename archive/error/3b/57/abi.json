@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "PolicyViolation",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "policy",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

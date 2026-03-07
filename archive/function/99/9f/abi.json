@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "rollupAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "deployer",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "chainId",
+        "type": "uint256"
+      }
+    ],
+    "name": "validateRollupDeployedAtAddress",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

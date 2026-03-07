@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "acceptFundsFromOldBridge",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

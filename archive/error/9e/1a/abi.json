@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidRecoveryDataHash",
+    "inputs": [
+      {
+        "name": "recoveryDataHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "expectedRecoveryDataHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "UniversalEmailRecoveryModuleDeployed",
+    "inputs": [
+      {
+        "name": "emailRecoveryModule",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "commandHandler",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "expiryDays",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "_days",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

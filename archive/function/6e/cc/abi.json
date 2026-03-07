@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "getPerBatchGasCharge",
+    "outputs": [
+      {
+        "internalType": "int64",
+        "name": "",
+        "type": "int64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "edgeIds",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maximumCachedTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "multiUpdateTimeCacheByChildren",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

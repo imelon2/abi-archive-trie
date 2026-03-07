@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "cliffSeconds",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "durationSeconds",
+        "type": "uint64"
+      }
+    ],
+    "name": "InvalidCliffDuration",
+    "type": "error"
+  }
+]

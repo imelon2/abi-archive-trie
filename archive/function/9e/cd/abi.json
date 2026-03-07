@@ -1,0 +1,63 @@
+[
+  {
+    "type": "function",
+    "name": "verifyEmailProof",
+    "inputs": [
+      {
+        "name": "proof",
+        "type": "tuple",
+        "internalType": "struct EmailProof",
+        "components": [
+          {
+            "name": "domainName",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "publicKeyHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "maskedCommand",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "emailNullifier",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "accountSalt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "isCodeExist",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "proof",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "ExistingStoredAccountHash",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

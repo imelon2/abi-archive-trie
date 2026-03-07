@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidISessionValidator",
+    "inputs": [
+      {
+        "name": "sessionValidator",
+        "type": "address",
+        "internalType": "contract ISessionValidator"
+      }
+    ]
+  }
+]

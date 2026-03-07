@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "forceDeployOnAddresses",
+    "inputs": [
+      {
+        "name": "_deployParams",
+        "type": "tuple[]",
+        "internalType": "struct IContractDeployer.ForceDeployment[]",
+        "components": [
+          {
+            "name": "bytecodeHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "newAddress",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "callConstructor",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "input",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

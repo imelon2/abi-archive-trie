@@ -1,0 +1,99 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "_auctioneer",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_biddingToken",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_beneficiary",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "int64",
+                "name": "offsetTimestamp",
+                "type": "int64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "roundDurationSeconds",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "auctionClosingSeconds",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "reserveSubmissionSeconds",
+                "type": "uint64"
+              }
+            ],
+            "internalType": "struct RoundTimingInfo",
+            "name": "_roundTimingInfo",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_minReservePrice",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "_auctioneerAdmin",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_minReservePriceSetter",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_reservePriceSetter",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_reservePriceSetterAdmin",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_beneficiarySetter",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_roundTimingSetter",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "_masterAdmin",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct InitArgs",
+        "name": "args",
+        "type": "tuple"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

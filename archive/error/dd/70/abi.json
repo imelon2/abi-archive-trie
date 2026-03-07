@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "confirmedRivalId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "RivalEdgeConfirmed",
+    "type": "error"
+  }
+]

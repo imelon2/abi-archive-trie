@@ -1,0 +1,28 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "msgHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "SignMsg",
+    "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "SignMsg",
+    "inputs": [
+      {
+        "name": "msgHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
+  }
+]

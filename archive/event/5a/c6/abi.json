@@ -1,0 +1,28 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "handler",
+        "type": "address"
+      }
+    ],
+    "name": "ChangedFallbackHandler",
+    "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ChangedFallbackHandler",
+    "inputs": [
+      {
+        "name": "handler",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

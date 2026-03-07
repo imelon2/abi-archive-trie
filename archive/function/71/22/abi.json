@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupCore",
+        "name": "rollup",
+        "type": "address"
+      }
+    ],
+    "name": "requireRejectable",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

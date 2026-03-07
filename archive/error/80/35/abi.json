@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "GuardianMustWaitForCooldown",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

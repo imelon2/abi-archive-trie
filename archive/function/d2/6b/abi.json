@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_accountSalt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_controller",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

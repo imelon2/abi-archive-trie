@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnsupportedPolicy",
+    "inputs": [
+      {
+        "name": "policy",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

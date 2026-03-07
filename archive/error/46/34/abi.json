@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "dataLength",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxDataLength",
+        "type": "uint256"
+      }
+    ],
+    "name": "DataTooLarge",
+    "type": "error"
+  }
+]

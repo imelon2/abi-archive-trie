@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnsupportedExecType",
+    "inputs": [
+      {
+        "name": "execType",
+        "type": "bytes1",
+        "internalType": "ExecType"
+      }
+    ]
+  }
+]

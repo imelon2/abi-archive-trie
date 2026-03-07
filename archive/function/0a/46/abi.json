@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupUserAbs",
+        "name": "rollup",
+        "type": "address"
+      }
+    ],
+    "name": "checkDecidableNextNode",
+    "outputs": [
+      {
+        "internalType": "enum ValidatorUtils.ConfirmType",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

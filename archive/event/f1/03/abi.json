@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint48",
+        "name": "newDelay",
+        "type": "uint48"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48",
+        "name": "effectSchedule",
+        "type": "uint48"
+      }
+    ],
+    "name": "DefaultAdminDelayChangeScheduled",
+    "type": "event"
+  }
+]

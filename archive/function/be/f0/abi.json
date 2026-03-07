@@ -1,0 +1,27 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "addr",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "fixedUntilRound",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct Transferor",
+        "name": "transferor",
+        "type": "tuple"
+      }
+    ],
+    "name": "setTransferor",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

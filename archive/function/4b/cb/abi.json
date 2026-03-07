@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "computeSignedMsg",
+    "inputs": [
+      {
+        "name": "prefix",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "domainName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

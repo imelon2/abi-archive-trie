@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "HookAlreadyInstalled",
+    "inputs": [
+      {
+        "name": "currentHook",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "_bridge",
+        "type": "address"
+      }
+    ],
+    "name": "postUpgradeInit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "osp_",
+        "type": "address"
+      }
+    ],
+    "name": "postUpgradeInit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "postUpgradeInit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

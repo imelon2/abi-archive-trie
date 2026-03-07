@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "keccakStates",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "offset",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bytes",
+        "name": "part",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint256",
+        "name": "length",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

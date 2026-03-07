@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "messageId",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "encodedData",
+        "type": "bytes"
+      }
+    ],
+    "name": "UserRequestForAffirmation",
+    "type": "event"
+  }
+]

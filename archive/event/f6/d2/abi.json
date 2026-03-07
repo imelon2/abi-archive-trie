@@ -1,0 +1,27 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "expressLaneController",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "transferor",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "fixedUntilRound",
+        "type": "uint64"
+      }
+    ],
+    "name": "SetTransferor",
+    "type": "event"
+  }
+]

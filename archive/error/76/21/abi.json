@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "round",
+        "type": "uint64"
+      },
+      {
+        "internalType": "address",
+        "name": "expectedTransferor",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "msgSender",
+        "type": "address"
+      }
+    ],
+    "name": "NotTransferor",
+    "type": "error"
+  }
+]

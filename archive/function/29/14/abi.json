@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "batchPoster",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "newFeeCollector",
+        "type": "address"
+      }
+    ],
+    "name": "setFeeCollector",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

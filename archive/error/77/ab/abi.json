@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "outbox",
+        "type": "address"
+      }
+    ],
+    "name": "InvalidOutboxSet",
+    "type": "error"
+  }
+]

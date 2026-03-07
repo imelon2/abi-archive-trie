@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "key",
+        "type": "bytes"
+      }
+    ],
+    "name": "EnumerableMapNonexistentBytesKey",
+    "type": "error"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newLoserStakerEscrow",
+        "type": "address"
+      }
+    ],
+    "name": "setLoserStakeEscrow",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

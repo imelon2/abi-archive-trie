@@ -1,0 +1,119 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "deposits",
+    "outputs": [
+      {
+        "internalType": "uint112",
+        "name": "deposit",
+        "type": "uint112"
+      },
+      {
+        "internalType": "bool",
+        "name": "staked",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint112",
+        "name": "stake",
+        "type": "uint112"
+      },
+      {
+        "internalType": "uint32",
+        "name": "unstakeDelaySec",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint48",
+        "name": "withdrawTime",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "deposits",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "deposit",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "staked",
+        "type": "bool"
+      },
+      {
+        "internalType": "uint112",
+        "name": "stake",
+        "type": "uint112"
+      },
+      {
+        "internalType": "uint32",
+        "name": "unstakeDelaySec",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint48",
+        "name": "withdrawTime",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "deposits",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "deposit",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "staked",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "stake",
+        "type": "uint112",
+        "internalType": "uint112"
+      },
+      {
+        "name": "unstakeDelaySec",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "withdrawTime",
+        "type": "uint48",
+        "internalType": "uint48"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

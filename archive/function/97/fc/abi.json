@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "updateVerifier",
+    "inputs": [
+      {
+        "name": "_verifierAddr",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "hookMultiPlexer",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract MockHookMultiPlexer"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "inputs": [],
+    "name": "accountId",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "accountImplementationId",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "accountId",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "accountId",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "accountImplementationId",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "accountId",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "accountImplementationId",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

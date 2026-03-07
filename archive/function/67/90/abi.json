@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "me",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "level",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "subtreeRoot",
+        "type": "bytes32"
+      }
+    ],
+    "name": "appendCompleteSubTree",
+    "outputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "",
+        "type": "bytes32[]"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

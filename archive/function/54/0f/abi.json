@@ -1,0 +1,100 @@
+[
+  {
+    "type": "function",
+    "name": "initializeAccount",
+    "inputs": [
+      {
+        "name": "validators",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "executors",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "fallbacks",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "hooks",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "registryInit",
+        "type": "tuple",
+        "internalType": "struct RegistryInit",
+        "components": [
+          {
+            "name": "registry",
+            "type": "address",
+            "internalType": "contract IERC7484"
+          },
+          {
+            "name": "attesters",
+            "type": "address[]",
+            "internalType": "address[]"
+          },
+          {
+            "name": "threshold",
+            "type": "uint8",
+            "internalType": "uint8"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

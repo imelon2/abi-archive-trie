@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "retryableSender",
+    "outputs": [
+      {
+        "internalType": "contract L1TokenBridgeRetryableSender",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "bytecode",
+        "type": "bytes"
+      }
+    ],
+    "name": "ContractDeploymentError",
+    "type": "error"
+  }
+]

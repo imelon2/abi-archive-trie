@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "pageRamp",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "ramp",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "bisectionHistoryRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "prefixProof",
+        "type": "bytes"
+      }
+    ],
+    "name": "bisectEdge",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

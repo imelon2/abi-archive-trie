@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidRevertMessageBytes",
+    "inputs": [
+      {
+        "name": "expected",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "reason",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

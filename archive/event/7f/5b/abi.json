@@ -1,0 +1,57 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bool",
+        "name": "isMultiBidAuction",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "round",
+        "type": "uint64"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "firstPriceBidder",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "firstPriceExpressLaneController",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "firstPriceAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "roundStartTimestamp",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "roundEndTimestamp",
+        "type": "uint64"
+      }
+    ],
+    "name": "AuctionResolved",
+    "type": "event"
+  }
+]

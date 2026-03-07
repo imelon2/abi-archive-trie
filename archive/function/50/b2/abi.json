@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "justRevert",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "flag",
+        "type": "bool"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "value",
+        "type": "bytes32"
+      }
+    ],
+    "name": "events",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

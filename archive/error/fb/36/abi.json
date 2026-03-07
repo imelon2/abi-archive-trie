@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "ChainIdAndHashesLengthMismatch",
+    "inputs": [
+      {
+        "name": "chainIdsLength",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "hashesLength",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

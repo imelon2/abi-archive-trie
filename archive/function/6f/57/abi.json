@@ -1,0 +1,122 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[2]",
+        "name": "stakers",
+        "type": "address[2]"
+      },
+      {
+        "internalType": "uint64[2]",
+        "name": "nodeNums",
+        "type": "uint64[2]"
+      },
+      {
+        "internalType": "enum MachineStatus[2]",
+        "name": "machineStatuses",
+        "type": "uint8[2]"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32[2]",
+            "name": "bytes32Vals",
+            "type": "bytes32[2]"
+          },
+          {
+            "internalType": "uint64[2]",
+            "name": "u64Vals",
+            "type": "uint64[2]"
+          }
+        ],
+        "internalType": "struct GlobalState[2]",
+        "name": "globalStates",
+        "type": "tuple[2]"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numBlocks",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "secondExecutionHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256[2]",
+        "name": "proposedBlocks",
+        "type": "uint256[2]"
+      },
+      {
+        "internalType": "bytes32[2]",
+        "name": "wasmModuleRoots",
+        "type": "bytes32[2]"
+      }
+    ],
+    "name": "createChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[2]",
+        "name": "stakers",
+        "type": "address[2]"
+      },
+      {
+        "internalType": "uint64[2]",
+        "name": "nodeNums",
+        "type": "uint64[2]"
+      },
+      {
+        "internalType": "enum MachineStatus[2]",
+        "name": "machineStatuses",
+        "type": "uint8[2]"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32[2]",
+            "name": "bytes32Vals",
+            "type": "bytes32[2]"
+          },
+          {
+            "internalType": "uint64[2]",
+            "name": "u64Vals",
+            "type": "uint64[2]"
+          }
+        ],
+        "internalType": "struct GlobalState[2]",
+        "name": "globalStates",
+        "type": "tuple[2]"
+      },
+      {
+        "internalType": "uint64",
+        "name": "numBlocks",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "secondExecutionHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256[2]",
+        "name": "proposedTimes",
+        "type": "uint256[2]"
+      },
+      {
+        "internalType": "bytes32[2]",
+        "name": "wasmModuleRoots",
+        "type": "bytes32[2]"
+      }
+    ],
+    "name": "createChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

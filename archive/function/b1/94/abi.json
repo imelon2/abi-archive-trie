@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "sequencerInbox",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "batchData",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint256",
+        "name": "numberToPost",
+        "type": "uint256"
+      }
+    ],
+    "name": "postManyBatches",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

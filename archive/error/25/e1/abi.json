@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "signer",
+        "type": "bytes"
+      }
+    ],
+    "name": "MultiSignerERC7913AlreadyExists",
+    "type": "error"
+  }
+]

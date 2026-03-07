@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "FallbackInstalled",
+    "inputs": [
+      {
+        "name": "msgSig",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [],
+    "name": "entryPoint",
+    "outputs": [
+      {
+        "internalType": "contract IEntryPoint",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "entryPoint",
+    "outputs": [
+      {
+        "internalType": "contract IEntryPoint",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "entryPoint",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

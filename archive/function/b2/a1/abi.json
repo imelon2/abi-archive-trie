@@ -1,0 +1,66 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "endHistoryRoot",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct AssertionState",
+            "name": "assertionState",
+            "type": "tuple"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "prevAssertionHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "inboxAcc",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct AssertionStateData",
+        "name": "claimStateData",
+        "type": "tuple"
+      }
+    ],
+    "name": "confirmEdgeByTime",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

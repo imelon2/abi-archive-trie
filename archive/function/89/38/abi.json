@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "newWasmModuleRoot",
+        "type": "bytes32"
+      }
+    ],
+    "name": "setWasmModuleRoot",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

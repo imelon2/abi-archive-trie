@@ -1,0 +1,98 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getEdge",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "bytes32",
+            "name": "originId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "startHistoryRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "startHeight",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "endHistoryRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endHeight",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "lowerChildId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "upperChildId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "claimId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "staker",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "createdAtBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "confirmedAtBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "enum EdgeStatus",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint8",
+            "name": "level",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bool",
+            "name": "refunded",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint64",
+            "name": "totalTimeUnrivaledCache",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct ChallengeEdge",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

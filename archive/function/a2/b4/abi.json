@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_validatorWhitelistDisabled",
+        "type": "bool"
+      }
+    ],
+    "name": "setValidatorWhitelistDisabled",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

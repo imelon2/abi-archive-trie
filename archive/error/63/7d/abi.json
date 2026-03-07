@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint16",
+        "name": "version",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint16",
+        "name": "stylusVersion",
+        "type": "uint16"
+      }
+    ],
+    "name": "ProgramNeedsUpgrade",
+    "type": "error"
+  }
+]

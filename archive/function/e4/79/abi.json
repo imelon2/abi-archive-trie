@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[2]",
+        "name": "inputChunk",
+        "type": "bytes32[2]"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "hashState",
+        "type": "bytes32"
+      }
+    ],
+    "name": "sha256Block",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

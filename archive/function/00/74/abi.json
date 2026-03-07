@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "proof",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "uint256",
+        "name": "path",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "item",
+        "type": "bytes32"
+      }
+    ],
+    "name": "calculateMerkleRoot",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

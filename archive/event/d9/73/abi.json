@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "val",
+        "type": "bool"
+      }
+    ],
+    "name": "AllowListAddressSet",
+    "type": "event"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "revokeDKIMPublicKeyHash",
+    "inputs": [
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

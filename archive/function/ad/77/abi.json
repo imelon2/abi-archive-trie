@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "accountHashes",
+    "inputs": [
+      {
+        "name": "accountHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

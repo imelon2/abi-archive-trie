@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "isAdvancing",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

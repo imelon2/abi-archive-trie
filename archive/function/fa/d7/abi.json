@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "int64",
+        "name": "cost",
+        "type": "int64"
+      }
+    ],
+    "name": "setPerBatchGasCharge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

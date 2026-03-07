@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "TimestampCheckEnabled",
+    "inputs": [
+      {
+        "name": "enabled",
+        "type": "bool",
+        "indexed": false,
+        "internalType": "bool"
+      }
+    ],
+    "anonymous": false
+  }
+]

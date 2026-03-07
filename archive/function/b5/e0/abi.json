@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "MINI_STAKE_AMOUNTS_STORAGE",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_version",
+        "type": "uint256"
+      }
+    ],
+    "name": "setVersion",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

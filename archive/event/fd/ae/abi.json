@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "internalType": "enum IChallengeManager.ChallengeTerminationType",
+        "name": "kind",
+        "type": "uint8"
+      }
+    ],
+    "name": "ChallengeEnded",
+    "type": "event"
+  }
+]

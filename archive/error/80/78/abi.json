@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "ResetFailed",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidUserOpSender",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "newExecutors",
+        "type": "address[]"
+      },
+      {
+        "internalType": "bool[]",
+        "name": "isExecutor",
+        "type": "bool[]"
+      }
+    ],
+    "name": "setExecutor",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

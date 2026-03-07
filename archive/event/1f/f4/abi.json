@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "SessionRemoved",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

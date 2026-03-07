@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newBatchPosterManager",
+        "type": "address"
+      }
+    ],
+    "name": "setBatchPosterManager",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

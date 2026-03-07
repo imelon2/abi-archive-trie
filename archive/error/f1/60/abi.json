@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "int64",
+        "name": "roundStart",
+        "type": "int64"
+      }
+    ],
+    "name": "NegativeRoundStart",
+    "type": "error"
+  }
+]

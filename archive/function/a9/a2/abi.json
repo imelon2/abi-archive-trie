@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "enum IPaymaster.PostOpMode",
+        "name": "mode",
+        "type": "uint8"
+      },
+      {
+        "internalType": "bytes",
+        "name": "context",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint256",
+        "name": "actualGasCost",
+        "type": "uint256"
+      }
+    ],
+    "name": "postOp",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "threshold",
+        "type": "uint256"
+      }
+    ],
+    "name": "ChangedThreshold",
+    "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "ChangedThreshold",
+    "inputs": [
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

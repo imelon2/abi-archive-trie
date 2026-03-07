@@ -1,0 +1,24 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "int256",
+        "name": "value",
+        "type": "int256"
+      }
+    ],
+    "name": "SafeCastOverflowedIntToUint",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "SafeCastOverflowedIntToUint",
+    "inputs": [
+      {
+        "name": "value",
+        "type": "int256",
+        "internalType": "int256"
+      }
+    ]
+  }
+]

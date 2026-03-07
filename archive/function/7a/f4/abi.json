@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "pageGas",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "gas",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

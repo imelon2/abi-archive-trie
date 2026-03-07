@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newL2DefaultGateway",
+        "type": "address"
+      }
+    ],
+    "name": "setDefaultGateway",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

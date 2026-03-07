@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "initCode",
+        "type": "bytes"
+      },
+      {
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "paymasterAndData",
+        "type": "bytes"
+      }
+    ],
+    "name": "validateSenderAndPaymaster",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

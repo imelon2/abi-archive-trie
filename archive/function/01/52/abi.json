@@ -1,0 +1,43 @@
+[
+  {
+    "inputs": [],
+    "name": "roundTimingInfo",
+    "outputs": [
+      {
+        "internalType": "int64",
+        "name": "offsetTimestamp",
+        "type": "int64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "roundDurationSeconds",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "auctionClosingSeconds",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "reserveSubmissionSeconds",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "exitNum",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupCore",
+        "name": "rollup",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "startIndex",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "max",
+        "type": "uint64"
+      }
+    ],
+    "name": "timedOutChallenges",
+    "outputs": [
+      {
+        "internalType": "uint64[]",
+        "name": "",
+        "type": "uint64[]"
+      },
+      {
+        "internalType": "bool",
+        "name": "hasMore",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

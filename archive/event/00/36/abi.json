@@ -1,0 +1,101 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "inbox",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "router",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "weth",
+            "type": "address"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct L1DeploymentAddresses",
+        "name": "l1",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "router",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "weth",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "proxyAdmin",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "beaconProxyFactory",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "upgradeExecutor",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "multicall",
+            "type": "address"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct L2DeploymentAddresses",
+        "name": "l2",
+        "type": "tuple"
+      }
+    ],
+    "name": "OrbitTokenBridgeDeploymentSet",
+    "type": "event"
+  }
+]

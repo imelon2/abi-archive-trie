@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "legacyError",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

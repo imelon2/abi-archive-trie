@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidPermissionId",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      }
+    ]
+  }
+]

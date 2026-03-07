@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "newVotingPeriod",
+        "type": "uint32"
+      }
+    ],
+    "name": "setVotingPeriod",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

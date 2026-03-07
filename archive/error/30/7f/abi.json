@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "EdgeAlreadyRefunded",
+    "type": "error"
+  }
+]

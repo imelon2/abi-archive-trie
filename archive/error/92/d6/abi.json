@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidSession",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      }
+    ]
+  }
+]

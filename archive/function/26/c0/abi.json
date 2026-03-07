@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "withdrawFromPool",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IAssertionChain",
+        "name": "_assertionChain",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "_challengePeriodBlocks",
+        "type": "uint64"
+      },
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "_oneStepProofEntry",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "layerZeroBlockEdgeHeight",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "layerZeroBigStepEdgeHeight",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "layerZeroSmallStepEdgeHeight",
+        "type": "uint256"
+      },
+      {
+        "internalType": "contract IERC20",
+        "name": "_stakeToken",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_excessStakeReceiver",
+        "type": "address"
+      },
+      {
+        "internalType": "uint8",
+        "name": "_numBigStepLevel",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "_stakeAmounts",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

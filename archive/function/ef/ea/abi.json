@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "setAllowListEnabled",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_allowListEnabled",
+        "type": "bool"
+      }
+    ],
+    "name": "setAllowListEnabled",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

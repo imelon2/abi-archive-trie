@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "gateway",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "sender",
+        "type": "bytes"
+      }
+    ],
+    "name": "ERC7786RecipientUnauthorizedGateway",
+    "type": "error"
+  }
+]

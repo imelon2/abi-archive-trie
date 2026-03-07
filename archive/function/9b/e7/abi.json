@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "destination",
+        "type": "address"
+      }
+    ],
+    "name": "validateExecuteTransaction",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

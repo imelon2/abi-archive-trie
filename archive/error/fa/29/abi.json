@@ -1,0 +1,7 @@
+[
+  {
+    "inputs": [],
+    "name": "ERC7579CannotDecodeFallbackData",
+    "type": "error"
+  }
+]

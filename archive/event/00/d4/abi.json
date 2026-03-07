@@ -1,0 +1,27 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "currentPrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "previousPrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "cachedPriceTimestamp",
+        "type": "uint256"
+      }
+    ],
+    "name": "TokenPriceUpdated",
+    "type": "event"
+  }
+]

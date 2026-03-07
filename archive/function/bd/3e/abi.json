@@ -1,0 +1,47 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "level",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "endHistoryRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "endHeight",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "claimId",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "prefixProof",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct CreateEdgeArgs",
+        "name": "args",
+        "type": "tuple"
+      }
+    ],
+    "name": "createEdge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

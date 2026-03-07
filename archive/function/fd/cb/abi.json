@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "accessManager",
+    "outputs": [
+      {
+        "internalType": "contract IAccessManager",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

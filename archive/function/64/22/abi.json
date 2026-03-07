@@ -1,0 +1,78 @@
+[
+  {
+    "type": "function",
+    "name": "initMSA",
+    "inputs": [
+      {
+        "name": "$valdiators",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "$executors",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_hook",
+        "type": "tuple",
+        "internalType": "struct BootstrapConfig",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_fallbacks",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

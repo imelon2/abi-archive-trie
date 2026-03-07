@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidModule",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

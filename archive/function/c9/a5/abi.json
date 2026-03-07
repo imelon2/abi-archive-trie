@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "isISessionValidatorSet",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

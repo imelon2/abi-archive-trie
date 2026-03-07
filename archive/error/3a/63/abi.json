@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "endHistoryRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "assertionEndRoot",
+        "type": "bytes32"
+      }
+    ],
+    "name": "EndHistoryRootMismatch",
+    "type": "error"
+  }
+]

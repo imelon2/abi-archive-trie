@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "allCacheManagers",
+    "outputs": [
+      {
+        "internalType": "address[]",
+        "name": "managers",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

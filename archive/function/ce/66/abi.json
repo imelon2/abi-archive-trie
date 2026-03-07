@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "newConfirmPeriod",
+        "type": "uint64"
+      }
+    ],
+    "name": "setConfirmPeriodBlocks",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "singleInitMSA",
+    "inputs": [
+      {
+        "name": "validator",
+        "type": "address",
+        "internalType": "contract IModule"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

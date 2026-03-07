@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [],
+    "name": "pendingDefaultAdminDelay",
+    "outputs": [
+      {
+        "internalType": "uint48",
+        "name": "newDelay",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint48",
+        "name": "effectSchedule",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "pendingDefaultAdminDelay",
+    "outputs": [
+      {
+        "internalType": "uint48",
+        "name": "newDelay",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint48",
+        "name": "schedule",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

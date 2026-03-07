@@ -1,0 +1,186 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "sender",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "nonce",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "initCode",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes",
+                "name": "callData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "uint256",
+                "name": "callGasLimit",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "verificationGasLimit",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "preVerificationGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxFeePerGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "maxPriorityFeePerGas",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "paymasterAndData",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+              }
+            ],
+            "internalType": "struct UserOperation[]",
+            "name": "userOps",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "contract IAggregator",
+            "name": "aggregator",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct IEntryPoint.UserOpsPerAggregator[]",
+        "name": "opsPerAggregator",
+        "type": "tuple[]"
+      },
+      {
+        "internalType": "address payable",
+        "name": "beneficiary",
+        "type": "address"
+      }
+    ],
+    "name": "handleAggregatedOps",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "handleAggregatedOps",
+    "inputs": [
+      {
+        "name": "opsPerAggregator",
+        "type": "tuple[]",
+        "internalType": "struct IEntryPoint.UserOpsPerAggregator[]",
+        "components": [
+          {
+            "name": "userOps",
+            "type": "tuple[]",
+            "internalType": "struct UserOperation[]",
+            "components": [
+              {
+                "name": "sender",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "nonce",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "initCode",
+                "type": "bytes",
+                "internalType": "bytes"
+              },
+              {
+                "name": "callData",
+                "type": "bytes",
+                "internalType": "bytes"
+              },
+              {
+                "name": "callGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "verificationGasLimit",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "preVerificationGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "maxFeePerGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "maxPriorityFeePerGas",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "paymasterAndData",
+                "type": "bytes",
+                "internalType": "bytes"
+              },
+              {
+                "name": "signature",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "aggregator",
+            "type": "address",
+            "internalType": "contract IAggregator"
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address payable"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

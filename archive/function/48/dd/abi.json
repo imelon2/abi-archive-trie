@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "assertionChain",
+    "outputs": [
+      {
+        "internalType": "contract IAssertionChain",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

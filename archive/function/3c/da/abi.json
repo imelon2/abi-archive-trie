@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "create2",
+    "inputs": [
+      {
+        "name": "_salt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_bytecodeHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_input",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

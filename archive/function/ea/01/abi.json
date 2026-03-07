@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "fillBlockQuickStep",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

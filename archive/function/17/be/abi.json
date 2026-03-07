@@ -1,0 +1,32 @@
+[
+  {
+    "inputs": [],
+    "name": "getEntries",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "bytes32",
+            "name": "code",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint64",
+            "name": "size",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint192",
+            "name": "bid",
+            "type": "uint192"
+          }
+        ],
+        "internalType": "struct CacheManager.Entry[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

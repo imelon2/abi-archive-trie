@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "SmartSessionModuleAlreadyInstalled",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

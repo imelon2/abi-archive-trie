@@ -1,0 +1,58 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "enum IPaymaster.PostOpMode",
+        "name": "mode",
+        "type": "uint8"
+      },
+      {
+        "internalType": "bytes",
+        "name": "context",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint256",
+        "name": "actualGasCost",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "actualUserOpFeePerGas",
+        "type": "uint256"
+      }
+    ],
+    "name": "postOp",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "postOp",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "uint8",
+        "internalType": "enum IPaymaster.PostOpMode"
+      },
+      {
+        "name": "context",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "actualGasCost",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "actualUserOpFeePerGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

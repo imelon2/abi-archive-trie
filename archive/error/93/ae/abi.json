@@ -1,0 +1,23 @@
+[
+  {
+    "type": "error",
+    "name": "RecoveryHasNotExpired",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "blockTimestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "executeBefore",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "outbox",
+    "outputs": [
+      {
+        "internalType": "contract IOutbox",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

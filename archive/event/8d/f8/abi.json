@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "expected",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "have",
+        "type": "uint256"
+      }
+    ],
+    "name": "LogAndIncrementCalled",
+    "type": "event"
+  }
+]

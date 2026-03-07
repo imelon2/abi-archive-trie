@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "SignerNotFound",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

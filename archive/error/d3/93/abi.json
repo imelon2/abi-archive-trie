@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "MismatchModuleTypeId",
+    "inputs": [
+      {
+        "name": "moduleTypeId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

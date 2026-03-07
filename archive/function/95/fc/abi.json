@@ -1,0 +1,33 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "start",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "end",
+        "type": "uint64"
+      }
+    ],
+    "name": "getSigners",
+    "outputs": [
+      {
+        "internalType": "bytes[]",
+        "name": "",
+        "type": "bytes[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "postUpgradeInit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

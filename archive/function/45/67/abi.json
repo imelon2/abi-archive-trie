@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "depth",
+        "type": "uint32"
+      }
+    ],
+    "name": "setWasmMaxStackDepth",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

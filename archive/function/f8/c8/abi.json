@@ -1,0 +1,114 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IChallengeResultReceiver",
+        "name": "resultReceiver_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "sequencerInbox_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IBridge",
+        "name": "bridge_",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "osp_",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_l1Counterpart",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_inbox",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_owner",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_l1Counterpart",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Weth",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2Weth",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_verifier",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_dkim",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_emailAuthImplementation",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

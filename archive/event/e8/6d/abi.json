@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "challengeManager",
+        "type": "address"
+      }
+    ],
+    "name": "ChallengeManagerSet",
+    "type": "event"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "accountJobCount",
+    "inputs": [
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "jobCount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

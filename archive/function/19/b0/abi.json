@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "mcopy",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "x",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

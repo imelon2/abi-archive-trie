@@ -1,0 +1,75 @@
+[
+  {
+    "type": "function",
+    "name": "hash",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "tuple",
+        "internalType": "struct ISafe7579Launchpad.InitData",
+        "components": [
+          {
+            "name": "singleton",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "owners",
+            "type": "address[]",
+            "internalType": "address[]"
+          },
+          {
+            "name": "threshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "setupTo",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "setupData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "safe7579",
+            "type": "address",
+            "internalType": "contract ISafe7579"
+          },
+          {
+            "name": "validators",
+            "type": "tuple[]",
+            "internalType": "struct ModuleInit[]",
+            "components": [
+              {
+                "name": "module",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "initData",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

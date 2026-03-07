@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "pageLimit",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "limit",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

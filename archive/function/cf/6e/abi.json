@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [],
+    "name": "pendingDefaultAdmin",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      },
+      {
+        "internalType": "uint48",
+        "name": "acceptSchedule",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "pendingDefaultAdmin",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      },
+      {
+        "internalType": "uint48",
+        "name": "schedule",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

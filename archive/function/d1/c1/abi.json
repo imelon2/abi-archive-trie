@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "inkPrice",
+    "outputs": [
+      {
+        "internalType": "uint32",
+        "name": "price",
+        "type": "uint32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

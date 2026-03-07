@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newPendingAdmin",
+        "type": "address"
+      }
+    ],
+    "name": "NewPendingAdmin",
+    "type": "event"
+  }
+]

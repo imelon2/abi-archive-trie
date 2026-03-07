@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "l2FactoriesDeployer",
+    "outputs": [
+      {
+        "internalType": "contract DeployHelper",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "addGuardian",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "weight",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

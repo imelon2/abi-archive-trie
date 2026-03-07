@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "SessionValidatorDisabled",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "sessionValidator",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

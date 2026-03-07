@@ -1,0 +1,50 @@
+[
+  {
+    "inputs": [],
+    "name": "l1Templates",
+    "outputs": [
+      {
+        "internalType": "contract L1GatewayRouter",
+        "name": "routerTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1ERC20Gateway",
+        "name": "standardGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1CustomGateway",
+        "name": "customGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1WethGateway",
+        "name": "wethGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1OrbitGatewayRouter",
+        "name": "feeTokenBasedRouterTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1OrbitERC20Gateway",
+        "name": "feeTokenBasedStandardGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract L1OrbitCustomGateway",
+        "name": "feeTokenBasedCustomGatewayTemplate",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IUpgradeExecutor",
+        "name": "upgradeExecutor",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

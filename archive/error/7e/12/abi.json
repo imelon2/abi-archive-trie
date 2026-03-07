@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "StatusCannotBeTheSame",
+    "inputs": [
+      {
+        "name": "newStatus",
+        "type": "uint8",
+        "internalType": "enum GuardianStatus"
+      }
+    ]
+  }
+]

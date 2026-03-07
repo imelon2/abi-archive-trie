@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "enable",
+        "type": "bool"
+      }
+    ],
+    "name": "setCalldataPriceIncrease",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

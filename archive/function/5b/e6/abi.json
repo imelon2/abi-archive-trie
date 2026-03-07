@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "aggregator",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "feeInL1Gas",
+        "type": "uint256"
+      }
+    ],
+    "name": "setTxBaseFee",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

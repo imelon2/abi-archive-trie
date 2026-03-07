@@ -1,0 +1,27 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint192",
+        "name": "bid",
+        "type": "uint192"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "size",
+        "type": "uint64"
+      }
+    ],
+    "name": "DeleteBid",
+    "type": "event"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "type": "error",
+    "name": "UserOperationReverted",
+    "inputs": [
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "senderLabel",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "nonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "revertReason",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

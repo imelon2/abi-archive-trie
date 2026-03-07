@@ -1,0 +1,44 @@
+[
+  {
+    "inputs": [],
+    "name": "resolvedRounds",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "expressLaneController",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "round",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct ELCRound",
+        "name": "",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "expressLaneController",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "round",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct ELCRound",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

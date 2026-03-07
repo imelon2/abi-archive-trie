@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "newSignerCandidateOfAccount",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "newSignerCandidate",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

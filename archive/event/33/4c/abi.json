@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldSuperQuorumNumerator",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newSuperQuorumNumerator",
+        "type": "uint256"
+      }
+    ],
+    "name": "SuperQuorumNumeratorUpdated",
+    "type": "event"
+  }
+]

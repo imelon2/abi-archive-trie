@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "setRegistry",
+    "inputs": [
+      {
+        "name": "registry",
+        "type": "address",
+        "internalType": "contract IERC7484"
+      },
+      {
+        "name": "attesters",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

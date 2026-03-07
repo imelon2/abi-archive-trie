@@ -1,0 +1,32 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "minSwapAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint24",
+            "name": "uniswapPoolFee",
+            "type": "uint24"
+          },
+          {
+            "internalType": "uint8",
+            "name": "slippage",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct UniswapHelper.UniswapHelperConfig",
+        "name": "_uniswapHelperConfig",
+        "type": "tuple"
+      }
+    ],
+    "name": "setUniswapConfiguration",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

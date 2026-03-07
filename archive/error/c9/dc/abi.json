@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "RecoveryFailed",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "returnData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

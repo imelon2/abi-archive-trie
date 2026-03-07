@@ -1,0 +1,61 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "inboxToL2Deployment",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "standardGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "customGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "wethGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "weth",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "proxyAdmin",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "beaconProxyFactory",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "upgradeExecutor",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "multicall",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

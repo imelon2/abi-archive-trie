@@ -1,0 +1,30 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "l1BaseFee",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "l1BlockNumber",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "l2BlockNumber",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "timePassed",
+        "type": "uint64"
+      }
+    ],
+    "name": "startBlock",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

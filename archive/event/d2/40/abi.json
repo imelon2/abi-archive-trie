@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "VerifierUpdated",
+    "inputs": [
+      {
+        "name": "verifier",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [],
+    "name": "rollup",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "rollup",
+    "outputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "rollup",
+    "outputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

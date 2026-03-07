@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "ActionIdDisabled",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "actionId",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "ActionId"
+      },
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

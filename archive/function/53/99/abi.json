@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "level",
+        "type": "uint64"
+      }
+    ],
+    "name": "setBrotliCompressionLevel",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

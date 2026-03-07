@@ -1,0 +1,322 @@
+[
+  {
+    "type": "function",
+    "name": "execUserOp",
+    "inputs": [
+      {
+        "name": "instance",
+        "type": "tuple",
+        "internalType": "struct AccountInstance",
+        "components": [
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accountType",
+            "type": "uint8",
+            "internalType": "enum AccountType"
+          },
+          {
+            "name": "accountHelper",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "aux",
+            "type": "tuple",
+            "internalType": "struct Auxiliary",
+            "components": [
+              {
+                "name": "entrypoint",
+                "type": "address",
+                "internalType": "contract IEntryPoint"
+              },
+              {
+                "name": "gasSimulation",
+                "type": "address",
+                "internalType": "contract UserOpGasLog"
+              },
+              {
+                "name": "registry",
+                "type": "address",
+                "internalType": "contract IERC7484"
+              },
+              {
+                "name": "mockFactory",
+                "type": "address",
+                "internalType": "contract MockFactory"
+              },
+              {
+                "name": "smartSession",
+                "type": "address",
+                "internalType": "contract ISmartSession"
+              }
+            ]
+          },
+          {
+            "name": "defaultValidator",
+            "type": "address",
+            "internalType": "contract IValidator"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountFactory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "smartSession",
+            "type": "address",
+            "internalType": "contract ISmartSession"
+          },
+          {
+            "name": "defaultSessionValidator",
+            "type": "address",
+            "internalType": "contract ISessionValidator"
+          }
+        ]
+      },
+      {
+        "name": "callData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "txValidator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "userOp",
+        "type": "tuple",
+        "internalType": "struct PackedUserOperation",
+        "components": [
+          {
+            "name": "sender",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountGasLimits",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "preVerificationGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasFees",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "paymasterAndData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "execUserOp",
+    "inputs": [
+      {
+        "name": "instance",
+        "type": "tuple",
+        "internalType": "struct AccountInstance",
+        "components": [
+          {
+            "name": "account",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "accountType",
+            "type": "uint8",
+            "internalType": "enum AccountType"
+          },
+          {
+            "name": "accountHelper",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "aux",
+            "type": "tuple",
+            "internalType": "struct Auxiliary",
+            "components": [
+              {
+                "name": "entrypoint",
+                "type": "address",
+                "internalType": "contract IEntryPoint"
+              },
+              {
+                "name": "gasSimulation",
+                "type": "address",
+                "internalType": "contract UserOpGasLog"
+              },
+              {
+                "name": "registry",
+                "type": "address",
+                "internalType": "contract IERC7484"
+              },
+              {
+                "name": "mockFactory",
+                "type": "address",
+                "internalType": "contract MockFactory"
+              },
+              {
+                "name": "smartSession",
+                "type": "address",
+                "internalType": "contract ISmartSession"
+              }
+            ]
+          },
+          {
+            "name": "defaultValidator",
+            "type": "address",
+            "internalType": "contract IValidator"
+          },
+          {
+            "name": "salt",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountFactory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "smartSession",
+            "type": "address",
+            "internalType": "contract ISmartSession"
+          },
+          {
+            "name": "defaultSessionValidator",
+            "type": "address",
+            "internalType": "contract ISessionValidator"
+          }
+        ]
+      },
+      {
+        "name": "callData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "txValidator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "userOp",
+        "type": "tuple",
+        "internalType": "struct PackedUserOperation",
+        "components": [
+          {
+            "name": "sender",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountGasLimits",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "preVerificationGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasFees",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "paymasterAndData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

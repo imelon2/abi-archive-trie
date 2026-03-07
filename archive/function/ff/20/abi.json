@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOutbox",
+        "name": "_outbox",
+        "type": "address"
+      }
+    ],
+    "name": "setOutbox",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

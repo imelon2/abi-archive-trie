@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [],
+    "name": "sequencerInbox",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "sequencerInbox",
+    "outputs": [
+      {
+        "internalType": "contract ISequencerInbox",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

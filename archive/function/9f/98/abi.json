@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "OSP",
+    "outputs": [
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

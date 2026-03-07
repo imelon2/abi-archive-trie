@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "STRING_MATCHER",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

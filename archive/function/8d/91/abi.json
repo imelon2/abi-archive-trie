@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "reader4844",
+    "outputs": [
+      {
+        "internalType": "contract IReader4844",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

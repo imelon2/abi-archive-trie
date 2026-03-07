@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256[25]",
+        "name": "input",
+        "type": "uint256[25]"
+      }
+    ],
+    "name": "keccakF",
+    "outputs": [
+      {
+        "internalType": "uint256[25]",
+        "name": "",
+        "type": "uint256[25]"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

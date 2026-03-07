@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "round",
+        "type": "uint64"
+      },
+      {
+        "internalType": "address",
+        "name": "newExpressLaneController",
+        "type": "address"
+      }
+    ],
+    "name": "transferExpressLaneController",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "IMPL_NEW_ROLLUP_ADMIN",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldBeneficiary",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newBeneficiary",
+        "type": "address"
+      }
+    ],
+    "name": "SetBeneficiary",
+    "type": "event"
+  }
+]

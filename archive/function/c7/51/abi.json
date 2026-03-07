@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "OUTBOX_VERSION",
+    "outputs": [
+      {
+        "internalType": "uint128",
+        "name": "",
+        "type": "uint128"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

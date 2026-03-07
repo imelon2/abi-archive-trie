@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "check1271SignedAction",
+    "inputs": [
+      {
+        "name": "id",
+        "type": "bytes32",
+        "internalType": "ConfigId"
+      },
+      {
+        "name": "requestSender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "hash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "signature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

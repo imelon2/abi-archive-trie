@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "checkForAccount",
+    "inputs": [
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

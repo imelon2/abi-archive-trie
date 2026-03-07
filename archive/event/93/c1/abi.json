@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "flag",
+        "type": "bool"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "value",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Basic",
+    "type": "event"
+  }
+]

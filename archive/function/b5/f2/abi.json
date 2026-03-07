@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "updateGroth16Verifier",
+    "inputs": [
+      {
+        "name": "_groth16Verifier",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

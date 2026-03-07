@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_initialOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_mainAuthorizer",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_setTimestampDelay",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

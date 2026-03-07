@@ -1,0 +1,242 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "confirmPeriodBlocks",
+            "type": "uint64"
+          },
+          {
+            "internalType": "address",
+            "name": "stakeToken",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "baseStake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "wasmModuleRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "loserStakeEscrow",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "chainId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "chainConfig",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minimumAssertionPeriod",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint64",
+            "name": "validatorAfkBlocks",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "miniStakeValues",
+            "type": "uint256[]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "delayBlocks",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "futureBlocks",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "delaySeconds",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "futureSeconds",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct ISequencerInbox.MaxTimeVariation",
+            "name": "sequencerInboxMaxTimeVariation",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint256",
+            "name": "layerZeroBlockEdgeHeight",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "layerZeroBigStepEdgeHeight",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "layerZeroSmallStepEdgeHeight",
+            "type": "uint256"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "endHistoryRoot",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct AssertionState",
+            "name": "genesisAssertionState",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint256",
+            "name": "genesisInboxCount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "anyTrustFastConfirmer",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "numBigStepLevel",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint64",
+            "name": "challengeGracePeriodBlocks",
+            "type": "uint64"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint64",
+                "name": "threshold",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "max",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint64",
+                "name": "replenishRateInBasis",
+                "type": "uint64"
+              }
+            ],
+            "internalType": "struct BufferConfig",
+            "name": "bufferConfig",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct Config",
+        "name": "config",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "contract IBridge",
+            "name": "bridge",
+            "type": "address"
+          },
+          {
+            "internalType": "contract ISequencerInbox",
+            "name": "sequencerInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IInboxBase",
+            "name": "inbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IOutbox",
+            "name": "outbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IRollupEventInbox",
+            "name": "rollupEventInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IEdgeChallengeManager",
+            "name": "challengeManager",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "rollupAdminLogic",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IRollupUser",
+            "name": "rollupUserLogic",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "validatorWalletCreator",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct ContractDependencies",
+        "name": "connectedContracts",
+        "type": "tuple"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

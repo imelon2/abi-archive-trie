@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "PUBLIC_ROLE",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

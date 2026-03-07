@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "initiateWithdrawal",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "gas",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint16",
+        "name": "cached",
+        "type": "uint16"
+      }
+    ],
+    "name": "setWasmMinInitGas",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

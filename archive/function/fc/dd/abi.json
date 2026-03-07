@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newNetworkFeeAccount",
+        "type": "address"
+      }
+    ],
+    "name": "setNetworkFeeAccount",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

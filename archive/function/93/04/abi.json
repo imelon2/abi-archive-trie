@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "makeStakeWithdrawable",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

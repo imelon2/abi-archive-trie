@@ -1,0 +1,51 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "dataHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "afterDelayedMessagesRead",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "prevMessageCount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "newMessageCount",
+        "type": "uint256"
+      }
+    ],
+    "name": "enqueueSequencerMessage",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "seqMessageIndex",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "beforeAcc",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "delayedAcc",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "acc",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

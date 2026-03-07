@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint48",
+        "name": "newVotingDelay",
+        "type": "uint48"
+      }
+    ],
+    "name": "setVotingDelay",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

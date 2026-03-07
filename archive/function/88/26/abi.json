@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "claimingEdgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maximumCachedTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "updateTimerCacheByClaim",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

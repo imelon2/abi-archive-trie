@@ -1,0 +1,10 @@
+root:
+  - "node_modules/@openzeppelin/contracts-v4/build/contracts/"
+  - "node_modules/@openzeppelin/contracts-v5/build/contracts"
+  - "node_modules/@arbitrum/nitro-contracts-1.2.1/build/contracts/src/**/**"
+  - "node_modules/@arbitrum/nitro-contracts-3.1.0/build/contracts/src/**/**/"
+  - "node_modules/@arbitrum/token-bridge-contracts-1.2.1/build/contracts/contracts/**/**/**"
+  - "node_modules/@offchainlabs/upgrade-executor/build/contracts/src/**/**/"
+  - "node_modules/@account-abstraction/contracts-0.6.0/artifacts/"
+  - "node_modules/@account-abstraction/contracts-0.7.0/artifacts/"
+  - "node_modules/@account-abstraction/contracts-0.8.0/artifacts/"

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "OLD_ROLLUP",
+    "outputs": [
+      {
+        "internalType": "contract IOldRollup",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

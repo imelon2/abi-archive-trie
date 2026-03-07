@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "addOrder",
+    "inputs": [
+      {
+        "name": "orderData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

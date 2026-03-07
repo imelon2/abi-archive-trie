@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "program",
+        "type": "address"
+      }
+    ],
+    "name": "programMemoryFootprint",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "footprint",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

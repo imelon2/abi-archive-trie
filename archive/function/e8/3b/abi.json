@@ -1,0 +1,47 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IBridge",
+            "name": "bridge",
+            "type": "address"
+          },
+          {
+            "internalType": "contract ISequencerInbox",
+            "name": "sequencerInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract ISequencerInbox",
+            "name": "delayBufferableSequencerInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IInboxBase",
+            "name": "inbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IRollupEventInbox",
+            "name": "rollupEventInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IOutbox",
+            "name": "outbox",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct BridgeCreator.BridgeTemplates",
+        "name": "_newTemplates",
+        "type": "tuple"
+      }
+    ],
+    "name": "updateTemplates",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

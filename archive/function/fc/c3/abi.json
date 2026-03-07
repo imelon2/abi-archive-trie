@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "deployNexusAccountFactory",
+    "inputs": [
+      {
+        "name": "implementation",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "factory",
+        "type": "address",
+        "internalType": "contract INexusAccountFactory"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

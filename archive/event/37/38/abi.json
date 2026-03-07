@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newSource",
+        "type": "address"
+      }
+    ],
+    "name": "WhitelistSourceUpdated",
+    "type": "event"
+  }
+]

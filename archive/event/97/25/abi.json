@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldReservePrice",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newReservePrice",
+        "type": "uint256"
+      }
+    ],
+    "name": "SetReservePrice",
+    "type": "event"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "newSymbol",
+        "type": "string"
+      }
+    ],
+    "name": "ERC6909SymbolUpdated",
+    "type": "event"
+  }
+]

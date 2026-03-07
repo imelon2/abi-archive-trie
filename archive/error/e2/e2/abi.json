@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "mutualId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "originId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "OriginIdMutualIdMismatch",
+    "type": "error"
+  }
+]

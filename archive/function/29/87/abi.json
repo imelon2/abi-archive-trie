@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "getLastL1PricingSurplus",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

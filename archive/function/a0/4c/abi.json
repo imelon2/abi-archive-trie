@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "sendRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "l2BlockHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "updateSendRoot",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "root",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "l2BlockHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "updateSendRoot",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

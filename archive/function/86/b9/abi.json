@@ -1,0 +1,46 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "newValue",
+        "type": "uint64"
+      }
+    ],
+    "name": "setMaxGasTip",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getPreviousRecoveryRequest",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IEmailRecoveryManager.PreviousRecoveryRequest",
+        "components": [
+          {
+            "name": "previousGuardianInitiated",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "cancelRecoveryCooldown",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

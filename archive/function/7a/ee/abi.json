@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [],
+    "name": "sendMerkleTreeState",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "size",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "root",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "partials",
+        "type": "bytes32[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

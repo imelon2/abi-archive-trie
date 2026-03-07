@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "enableUserOpPolicies",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "userOpPolicies",
+        "type": "tuple[]",
+        "internalType": "struct PolicyData[]",
+        "components": [
+          {
+            "name": "policy",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

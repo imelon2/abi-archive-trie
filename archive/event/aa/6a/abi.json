@@ -1,0 +1,37 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "delayBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "delaySeconds",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureSeconds",
+            "type": "uint256"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct ISequencerInbox.MaxTimeVariation",
+        "name": "maxTimeVariation",
+        "type": "tuple"
+      }
+    ],
+    "name": "MaxTimeVariationSet",
+    "type": "event"
+  }
+]

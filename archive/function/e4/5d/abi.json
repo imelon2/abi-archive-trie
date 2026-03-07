@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "resetWhenDisabled",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

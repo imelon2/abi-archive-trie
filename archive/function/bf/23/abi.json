@@ -1,0 +1,112 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "adminProxy",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "rollup",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "nativeToken",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "delayBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "delaySeconds",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureSeconds",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ISequencerInbox.MaxTimeVariation",
+        "name": "maxTimeVariation",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "threshold",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "max",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "replenishRateInBasis",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct BufferConfig",
+        "name": "bufferConfig",
+        "type": "tuple"
+      },
+      {
+        "internalType": "contract IFeeTokenPricer",
+        "name": "feeTokenPricer",
+        "type": "address"
+      }
+    ],
+    "name": "createBridge",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IBridge",
+            "name": "bridge",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IInboxBase",
+            "name": "inbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract ISequencerInbox",
+            "name": "sequencerInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IRollupEventInbox",
+            "name": "rollupEventInbox",
+            "type": "address"
+          },
+          {
+            "internalType": "contract IOutbox",
+            "name": "outbox",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct BridgeCreator.BridgeContracts",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

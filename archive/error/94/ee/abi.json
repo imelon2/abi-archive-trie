@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint48",
+        "name": "deadline",
+        "type": "uint48"
+      }
+    ],
+    "name": "ERC2771ForwarderExpiredRequest",
+    "type": "error"
+  }
+]

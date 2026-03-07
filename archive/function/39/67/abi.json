@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "limit",
+        "type": "uint64"
+      }
+    ],
+    "name": "setMaxTxGasLimit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

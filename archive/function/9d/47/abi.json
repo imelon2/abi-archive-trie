@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "rollupUserLogic",
+    "outputs": [
+      {
+        "internalType": "contract IRollupUser",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "evictAll",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

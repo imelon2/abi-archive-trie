@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "DKIMRegistryUpdated",
+    "inputs": [
+      {
+        "name": "dkimRegistry",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

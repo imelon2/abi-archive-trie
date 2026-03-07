@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "isDKIMPublicKeyHashValid",
+    "inputs": [
+      {
+        "name": "domainName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "h1",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "h2",
+        "type": "uint256"
+      }
+    ],
+    "name": "HeightDiffLtTwo",
+    "type": "error"
+  }
+]

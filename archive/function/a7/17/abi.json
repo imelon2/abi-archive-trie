@@ -1,0 +1,117 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "moduleTypeId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "module",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "deInitData",
+        "type": "bytes"
+      }
+    ],
+    "name": "uninstallModule",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "uninstallModule",
+    "inputs": [
+      {
+        "name": "moduleType",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "deInitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "uninstallModule",
+    "inputs": [
+      {
+        "name": "moduleType",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "deInitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "uninstallModule",
+    "inputs": [
+      {
+        "name": "moduleTypeId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "deInitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "uninstallModule",
+    "inputs": [
+      {
+        "name": "moduleTypeId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "deInitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

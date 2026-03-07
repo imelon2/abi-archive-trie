@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "changeOwner",
+    "inputs": [
+      {
+        "name": "newOwner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "blockNumber",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "firstUnresolvedNodeNum",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "latestCreatedNode",
+        "type": "uint64"
+      }
+    ],
+    "name": "requiredStake",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

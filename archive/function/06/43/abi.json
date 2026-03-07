@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "REGISTRY",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IERC7484"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

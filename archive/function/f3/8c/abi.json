@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "stakerA",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address[]",
+        "name": "stakerB",
+        "type": "address[]"
+      }
+    ],
+    "name": "forceResolveChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "stackerA",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address[]",
+        "name": "stackerB",
+        "type": "address[]"
+      }
+    ],
+    "name": "forceResolveChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

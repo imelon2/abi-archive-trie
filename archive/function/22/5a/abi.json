@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "REACTIVATE_PREFIX",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

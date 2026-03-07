@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "codehashVersion",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "version",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

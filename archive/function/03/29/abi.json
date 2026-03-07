@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [],
+    "name": "defaultGateway",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "gateway",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "defaultGateway",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

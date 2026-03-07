@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "initializeAccountWithValidators",
+    "inputs": [
+      {
+        "name": "validators",
+        "type": "tuple[]",
+        "internalType": "struct ModuleInit[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "initData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

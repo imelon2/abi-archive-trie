@@ -1,0 +1,116 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "mode",
+        "type": "bytes32"
+      }
+    ],
+    "name": "supportsExecutionMode",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "encodedMode",
+        "type": "bytes32"
+      }
+    ],
+    "name": "supportsExecutionMode",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "mode",
+        "type": "bytes32"
+      }
+    ],
+    "name": "supportsExecutionMode",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "result",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "encodedMode",
+        "type": "bytes32",
+        "internalType": "ModeCode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "supportsExecutionMode",
+    "inputs": [
+      {
+        "name": "encodedMode",
+        "type": "bytes32",
+        "internalType": "ExecMode"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

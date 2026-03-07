@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_interfaceHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "implementer",
+        "type": "address"
+      }
+    ],
+    "name": "setInterfaceImplementer",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

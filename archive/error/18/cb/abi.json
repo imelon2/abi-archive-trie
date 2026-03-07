@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "operationId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "AccessManagerNotReady",
+    "type": "error"
+  }
+]

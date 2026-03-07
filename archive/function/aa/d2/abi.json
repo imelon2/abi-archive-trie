@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "changeSigner",
+    "inputs": [
+      {
+        "name": "_newSigner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

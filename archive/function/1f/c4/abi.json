@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupUserAbs",
+        "name": "rollup",
+        "type": "address"
+      }
+    ],
+    "name": "requireConfirmable",
+    "outputs": [],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "NICK_CREATE2_DEPLOYER",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

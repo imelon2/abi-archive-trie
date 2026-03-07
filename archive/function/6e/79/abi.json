@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "disableActionPolicies",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "actionId",
+        "type": "bytes32",
+        "internalType": "ActionId"
+      },
+      {
+        "name": "policies",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "type": "function",
+    "name": "aggregate3Value",
+    "inputs": [
+      {
+        "name": "calls",
+        "type": "tuple[]",
+        "internalType": "struct IMulticall3.Call3Value[]",
+        "components": [
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "allowFailure",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnData",
+        "type": "tuple[]",
+        "internalType": "struct IMulticall3.Result[]",
+        "components": [
+          {
+            "name": "success",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "returnData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "DKIMPublicKeyHashRegistered",
+    "inputs": [
+      {
+        "name": "domainName",
+        "type": "string",
+        "indexed": true,
+        "internalType": "string"
+      },
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "authorizer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

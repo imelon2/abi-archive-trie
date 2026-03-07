@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "ExecType",
+        "name": "execType",
+        "type": "bytes1"
+      }
+    ],
+    "name": "ERC7579UnsupportedExecType",
+    "type": "error"
+  }
+]

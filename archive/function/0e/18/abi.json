@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "acceptAdmin",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

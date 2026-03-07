@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newWhitelist",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "targets",
+        "type": "address[]"
+      }
+    ],
+    "name": "WhitelistUpgraded",
+    "type": "event"
+  }
+]

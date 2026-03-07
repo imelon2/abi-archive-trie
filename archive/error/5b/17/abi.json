@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "h1",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "h2",
+        "type": "bytes32"
+      }
+    ],
+    "name": "AssertionHashMismatch",
+    "type": "error"
+  }
+]

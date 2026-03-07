@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "nitroGenesisBlock",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "number",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

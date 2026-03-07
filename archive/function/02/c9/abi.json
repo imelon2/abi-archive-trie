@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "ZERO_HEAVY_MESSAGE_HEADER_FLAG",
+    "outputs": [
+      {
+        "internalType": "bytes1",
+        "name": "",
+        "type": "bytes1"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

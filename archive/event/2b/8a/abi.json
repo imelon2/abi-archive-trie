@@ -1,0 +1,33 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "refundee",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "contractAddress",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "enum GasRefunder.RefundDenyReason",
+        "name": "reason",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "gas",
+        "type": "uint256"
+      }
+    ],
+    "name": "RefundGasCostsDenied",
+    "type": "event"
+  }
+]

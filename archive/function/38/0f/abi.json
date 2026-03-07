@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint16",
+        "name": "count",
+        "type": "uint16"
+      }
+    ],
+    "name": "setWasmBlockCacheSize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

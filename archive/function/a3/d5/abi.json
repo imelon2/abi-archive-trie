@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setHookMultiPlexer",
+    "inputs": [
+      {
+        "name": "hook",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

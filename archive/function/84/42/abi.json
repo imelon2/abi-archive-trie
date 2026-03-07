@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "ksHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "invalidateKeysetHash",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

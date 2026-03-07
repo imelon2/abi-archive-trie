@@ -1,0 +1,80 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "_stakerMap",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "amountStaked",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint64",
+        "name": "index",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "latestStakedNode",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "currentChallenge",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "isStaked",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "_stakerMap",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "amountStaked",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "latestStakedAssertion",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "index",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "isStaked",
+        "type": "bool"
+      },
+      {
+        "internalType": "address",
+        "name": "withdrawalAddress",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

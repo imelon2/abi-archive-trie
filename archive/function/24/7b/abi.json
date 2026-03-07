@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "l2Weth",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

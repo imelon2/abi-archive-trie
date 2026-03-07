@@ -1,0 +1,32 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "threshold",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "max",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "replenishRateInBasis",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct BufferConfig",
+        "name": "bufferConfig_",
+        "type": "tuple"
+      }
+    ],
+    "name": "postUpgradeInit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

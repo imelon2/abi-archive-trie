@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "exposed_configureRecovery",
+    "inputs": [
+      {
+        "name": "guardians",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "weights",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "delay",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "expiry",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

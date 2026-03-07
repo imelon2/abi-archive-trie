@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "validators",
+        "type": "address[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool[]",
+        "name": "enabled",
+        "type": "bool[]"
+      }
+    ],
+    "name": "ValidatorsSet",
+    "type": "event"
+  }
+]

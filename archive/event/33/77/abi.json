@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "newAdmin",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48",
+        "name": "acceptSchedule",
+        "type": "uint48"
+      }
+    ],
+    "name": "DefaultAdminTransferScheduled",
+    "type": "event"
+  }
+]

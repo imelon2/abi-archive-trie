@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint48",
+        "name": "schedule",
+        "type": "uint48"
+      }
+    ],
+    "name": "AccessControlEnforcedDefaultAdminDelay",
+    "type": "error"
+  }
+]

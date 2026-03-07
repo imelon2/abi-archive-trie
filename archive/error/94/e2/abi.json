@@ -1,0 +1,12 @@
+[
+  {
+    "inputs": [],
+    "name": "StringsInvalidChar",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "StringsInvalidChar",
+    "inputs": []
+  }
+]

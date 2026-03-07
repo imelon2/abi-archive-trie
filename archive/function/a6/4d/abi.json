@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "roleId",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint32",
+        "name": "newDelay",
+        "type": "uint32"
+      }
+    ],
+    "name": "setGrantDelay",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

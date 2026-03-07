@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "sender",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "rollup",
+        "type": "address"
+      }
+    ],
+    "name": "NotRollup",
+    "type": "error"
+  }
+]

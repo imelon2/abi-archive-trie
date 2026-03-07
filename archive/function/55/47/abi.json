@@ -1,0 +1,59 @@
+[
+  {
+    "type": "function",
+    "name": "initNexusScoped",
+    "inputs": [
+      {
+        "name": "validators",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "hook",
+        "type": "tuple",
+        "internalType": "struct BootstrapConfig",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "registry",
+        "type": "address",
+        "internalType": "contract IERC7484"
+      },
+      {
+        "name": "attesters",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

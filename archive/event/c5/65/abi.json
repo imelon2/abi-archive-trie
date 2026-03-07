@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "oldVotingDelay",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newVotingDelay",
+        "type": "uint256"
+      }
+    ],
+    "name": "VotingDelaySet",
+    "type": "event"
+  }
+]

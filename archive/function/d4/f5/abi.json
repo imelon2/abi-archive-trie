@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "l1Address",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address[]",
+        "name": "l2Address",
+        "type": "address[]"
+      }
+    ],
+    "name": "registerTokenFromL1",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

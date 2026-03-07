@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint48",
+        "name": "newVoteExtension",
+        "type": "uint48"
+      }
+    ],
+    "name": "setLateQuorumVoteExtension",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

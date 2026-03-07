@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "size",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "limit",
+        "type": "uint64"
+      }
+    ],
+    "name": "MakeSpaceTooLarge",
+    "type": "error"
+  }
+]

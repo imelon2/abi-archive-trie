@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "globalStateHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "wasmModuleRoot",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getStartMachineHash",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

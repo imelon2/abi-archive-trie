@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "disableERC1271Policies",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "policies",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "contents",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

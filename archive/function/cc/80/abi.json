@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "PREIMAGE_LOOKUP",
+    "outputs": [
+      {
+        "internalType": "contract StateHashPreImageLookup",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

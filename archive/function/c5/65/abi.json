@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getMinBid",
+    "outputs": [
+      {
+        "internalType": "uint192",
+        "name": "min",
+        "type": "uint192"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

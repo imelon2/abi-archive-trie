@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newInfraFeeAccount",
+        "type": "address"
+      }
+    ],
+    "name": "setInfraFeeAccount",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

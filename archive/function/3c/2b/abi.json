@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "PROXY_ADMIN_REI",
+    "outputs": [
+      {
+        "internalType": "contract ProxyAdmin",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

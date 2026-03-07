@@ -1,0 +1,68 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_l2Counterpart",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_inbox",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l1Weth",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_l2Weth",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_owner",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_defaultGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_counterpartGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_inbox",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

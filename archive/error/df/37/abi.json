@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint192",
+        "name": "bid",
+        "type": "uint192"
+      },
+      {
+        "internalType": "uint192",
+        "name": "min",
+        "type": "uint192"
+      }
+    ],
+    "name": "BidTooSmall",
+    "type": "error"
+  }
+]

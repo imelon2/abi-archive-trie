@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "initCode",
+        "type": "bytes"
+      }
+    ],
+    "name": "getSenderAddress",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getSenderAddress",
+    "inputs": [
+      {
+        "name": "initCode",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

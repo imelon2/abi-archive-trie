@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "useTopLevel",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "directCase",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "staticCase",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "delegateCase",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "callcodeCase",
+        "type": "bool"
+      },
+      {
+        "internalType": "bool",
+        "name": "callCase",
+        "type": "bool"
+      }
+    ],
+    "name": "checkCalls",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

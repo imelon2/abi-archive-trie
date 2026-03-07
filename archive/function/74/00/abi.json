@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "fullHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "offset",
+        "type": "uint64"
+      }
+    ],
+    "name": "getPreimagePart",
+    "outputs": [
+      {
+        "internalType": "bytes",
+        "name": "",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

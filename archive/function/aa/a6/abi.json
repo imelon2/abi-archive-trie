@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint16",
+        "name": "gas",
+        "type": "uint16"
+      }
+    ],
+    "name": "setWasmPageGas",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

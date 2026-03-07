@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "exposed_acceptGuardian",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "templateIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "commandParams",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      },
+      {
+        "name": "nullifier",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

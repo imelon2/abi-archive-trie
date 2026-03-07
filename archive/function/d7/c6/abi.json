@@ -1,0 +1,25 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_inbox",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_nativeToken",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_maxFeePerGas",
+        "type": "uint256"
+      }
+    ],
+    "name": "perform",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

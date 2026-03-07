@@ -1,0 +1,36 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "bytecode",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "initData",
+        "type": "bytes"
+      },
+      {
+        "internalType": "uint256",
+        "name": "initValue",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "salt",
+        "type": "bytes32"
+      }
+    ],
+    "name": "deploy",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

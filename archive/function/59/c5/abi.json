@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "isInitialized",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "configId",
+        "type": "bytes32",
+        "internalType": "ConfigId"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

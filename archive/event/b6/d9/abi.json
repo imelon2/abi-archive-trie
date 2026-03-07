@@ -1,0 +1,8 @@
+[
+  {
+    "type": "event",
+    "name": "NewTrustedAttesters",
+    "inputs": [],
+    "anonymous": false
+  }
+]

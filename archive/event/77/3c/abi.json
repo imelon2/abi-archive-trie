@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "caller",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "redeemer",
+        "type": "address"
+      }
+    ],
+    "name": "RedeemedEvent",
+    "type": "event"
+  }
+]

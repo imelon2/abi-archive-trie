@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "rollupAdminLogic",
+    "outputs": [
+      {
+        "internalType": "contract IRollupAdmin",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

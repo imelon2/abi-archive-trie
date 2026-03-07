@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "preValidationHookERC1271",
+    "inputs": [
+      {
+        "name": "sender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "hash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "hookHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "hookSignature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

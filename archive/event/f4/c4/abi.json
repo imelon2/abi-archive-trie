@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "ticketId",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newTimeout",
+        "type": "uint256"
+      }
+    ],
+    "name": "LifetimeExtended",
+    "type": "event"
+  }
+]

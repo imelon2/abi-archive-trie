@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "defaultAdmin",
+        "type": "address"
+      }
+    ],
+    "name": "AccessControlInvalidDefaultAdmin",
+    "type": "error"
+  }
+]

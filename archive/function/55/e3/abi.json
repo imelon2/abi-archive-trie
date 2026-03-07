@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "ERC2470_DEPLOYER",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

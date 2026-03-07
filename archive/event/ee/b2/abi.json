@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "SignerChanged",
+    "inputs": [
+      {
+        "name": "oldSigner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "newOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

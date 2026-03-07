@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "gateway",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "counterpart",
+        "type": "bytes"
+      }
+    ],
+    "name": "LinkRegistered",
+    "type": "event"
+  }
+]

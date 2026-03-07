@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint192",
+        "name": "key",
+        "type": "uint192"
+      }
+    ],
+    "name": "incrementNonce",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "incrementNonce",
+    "inputs": [
+      {
+        "name": "key",
+        "type": "uint192",
+        "internalType": "uint192"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

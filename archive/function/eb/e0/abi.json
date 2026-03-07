@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "validators",
+        "type": "address[]"
+      }
+    ],
+    "name": "perform",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

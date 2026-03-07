@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "DKIMPublicKeyHashRevoked",
+    "inputs": [
+      {
+        "name": "publicKeyHash",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
+  }
+]

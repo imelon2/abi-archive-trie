@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "encodeNonce",
+    "inputs": [
+      {
+        "name": "vType",
+        "type": "bytes1",
+        "internalType": "ValidationType"
+      },
+      {
+        "name": "enable",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "validator",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "nonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

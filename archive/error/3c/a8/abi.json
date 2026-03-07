@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidEnableSignature",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "hash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
+  }
+]

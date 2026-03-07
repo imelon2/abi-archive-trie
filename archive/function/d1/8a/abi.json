@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "createProxyWithCallback",
+    "inputs": [
+      {
+        "name": "_singleton",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "initializer",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "saltNonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "callback",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "proxy",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

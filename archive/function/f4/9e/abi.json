@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setDKIMPublicKeyHashes",
+    "inputs": [
+      {
+        "name": "domainName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "publicKeyHashes",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

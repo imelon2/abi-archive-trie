@@ -1,0 +1,218 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "initCode",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "callData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "accountGasLimits",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "preVerificationGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "gasFees",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "paymasterAndData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct PackedUserOperation",
+        "name": "op",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "target",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "targetCallData",
+        "type": "bytes"
+      }
+    ],
+    "name": "simulateHandleOp",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "preOpGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "paid",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "accountValidationData",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "paymasterValidationData",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "targetSuccess",
+            "type": "bool"
+          },
+          {
+            "internalType": "bytes",
+            "name": "targetResult",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct IEntryPointSimulations.ExecutionResult",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "simulateHandleOp",
+    "inputs": [
+      {
+        "name": "op",
+        "type": "tuple",
+        "internalType": "struct PackedUserOperation",
+        "components": [
+          {
+            "name": "sender",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountGasLimits",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "preVerificationGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasFees",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "paymasterAndData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "target",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "targetCallData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IEntryPointSimulations.ExecutionResult",
+        "components": [
+          {
+            "name": "preOpGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "paid",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "accountValidationData",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "paymasterValidationData",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "targetSuccess",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "targetResult",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

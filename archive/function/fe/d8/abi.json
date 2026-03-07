@@ -1,0 +1,37 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "int64",
+            "name": "offsetTimestamp",
+            "type": "int64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "roundDurationSeconds",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "auctionClosingSeconds",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "reserveSubmissionSeconds",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct RoundTimingInfo",
+        "name": "newRoundTimingInfo",
+        "type": "tuple"
+      }
+    ],
+    "name": "setRoundTimingInfo",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

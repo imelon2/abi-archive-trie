@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "AlreadyCached",
+    "type": "error"
+  }
+]

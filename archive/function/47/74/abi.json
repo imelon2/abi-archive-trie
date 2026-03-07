@@ -1,0 +1,90 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct ExecutionState",
+            "name": "beforeState",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "components": [
+                  {
+                    "internalType": "bytes32[2]",
+                    "name": "bytes32Vals",
+                    "type": "bytes32[2]"
+                  },
+                  {
+                    "internalType": "uint64[2]",
+                    "name": "u64Vals",
+                    "type": "uint64[2]"
+                  }
+                ],
+                "internalType": "struct GlobalState",
+                "name": "globalState",
+                "type": "tuple"
+              },
+              {
+                "internalType": "enum MachineStatus",
+                "name": "machineStatus",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct ExecutionState",
+            "name": "afterState",
+            "type": "tuple"
+          },
+          {
+            "internalType": "uint64",
+            "name": "numBlocks",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct Assertion",
+        "name": "assertion",
+        "type": "tuple"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "expectedNodeHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "prevNodeInboxMaxCount",
+        "type": "uint256"
+      }
+    ],
+    "name": "newStakeOnNewNode",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

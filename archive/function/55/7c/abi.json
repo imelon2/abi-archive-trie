@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "initDKIMRegistry",
+    "inputs": [
+      {
+        "name": "_dkimRegistryAddr",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

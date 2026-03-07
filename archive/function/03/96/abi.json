@@ -1,0 +1,54 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "unstakeDelaySec",
+        "type": "uint32"
+      }
+    ],
+    "name": "addStake",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "_unstakeDelaySec",
+        "type": "uint32"
+      }
+    ],
+    "name": "addStake",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "addStake",
+    "inputs": [
+      {
+        "name": "unstakeDelaySec",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "addStake",
+    "inputs": [
+      {
+        "name": "_unstakeDelaySec",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

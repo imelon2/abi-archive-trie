@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "computeExpectedCommand",
+    "inputs": [
+      {
+        "name": "commandParams",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      },
+      {
+        "name": "template",
+        "type": "string[]",
+        "internalType": "string[]"
+      },
+      {
+        "name": "stringCase",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "expectedCommand",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidCallType",
+    "inputs": [
+      {
+        "name": "callType",
+        "type": "bytes1",
+        "internalType": "CallType"
+      }
+    ]
+  }
+]

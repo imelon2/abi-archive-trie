@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "BLOCK_LEAF_SIZE",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

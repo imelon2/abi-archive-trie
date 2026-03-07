@@ -1,0 +1,79 @@
+[
+  {
+    "type": "function",
+    "name": "authEmail",
+    "inputs": [
+      {
+        "name": "emailAuthMsg",
+        "type": "tuple",
+        "internalType": "struct EmailAuthMsg",
+        "components": [
+          {
+            "name": "templateId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "commandParams",
+            "type": "bytes[]",
+            "internalType": "bytes[]"
+          },
+          {
+            "name": "skippedCommandPrefix",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "proof",
+            "type": "tuple",
+            "internalType": "struct EmailProof",
+            "components": [
+              {
+                "name": "domainName",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "publicKeyHash",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "timestamp",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "maskedCommand",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "emailNullifier",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "accountSalt",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "isCodeExist",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "proof",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

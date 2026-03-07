@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "actual",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "expected",
+        "type": "bytes32"
+      }
+    ],
+    "name": "IncorrectEdgeId",
+    "type": "error"
+  }
+]

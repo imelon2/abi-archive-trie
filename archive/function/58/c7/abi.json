@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "program",
+        "type": "address"
+      }
+    ],
+    "name": "activateProgram",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "version",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint256",
+        "name": "dataFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

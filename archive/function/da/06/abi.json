@@ -1,0 +1,50 @@
+[
+  {
+    "type": "function",
+    "name": "parseRecoveryDataHash",
+    "inputs": [
+      {
+        "name": "templateIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "commandParams",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "parseRecoveryDataHash",
+    "inputs": [
+      {
+        "name": "templateIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "commandParams",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "defaultAdminDelay",
+    "outputs": [
+      {
+        "internalType": "uint48",
+        "name": "",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

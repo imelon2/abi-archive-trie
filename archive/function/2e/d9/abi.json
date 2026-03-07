@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "check",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "moduleType",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "attesters",
+        "type": "address[]",
+        "internalType": "address[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

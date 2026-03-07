@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "simulation",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract EntryPointSimulations"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

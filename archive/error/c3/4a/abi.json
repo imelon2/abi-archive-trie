@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "roundDurationSeconds",
+        "type": "uint64"
+      }
+    ],
+    "name": "RoundTooLong",
+    "type": "error"
+  }
+]

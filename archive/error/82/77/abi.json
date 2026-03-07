@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "AssociatedArray_OutOfBounds",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

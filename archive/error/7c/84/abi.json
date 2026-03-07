@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "LinkedList_InvalidEntry",
+    "inputs": [
+      {
+        "name": "entry",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "moduleTypeId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "module",
+        "type": "address"
+      }
+    ],
+    "name": "ERC7579AlreadyInstalledModule",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidOpcode",
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "opcode",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ]
+  }
+]

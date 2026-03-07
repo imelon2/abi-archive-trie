@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newBaseStake",
+        "type": "uint256"
+      }
+    ],
+    "name": "BaseStakeSet",
+    "type": "event"
+  }
+]

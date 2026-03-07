@@ -1,0 +1,30 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "tokens",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address[]",
+        "name": "tos",
+        "type": "address[]"
+      },
+      {
+        "internalType": "bytes[]",
+        "name": "datas",
+        "type": "bytes[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "amounts",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "cleanupErc20sViaCall",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

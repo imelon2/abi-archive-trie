@@ -1,0 +1,33 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidStorageLocation",
+    "inputs": [
+      {
+        "name": "contractAddress",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "contractLabel",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "slot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "newValue",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "isWrite",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ]
+  }
+]

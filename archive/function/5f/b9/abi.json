@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "preRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "preSize",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "postRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "postSize",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "preExpansion",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "proof",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "verifyPrefixProof",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

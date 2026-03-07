@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "staker",
+        "type": "address[]"
+      }
+    ],
+    "name": "StakersForceRefunded",
+    "type": "event"
+  }
+]

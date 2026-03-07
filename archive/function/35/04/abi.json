@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "resultReceiver",
+    "outputs": [
+      {
+        "internalType": "contract IChallengeResultReceiver",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

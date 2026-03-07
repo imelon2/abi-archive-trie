@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "oldProposalGuardian",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "newProposalGuardian",
+        "type": "address"
+      }
+    ],
+    "name": "ProposalGuardianSet",
+    "type": "event"
+  }
+]

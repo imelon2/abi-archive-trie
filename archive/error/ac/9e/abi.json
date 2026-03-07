@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "argLevel",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "claimLevel",
+        "type": "uint8"
+      }
+    ],
+    "name": "ClaimEdgeInvalidLevel",
+    "type": "error"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "stylusVersion",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "version",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

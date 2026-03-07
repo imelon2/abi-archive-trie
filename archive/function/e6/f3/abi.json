@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "uninstallValidation",
+    "inputs": [
+      {
+        "name": "vId",
+        "type": "bytes21",
+        "internalType": "ValidationId"
+      },
+      {
+        "name": "deinitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "hookDeinitData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

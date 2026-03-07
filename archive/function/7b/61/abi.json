@@ -1,0 +1,50 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "round",
+        "type": "uint64"
+      }
+    ],
+    "name": "roundTimestamps",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "round",
+        "type": "uint64"
+      }
+    ],
+    "name": "roundTimestamps",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "start",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "end",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

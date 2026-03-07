@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "RecoveryWindowTooShort",
+    "inputs": [
+      {
+        "name": "recoveryWindow",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

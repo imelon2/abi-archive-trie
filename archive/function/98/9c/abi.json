@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initializeWithMultiplexer",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "configId",
+        "type": "bytes32",
+        "internalType": "ConfigId"
+      },
+      {
+        "name": "initData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32[2]",
+            "name": "bytes32Vals",
+            "type": "bytes32[2]"
+          },
+          {
+            "internalType": "uint64[2]",
+            "name": "u64Vals",
+            "type": "uint64[2]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct GlobalState",
+        "name": "startState",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32[2]",
+            "name": "bytes32Vals",
+            "type": "bytes32[2]"
+          },
+          {
+            "internalType": "uint64[2]",
+            "name": "u64Vals",
+            "type": "uint64[2]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct GlobalState",
+        "name": "endState",
+        "type": "tuple"
+      }
+    ],
+    "name": "InitiatedChallenge",
+    "type": "event"
+  }
+]

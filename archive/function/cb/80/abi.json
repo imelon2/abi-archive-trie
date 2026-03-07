@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "auxiliary",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "entrypoint",
+        "type": "address",
+        "internalType": "contract IEntryPoint"
+      },
+      {
+        "name": "gasSimulation",
+        "type": "address",
+        "internalType": "contract UserOpGasLog"
+      },
+      {
+        "name": "registry",
+        "type": "address",
+        "internalType": "contract IERC7484"
+      },
+      {
+        "name": "mockFactory",
+        "type": "address",
+        "internalType": "contract MockFactory"
+      },
+      {
+        "name": "smartSession",
+        "type": "address",
+        "internalType": "contract ISmartSession"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

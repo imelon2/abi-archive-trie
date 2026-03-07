@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "expected",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "actual",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "destination",
+        "type": "address"
+      }
+    ],
+    "name": "OnlyOwnerDestination",
+    "type": "error"
+  }
+]

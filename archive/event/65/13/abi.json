@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "oldBaseDelaySeconds",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "newBaseDelaySeconds",
+        "type": "uint32"
+      }
+    ],
+    "name": "BaseDelaySet",
+    "type": "event"
+  }
+]

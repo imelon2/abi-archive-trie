@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "HashIndexOutOfBounds",
+    "inputs": [
+      {
+        "name": "index",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

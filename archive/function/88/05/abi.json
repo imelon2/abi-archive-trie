@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "toggleOrder",
+    "inputs": [
+      {
+        "name": "jobId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

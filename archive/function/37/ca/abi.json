@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "newWhitelist",
+        "type": "address"
+      },
+      {
+        "internalType": "address[]",
+        "name": "targets",
+        "type": "address[]"
+      }
+    ],
+    "name": "triggerConsumers",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

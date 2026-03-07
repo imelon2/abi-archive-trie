@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "_l1Token",
+        "type": "address[]"
+      },
+      {
+        "internalType": "address[]",
+        "name": "_gateway",
+        "type": "address[]"
+      }
+    ],
+    "name": "setGateway",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

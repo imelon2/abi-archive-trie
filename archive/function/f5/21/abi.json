@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint128",
+        "name": "newValue",
+        "type": "uint128"
+      }
+    ],
+    "name": "setMaxRefundeeBalance",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

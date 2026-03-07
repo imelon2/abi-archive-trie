@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "inbox",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "message",
+        "type": "bytes32"
+      }
+    ],
+    "name": "accumulateInboxMessage",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

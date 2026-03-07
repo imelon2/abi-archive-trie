@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "getActiveHook",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "hook",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

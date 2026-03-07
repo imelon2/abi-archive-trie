@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "have",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "want",
+        "type": "uint256"
+      }
+    ],
+    "name": "ProgramInsufficientValue",
+    "type": "error"
+  }
+]

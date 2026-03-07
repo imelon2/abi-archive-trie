@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "toggleKillSwitch",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

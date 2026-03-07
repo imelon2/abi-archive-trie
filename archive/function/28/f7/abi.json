@@ -1,0 +1,44 @@
+[
+  {
+    "type": "function",
+    "name": "enableERC1271Policies",
+    "inputs": [
+      {
+        "name": "permissionId",
+        "type": "bytes32",
+        "internalType": "PermissionId"
+      },
+      {
+        "name": "erc1271Policies",
+        "type": "tuple",
+        "internalType": "struct ERC7739Data",
+        "components": [
+          {
+            "name": "allowedERC7739Content",
+            "type": "string[]",
+            "internalType": "string[]"
+          },
+          {
+            "name": "erc1271Policies",
+            "type": "tuple[]",
+            "internalType": "struct PolicyData[]",
+            "components": [
+              {
+                "name": "policy",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "initData",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

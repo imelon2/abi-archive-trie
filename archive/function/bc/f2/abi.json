@@ -1,0 +1,31 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "name": "redirectedExits",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "isExit",
+        "type": "bool"
+      },
+      {
+        "internalType": "address",
+        "name": "_newTo",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "_newData",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

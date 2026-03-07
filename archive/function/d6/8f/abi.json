@@ -1,0 +1,89 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "msgSender",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes",
+        "name": "msgData",
+        "type": "bytes"
+      }
+    ],
+    "name": "preCheck",
+    "outputs": [
+      {
+        "internalType": "bytes",
+        "name": "hookData",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "preCheck",
+    "inputs": [
+      {
+        "name": "msgSender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "msgValue",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "msgData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "hookData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "preCheck",
+    "inputs": [
+      {
+        "name": "msgSender",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "msgValue",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "msgData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "hookData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

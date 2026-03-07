@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "__activateTstore",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

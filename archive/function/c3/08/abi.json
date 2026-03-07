@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupCore",
+        "name": "rollup",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "staker",
+        "type": "address"
+      }
+    ],
+    "name": "stakedNodes",
+    "outputs": [
+      {
+        "internalType": "uint64[]",
+        "name": "",
+        "type": "uint64[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

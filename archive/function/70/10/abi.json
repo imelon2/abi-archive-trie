@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "getLog",
+    "inputs": [
+      {
+        "name": "userOpHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "gasValidation",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "gasExecution",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

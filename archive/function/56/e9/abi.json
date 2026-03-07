@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "challengeIndex",
+        "type": "uint64"
+      }
+    ],
+    "name": "clearChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "challengeIndex_",
+        "type": "uint64"
+      }
+    ],
+    "name": "clearChallenge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

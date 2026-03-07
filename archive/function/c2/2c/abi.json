@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "me",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "leaf",
+        "type": "bytes32"
+      }
+    ],
+    "name": "appendLeaf",
+    "outputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "",
+        "type": "bytes32[]"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

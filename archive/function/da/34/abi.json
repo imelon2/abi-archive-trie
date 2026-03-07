@@ -1,0 +1,38 @@
+[
+  {
+    "type": "function",
+    "name": "getGuardian",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct GuardianStorage",
+        "components": [
+          {
+            "name": "status",
+            "type": "uint8",
+            "internalType": "enum GuardianStatus"
+          },
+          {
+            "name": "weight",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

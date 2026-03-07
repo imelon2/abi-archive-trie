@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "clear",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "add",
+        "type": "uint256"
+      }
+    ],
+    "name": "clearAndAddValues",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

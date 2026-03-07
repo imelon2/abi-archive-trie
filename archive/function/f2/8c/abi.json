@@ -1,0 +1,48 @@
+[
+  {
+    "type": "function",
+    "name": "exactOutput",
+    "inputs": [
+      {
+        "name": "params",
+        "type": "tuple",
+        "internalType": "struct ISwapRouter.ExactOutputParams",
+        "components": [
+          {
+            "name": "path",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "recipient",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "deadline",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amountOut",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amountInMaximum",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "amountIn",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

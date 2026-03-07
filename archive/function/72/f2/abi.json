@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "l2ToL1OutputId",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

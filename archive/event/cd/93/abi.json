@@ -1,0 +1,37 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "priceMarkup",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint128",
+            "name": "minEntryPointBalance",
+            "type": "uint128"
+          },
+          {
+            "internalType": "uint48",
+            "name": "refundPostopCost",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint48",
+            "name": "priceMaxAge",
+            "type": "uint48"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct TokenPaymaster.TokenPaymasterConfig",
+        "name": "tokenPaymasterConfig",
+        "type": "tuple"
+      }
+    ],
+    "name": "ConfigUpdated",
+    "type": "event"
+  }
+]

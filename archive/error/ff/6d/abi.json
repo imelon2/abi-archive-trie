@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "claimId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "ClaimEdgeNotLengthOneRival",
+    "type": "error"
+  }
+]

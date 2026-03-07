@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "dkimRegistry",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract DKIMRegistry"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "isConsumingScheduledOp",
+    "outputs": [
+      {
+        "internalType": "bytes4",
+        "name": "",
+        "type": "bytes4"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

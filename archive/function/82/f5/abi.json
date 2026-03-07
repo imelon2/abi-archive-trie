@@ -1,0 +1,53 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IRollupCore",
+        "name": "rollup",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "node1",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "node2",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxDepth",
+        "type": "uint256"
+      }
+    ],
+    "name": "findNodeConflict",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum ValidatorUtils.NodeConflictType",
+            "name": "ty",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint64",
+            "name": "node1",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "node2",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct ValidatorUtils.NodeConflict",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "inputs": [],
+    "name": "tokenPaymasterConfig",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "priceMarkup",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint128",
+        "name": "minEntryPointBalance",
+        "type": "uint128"
+      },
+      {
+        "internalType": "uint48",
+        "name": "refundPostopCost",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint48",
+        "name": "priceMaxAge",
+        "type": "uint48"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

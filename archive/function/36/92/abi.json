@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "deployNexus",
+    "inputs": [
+      {
+        "name": "anEntryPoint",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "nexus",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

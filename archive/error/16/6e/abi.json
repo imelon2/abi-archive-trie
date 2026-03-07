@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "IncorrectNumberOfWeights",
+    "inputs": [
+      {
+        "name": "guardianCount",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "weightCount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

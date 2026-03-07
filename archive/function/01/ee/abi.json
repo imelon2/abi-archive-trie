@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "disallowValidatorRecovery",
+    "inputs": [
+      {
+        "name": "validator",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "prevValidator",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "recoverySelector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

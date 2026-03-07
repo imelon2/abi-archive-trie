@@ -1,0 +1,55 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract BridgeCreator",
+        "name": "_bridgeCreator",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IOneStepProofEntry",
+        "name": "_osp",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IChallengeManager",
+        "name": "_challengeManagerLogic",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IRollupAdmin",
+        "name": "_rollupAdminLogic",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IRollupUser",
+        "name": "_rollupUserLogic",
+        "type": "address"
+      },
+      {
+        "internalType": "contract IUpgradeExecutor",
+        "name": "_upgradeExecutorLogic",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_validatorUtils",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_validatorWalletCreator",
+        "type": "address"
+      },
+      {
+        "internalType": "contract DeployHelper",
+        "name": "_l2FactoriesDeployer",
+        "type": "address"
+      }
+    ],
+    "name": "setTemplates",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

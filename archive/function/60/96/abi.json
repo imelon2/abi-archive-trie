@@ -1,0 +1,59 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "assertionHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "parentAssertionHash",
+        "type": "bytes32"
+      },
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "bytes32[2]",
+                "name": "bytes32Vals",
+                "type": "bytes32[2]"
+              },
+              {
+                "internalType": "uint64[2]",
+                "name": "u64Vals",
+                "type": "uint64[2]"
+              }
+            ],
+            "internalType": "struct GlobalState",
+            "name": "globalState",
+            "type": "tuple"
+          },
+          {
+            "internalType": "enum MachineStatus",
+            "name": "machineStatus",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "endHistoryRoot",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct AssertionState",
+        "name": "confirmState",
+        "type": "tuple"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "inboxAcc",
+        "type": "bytes32"
+      }
+    ],
+    "name": "fastConfirmAssertion",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

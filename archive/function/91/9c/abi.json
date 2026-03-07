@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "_rollup",
+        "type": "address"
+      }
+    ],
+    "name": "updateRollupAddress",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOwnable",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "updateRollupAddress",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

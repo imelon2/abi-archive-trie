@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract ITransparentUpgradeableProxy",
+        "name": "proxy",
+        "type": "address"
+      }
+    ],
+    "name": "getProxyAdmin",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract TransparentUpgradeableProxy",
+        "name": "proxy",
+        "type": "address"
+      }
+    ],
+    "name": "getProxyAdmin",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

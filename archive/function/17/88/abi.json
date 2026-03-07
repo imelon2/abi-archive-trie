@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "updateRecoveryConfig",
+    "inputs": [
+      {
+        "name": "recoveryConfig",
+        "type": "tuple",
+        "internalType": "struct IEmailRecoveryManager.RecoveryConfig",
+        "components": [
+          {
+            "name": "delay",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "expiry",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

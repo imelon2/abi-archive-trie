@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "chain",
+        "type": "bytes"
+      }
+    ],
+    "name": "getLink",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "gateway",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "counterpart",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

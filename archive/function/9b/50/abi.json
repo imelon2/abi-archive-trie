@@ -1,0 +1,50 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "challengeManager",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      }
+    ],
+    "name": "createPool",
+    "outputs": [
+      {
+        "internalType": "contract IEdgeStakingPool",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_rollup",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_assertionHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "createPool",
+    "outputs": [
+      {
+        "internalType": "contract IAssertionStakingPool",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

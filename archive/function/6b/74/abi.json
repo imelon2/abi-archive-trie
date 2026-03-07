@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "makeStakeWithdrawableAndWithdrawBackIntoPool",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

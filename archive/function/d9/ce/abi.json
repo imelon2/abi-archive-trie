@@ -1,0 +1,41 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "inboxToL1Deployment",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "router",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "standardGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "customGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "wethGateway",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "weth",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

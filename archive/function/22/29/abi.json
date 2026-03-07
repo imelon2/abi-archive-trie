@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "feeTokenPricer",
+    "outputs": [
+      {
+        "internalType": "contract IFeeTokenPricer",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

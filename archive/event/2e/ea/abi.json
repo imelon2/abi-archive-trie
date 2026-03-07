@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "batchExecutionIndex",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "returndata",
+        "type": "bytes"
+      }
+    ],
+    "name": "ERC7579TryExecuteFail",
+    "type": "event"
+  }
+]

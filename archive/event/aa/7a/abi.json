@@ -1,0 +1,32 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "threshold",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "max",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "replenishRateInBasis",
+            "type": "uint64"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct BufferConfig",
+        "name": "bufferConfig",
+        "type": "tuple"
+      }
+    ],
+    "name": "BufferConfigSet",
+    "type": "event"
+  }
+]

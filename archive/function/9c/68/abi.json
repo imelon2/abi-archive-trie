@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [],
+    "name": "challengeManagerTemplate",
+    "outputs": [
+      {
+        "internalType": "contract IChallengeManager",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "challengeManagerTemplate",
+    "outputs": [
+      {
+        "internalType": "contract IEdgeChallengeManager",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

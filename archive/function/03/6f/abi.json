@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IFeeTokenPricer",
+        "name": "feeTokenPricer_",
+        "type": "address"
+      }
+    ],
+    "name": "setFeeTokenPricer",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IFeeTokenPricer",
+        "name": "newFeeTokenPricer",
+        "type": "address"
+      }
+    ],
+    "name": "setFeeTokenPricer",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

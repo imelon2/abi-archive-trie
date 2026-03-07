@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract TimelockController",
+        "name": "newTimelock",
+        "type": "address"
+      }
+    ],
+    "name": "updateTimelock",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract ICompoundTimelock",
+        "name": "newTimelock",
+        "type": "address"
+      }
+    ],
+    "name": "updateTimelock",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

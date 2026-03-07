@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "timestampCheckEnabled",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidGuardianAddress",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

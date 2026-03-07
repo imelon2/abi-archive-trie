@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "CallType",
+        "name": "callType",
+        "type": "bytes1"
+      }
+    ],
+    "name": "ERC7579UnsupportedCallType",
+    "type": "error"
+  }
+]

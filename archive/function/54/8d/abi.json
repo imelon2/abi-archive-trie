@@ -1,0 +1,56 @@
+[
+  {
+    "type": "function",
+    "name": "executionLog",
+    "inputs": [
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "jobId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "executeInterval",
+        "type": "uint48",
+        "internalType": "uint48"
+      },
+      {
+        "name": "numberOfExecutions",
+        "type": "uint16",
+        "internalType": "uint16"
+      },
+      {
+        "name": "numberOfExecutionsCompleted",
+        "type": "uint16",
+        "internalType": "uint16"
+      },
+      {
+        "name": "startDate",
+        "type": "uint48",
+        "internalType": "uint48"
+      },
+      {
+        "name": "isEnabled",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "lastExecutionTime",
+        "type": "uint48",
+        "internalType": "uint48"
+      },
+      {
+        "name": "executionData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

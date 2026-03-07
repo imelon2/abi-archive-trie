@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "freePages",
+    "outputs": [
+      {
+        "internalType": "uint16",
+        "name": "pages",
+        "type": "uint16"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

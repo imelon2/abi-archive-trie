@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "requestGuardian",
+    "inputs": [
+      {
+        "name": "guardian",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

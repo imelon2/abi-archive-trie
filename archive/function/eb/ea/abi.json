@@ -1,0 +1,58 @@
+[
+  {
+    "inputs": [],
+    "name": "maxTimeVariation",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "maxTimeVariation",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "delayBlocks",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "futureBlocks",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "delaySeconds",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "futureSeconds",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "maxStackDepth",
+    "outputs": [
+      {
+        "internalType": "uint32",
+        "name": "depth",
+        "type": "uint32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

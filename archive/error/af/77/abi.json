@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "caller",
+        "type": "address"
+      },
+      {
+        "internalType": "uint32",
+        "name": "delay",
+        "type": "uint32"
+      }
+    ],
+    "name": "AccessManagedRequiredDelay",
+    "type": "error"
+  }
+]

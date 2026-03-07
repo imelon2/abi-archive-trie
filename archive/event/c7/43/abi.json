@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "id",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint8",
+        "name": "newDecimals",
+        "type": "uint8"
+      }
+    ],
+    "name": "ERC6909DecimalsUpdated",
+    "type": "event"
+  }
+]

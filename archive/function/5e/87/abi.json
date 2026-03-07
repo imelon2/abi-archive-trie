@@ -1,0 +1,84 @@
+[
+  {
+    "type": "function",
+    "name": "_getInitMSACalldata",
+    "inputs": [
+      {
+        "name": "$valdiators",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "$executors",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_hook",
+        "type": "tuple",
+        "internalType": "struct BootstrapConfig",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_fallbacks",
+        "type": "tuple[]",
+        "internalType": "struct BootstrapConfig[]",
+        "components": [
+          {
+            "name": "module",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "init",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

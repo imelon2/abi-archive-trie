@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "bidAmount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "reservePrice",
+        "type": "uint256"
+      }
+    ],
+    "name": "ReservePriceNotMet",
+    "type": "error"
+  }
+]

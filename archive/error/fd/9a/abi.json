@@ -1,0 +1,13 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "maxLoan",
+        "type": "uint256"
+      }
+    ],
+    "name": "ERC3156ExceededMaxLoan",
+    "type": "error"
+  }
+]

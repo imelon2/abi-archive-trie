@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "invalidateNonce",
+    "inputs": [
+      {
+        "name": "nonce",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

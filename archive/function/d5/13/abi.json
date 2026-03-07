@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [],
+    "name": "commonParams",
+    "outputs": [
+      {
+        "internalType": "uint128",
+        "name": "maxRefundeeBalance",
+        "type": "uint128"
+      },
+      {
+        "internalType": "uint32",
+        "name": "extraGasMargin",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint8",
+        "name": "calldataCost",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint64",
+        "name": "maxGasTip",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "maxGasCost",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint32",
+        "name": "maxSingleGasUsage",
+        "type": "uint32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

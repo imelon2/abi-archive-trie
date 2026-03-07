@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "keysetHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "InvalidateKeyset",
+    "type": "event"
+  }
+]

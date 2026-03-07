@@ -1,0 +1,15 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "newConfirmPeriod",
+        "type": "uint64"
+      }
+    ],
+    "name": "ConfirmPeriodBlocksSet",
+    "type": "event"
+  }
+]

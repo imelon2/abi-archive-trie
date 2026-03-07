@@ -1,0 +1,146 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "inbox",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "target",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "excessFeeRefundAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "callValueRefundAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "gasPriceBid",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct RetryableParams",
+        "name": "retryableParams",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "routerTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGatewayTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "upgradeExecutorTemplate",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "multicallTemplate",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct L2TemplateAddresses",
+        "name": "l2",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "router",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "standardGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "customGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "wethGateway",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "weth",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct L1DeploymentAddresses",
+        "name": "l1",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "l2StandardGatewayAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "rollupOwner",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "deployer",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "l1UpgradeExecutor",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "isUsingFeeToken",
+        "type": "bool"
+      }
+    ],
+    "name": "sendRetryable",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

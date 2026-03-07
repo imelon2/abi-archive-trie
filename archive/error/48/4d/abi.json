@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidModuleType",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "moduleType",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "destinations",
+        "type": "address[]"
+      },
+      {
+        "internalType": "bool[]",
+        "name": "isSet",
+        "type": "bool[]"
+      }
+    ],
+    "name": "setAllowedExecutorDestinations",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "challenges",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "addr",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timeLeft",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ChallengeLib.Participant",
+        "name": "current",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "addr",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timeLeft",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ChallengeLib.Participant",
+        "name": "next",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "lastMoveTimestamp",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "wasmModuleRoot",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "challengeStateHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "maxInboxMessages",
+        "type": "uint64"
+      },
+      {
+        "internalType": "enum ChallengeLib.ChallengeMode",
+        "name": "mode",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

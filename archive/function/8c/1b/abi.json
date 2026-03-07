@@ -1,0 +1,74 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32",
+            "name": "beforeHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct OneStepData",
+        "name": "oneStepData",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "bytes32",
+            "name": "wasmModuleRoot",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "requiredStake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "challengeManager",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "confirmPeriodBlocks",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "nextInboxPosition",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct ConfigData",
+        "name": "prevConfig",
+        "type": "tuple"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "beforeHistoryInclusionProof",
+        "type": "bytes32[]"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "afterHistoryInclusionProof",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "confirmEdgeByOneStepProof",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

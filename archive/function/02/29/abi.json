@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "owners",
+    "inputs": [
+      {
+        "name": "subAccout",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "initializeAccount",
+    "inputs": [
+      {
+        "name": "initData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  },
+  {
+    "type": "function",
+    "name": "initializeAccount",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "inputs": [],
+    "name": "buffer",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "bufferBlocks",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "max",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "threshold",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "prevBlockNumber",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "replenishRateInBasis",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "prevSequencedBlockNumber",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "edgeId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maximumCachedTime",
+        "type": "uint256"
+      }
+    ],
+    "name": "updateTimerCacheByChildren",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

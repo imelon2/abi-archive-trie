@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "l2BlockNum",
+        "type": "uint64"
+      }
+    ],
+    "name": "blockL1Num",
+    "outputs": [
+      {
+        "internalType": "uint64",
+        "name": "l1BlockNum",
+        "type": "uint64"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

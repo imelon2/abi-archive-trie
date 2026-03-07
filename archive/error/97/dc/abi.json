@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnsupportedSmartSessionMode",
+    "inputs": [
+      {
+        "name": "mode",
+        "type": "uint8",
+        "internalType": "enum SmartSessionMode"
+      }
+    ]
+  }
+]

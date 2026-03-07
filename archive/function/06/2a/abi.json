@@ -1,0 +1,134 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "nonce",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "initCode",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "callData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "accountGasLimits",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "preVerificationGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "gasFees",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "paymasterAndData",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct PackedUserOperation",
+        "name": "userOp",
+        "type": "tuple"
+      }
+    ],
+    "name": "validateUserOpSignature",
+    "outputs": [
+      {
+        "internalType": "bytes",
+        "name": "sigForUserOp",
+        "type": "bytes"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "validateUserOpSignature",
+    "inputs": [
+      {
+        "name": "userOp",
+        "type": "tuple",
+        "internalType": "struct PackedUserOperation",
+        "components": [
+          {
+            "name": "sender",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "initCode",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "callData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "accountGasLimits",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "preVerificationGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasFees",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "paymasterAndData",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "signature",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "sigForUserOp",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

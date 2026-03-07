@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "check",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

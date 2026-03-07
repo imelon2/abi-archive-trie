@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "ModuleAlreadyInitialized",
+    "inputs": [
+      {
+        "name": "smartAccount",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

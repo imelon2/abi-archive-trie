@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "storedSender",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "actualSender",
+        "type": "address"
+      }
+    ],
+    "name": "InvalidMsgSender",
+    "type": "error"
+  }
+]

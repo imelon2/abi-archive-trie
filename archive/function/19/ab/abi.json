@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "init",
+    "inputs": [
+      {
+        "name": "entrypointAddr",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "incrementEmit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

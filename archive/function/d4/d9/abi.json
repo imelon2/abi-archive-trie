@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "hashToApprove",
+        "type": "bytes32"
+      }
+    ],
+    "name": "approveHash",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "approveHash",
+    "inputs": [
+      {
+        "name": "hashToApprove",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

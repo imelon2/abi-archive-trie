@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "SAFE7579_BYTECODE",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

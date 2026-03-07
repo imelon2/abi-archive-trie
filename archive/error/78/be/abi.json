@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidTargetAddress",
+    "inputs": [
+      {
+        "name": "target",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

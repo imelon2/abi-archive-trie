@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "insertCommandTemplate",
+    "inputs": [
+      {
+        "name": "_templateId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_commandTemplate",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "excessFeeRefundAddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "callValueRefundAddress",
+        "type": "address"
+      }
+    ],
+    "name": "RefundAddresses",
+    "type": "event"
+  }
+]

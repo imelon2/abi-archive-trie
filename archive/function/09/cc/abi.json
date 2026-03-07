@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "senderCreator",
+    "outputs": [
+      {
+        "internalType": "contract ISenderCreator",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

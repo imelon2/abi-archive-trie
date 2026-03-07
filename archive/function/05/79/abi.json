@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [],
+    "name": "pleaseRevert",
+    "outputs": [],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

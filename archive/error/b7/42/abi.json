@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "DelayMoreThanExpiry",
+    "inputs": [
+      {
+        "name": "delay",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "expiry",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [],
+    "name": "getCurrentBlockCoinbase",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "coinbase",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getCurrentBlockCoinbase",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "coinbase",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "type": "function",
+    "name": "deployEmailRecoveryModule",
+    "inputs": [
+      {
+        "name": "commandHandlerSalt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "recoveryModuleSalt",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "commandHandlerBytecode",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "minimumDelay",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "killSwitchAuthorizer",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "dkimRegistry",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "validator",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "functionSelector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

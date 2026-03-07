@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "IMPL_CHALLENGE_MANAGER",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

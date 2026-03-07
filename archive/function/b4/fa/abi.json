@@ -1,0 +1,38 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "targetContract",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "calldataPayload",
+        "type": "bytes"
+      }
+    ],
+    "name": "simulateAndRevert",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "simulateAndRevert",
+    "inputs": [
+      {
+        "name": "targetContract",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "calldataPayload",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

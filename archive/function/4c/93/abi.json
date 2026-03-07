@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "changeMainAuthorizer",
+    "inputs": [
+      {
+        "name": "newMainAuthorizer",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

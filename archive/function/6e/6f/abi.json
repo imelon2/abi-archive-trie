@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "isAllowedSelector",
+    "inputs": [
+      {
+        "name": "vId",
+        "type": "bytes21",
+        "internalType": "ValidationId"
+      },
+      {
+        "name": "selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

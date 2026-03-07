@@ -1,0 +1,33 @@
+[
+  {
+    "type": "event",
+    "name": "EmailRecoveryModuleDeployed",
+    "inputs": [
+      {
+        "name": "emailRecoveryModule",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "commandHandler",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "validator",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "functionSelector",
+        "type": "bytes4",
+        "indexed": false,
+        "internalType": "bytes4"
+      }
+    ],
+    "anonymous": false
+  }
+]

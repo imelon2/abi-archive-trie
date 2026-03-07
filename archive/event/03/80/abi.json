@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "codehash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "dataFee",
+        "type": "uint256"
+      }
+    ],
+    "name": "ProgramLifetimeExtended",
+    "type": "event"
+  }
+]

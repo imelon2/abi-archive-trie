@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "MainAuthorizerChanged",
+    "inputs": [
+      {
+        "name": "newMainAuthorizer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

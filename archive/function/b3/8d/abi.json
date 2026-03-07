@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "DISABLE_VALIDATOR_WHITELIST",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "assertionHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getAssertion",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "firstChildBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "secondChildBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "createdAtBlock",
+            "type": "uint64"
+          },
+          {
+            "internalType": "bool",
+            "name": "isFirstChild",
+            "type": "bool"
+          },
+          {
+            "internalType": "enum AssertionStatus",
+            "name": "status",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "configHash",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct AssertionNode",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

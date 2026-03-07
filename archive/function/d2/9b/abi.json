@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint64",
+        "name": "size",
+        "type": "uint64"
+      }
+    ],
+    "name": "getMinBid",
+    "outputs": [
+      {
+        "internalType": "uint192",
+        "name": "min",
+        "type": "uint192"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

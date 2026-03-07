@@ -1,0 +1,21 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "isSequencer",
+        "type": "bool"
+      }
+    ],
+    "name": "SequencerSet",
+    "type": "event"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "target",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes",
+        "name": "targetCallData",
+        "type": "bytes"
+      }
+    ],
+    "name": "executeCall",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

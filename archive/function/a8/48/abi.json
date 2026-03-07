@@ -1,0 +1,69 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "bridge_",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "delayBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "delaySeconds",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureSeconds",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ISequencerInbox.MaxTimeVariation",
+        "name": "maxTimeVariation_",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint64",
+            "name": "threshold",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "max",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint64",
+            "name": "replenishRateInBasis",
+            "type": "uint64"
+          }
+        ],
+        "internalType": "struct BufferConfig",
+        "name": "bufferConfig_",
+        "type": "tuple"
+      },
+      {
+        "internalType": "contract IFeeTokenPricer",
+        "name": "feeTokenPricer_",
+        "type": "address"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

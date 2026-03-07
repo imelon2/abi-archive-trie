@@ -1,0 +1,42 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IBridge",
+        "name": "bridge_",
+        "type": "address"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "delayBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureBlocks",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "delaySeconds",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "futureSeconds",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ISequencerInbox.MaxTimeVariation",
+        "name": "maxTimeVariation_",
+        "type": "tuple"
+      }
+    ],
+    "name": "initialize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

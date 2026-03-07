@@ -1,0 +1,50 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "bytes32[2]",
+                "name": "bytes32Vals",
+                "type": "bytes32[2]"
+              },
+              {
+                "internalType": "uint64[2]",
+                "name": "u64Vals",
+                "type": "uint64[2]"
+              }
+            ],
+            "internalType": "struct GlobalState",
+            "name": "globalState",
+            "type": "tuple"
+          },
+          {
+            "internalType": "enum MachineStatus",
+            "name": "machineStatus",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct ExecutionState",
+        "name": "executionState",
+        "type": "tuple"
+      },
+      {
+        "internalType": "uint256",
+        "name": "inboxMaxCount",
+        "type": "uint256"
+      }
+    ],
+    "name": "stateHash",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

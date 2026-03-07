@@ -1,0 +1,248 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "preOpGas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "prefund",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "sigFailed",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint48",
+            "name": "validAfter",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint48",
+            "name": "validUntil",
+            "type": "uint48"
+          },
+          {
+            "internalType": "bytes",
+            "name": "paymasterContext",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct IEntryPoint.ReturnInfo",
+        "name": "returnInfo",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "stake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unstakeDelaySec",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IStakeManager.StakeInfo",
+        "name": "senderInfo",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "stake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unstakeDelaySec",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IStakeManager.StakeInfo",
+        "name": "factoryInfo",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "stake",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unstakeDelaySec",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct IStakeManager.StakeInfo",
+        "name": "paymasterInfo",
+        "type": "tuple"
+      },
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "aggregator",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "stake",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "unstakeDelaySec",
+                "type": "uint256"
+              }
+            ],
+            "internalType": "struct IStakeManager.StakeInfo",
+            "name": "stakeInfo",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct IEntryPoint.AggregatorStakeInfo",
+        "name": "aggregatorInfo",
+        "type": "tuple"
+      }
+    ],
+    "name": "ValidationResultWithAggregation",
+    "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "ValidationResultWithAggregation",
+    "inputs": [
+      {
+        "name": "returnInfo",
+        "type": "tuple",
+        "internalType": "struct IEntryPoint.ReturnInfo",
+        "components": [
+          {
+            "name": "preOpGas",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "prefund",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "sigFailed",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "validAfter",
+            "type": "uint48",
+            "internalType": "uint48"
+          },
+          {
+            "name": "validUntil",
+            "type": "uint48",
+            "internalType": "uint48"
+          },
+          {
+            "name": "paymasterContext",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "senderInfo",
+        "type": "tuple",
+        "internalType": "struct IStakeManager.StakeInfo",
+        "components": [
+          {
+            "name": "stake",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "unstakeDelaySec",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "factoryInfo",
+        "type": "tuple",
+        "internalType": "struct IStakeManager.StakeInfo",
+        "components": [
+          {
+            "name": "stake",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "unstakeDelaySec",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "paymasterInfo",
+        "type": "tuple",
+        "internalType": "struct IStakeManager.StakeInfo",
+        "components": [
+          {
+            "name": "stake",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "unstakeDelaySec",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "aggregatorInfo",
+        "type": "tuple",
+        "internalType": "struct IEntryPoint.AggregatorStakeInfo",
+        "components": [
+          {
+            "name": "aggregator",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "stakeInfo",
+            "type": "tuple",
+            "internalType": "struct IStakeManager.StakeInfo",
+            "components": [
+              {
+                "name": "stake",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "unstakeDelaySec",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
