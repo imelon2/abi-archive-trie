@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setFjord",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

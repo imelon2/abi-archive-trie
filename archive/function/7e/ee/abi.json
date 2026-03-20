@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "unlock",
+    "inputs": [
+      {
+        "name": "_guy",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_wad",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

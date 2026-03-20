@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setCode",
+    "inputs": [
+      {
+        "name": "_code",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

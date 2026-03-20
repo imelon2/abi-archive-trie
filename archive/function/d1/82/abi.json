@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "optimistInviter",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OptimistInviter"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

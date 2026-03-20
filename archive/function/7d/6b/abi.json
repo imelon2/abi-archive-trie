@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "blacklistDisputeGame",
+    "inputs": [
+      {
+        "name": "_disputeGame",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

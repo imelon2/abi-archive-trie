@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setBytes32",
+    "inputs": [
+      {
+        "name": "_slot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_value",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

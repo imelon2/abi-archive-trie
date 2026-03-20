@@ -1,0 +1,32 @@
+[
+  {
+    "type": "event",
+    "name": "_EventToExposeStructInABI__Params",
+    "inputs": [
+      {
+        "name": "params",
+        "type": "tuple",
+        "indexed": false,
+        "internalType": "struct CheckSecrets.Params",
+        "components": [
+          {
+            "name": "delay",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "secretHashMustExist",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "secretHashMustNotExist",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      }
+    ],
+    "anonymous": false
+  }
+]

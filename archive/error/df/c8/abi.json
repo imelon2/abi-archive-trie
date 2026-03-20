@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidDeployment",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

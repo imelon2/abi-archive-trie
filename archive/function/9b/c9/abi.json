@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "status",
+    "inputs": [
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_status",
+        "type": "uint8",
+        "internalType": "enum Drippie.DripStatus"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

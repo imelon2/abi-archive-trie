@@ -1,0 +1,40 @@
+[
+  {
+    "type": "function",
+    "name": "prove_finalizeBridgeERC20_paused",
+    "inputs": [
+      {
+        "name": "_localToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_remoteToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_from",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_amount",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_extraData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

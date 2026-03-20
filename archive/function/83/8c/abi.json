@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "tryUpdateAnchorState",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

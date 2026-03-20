@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "minimumGasLimit",
+    "inputs": [
+      {
+        "name": "_byteCount",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

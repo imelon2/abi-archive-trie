@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "challenger",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "challenger_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "challenger",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

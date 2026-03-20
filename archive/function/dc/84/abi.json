@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "required",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "out_",
+        "type": "uint256",
+        "internalType": "ProtocolVersion"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

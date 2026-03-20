@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getDripStatus",
+    "inputs": [
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum Drippie.DripStatus"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

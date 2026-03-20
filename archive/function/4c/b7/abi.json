@@ -1,0 +1,39 @@
+[
+  {
+    "type": "function",
+    "name": "multiRevoke",
+    "inputs": [
+      {
+        "name": "multiRequests",
+        "type": "tuple[]",
+        "internalType": "struct MultiRevocationRequest[]",
+        "components": [
+          {
+            "name": "schema",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "data",
+            "type": "tuple[]",
+            "internalType": "struct RevocationRequestData[]",
+            "components": [
+              {
+                "name": "uid",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "value",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

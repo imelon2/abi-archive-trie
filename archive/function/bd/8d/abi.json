@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getChallengerDuration",
+    "inputs": [
+      {
+        "name": "_claimIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "duration_",
+        "type": "uint64",
+        "internalType": "Duration"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

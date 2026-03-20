@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "maximumGasLimit",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

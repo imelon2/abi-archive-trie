@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "l2Oracle",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract L2OutputOracle"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

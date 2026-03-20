@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "warpToProposeTime",
+    "inputs": [
+      {
+        "name": "_nextBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

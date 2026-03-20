@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "rootClaim",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "rootClaim_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

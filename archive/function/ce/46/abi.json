@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "isPayable",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

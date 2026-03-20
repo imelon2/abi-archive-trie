@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "challenge",
+    "inputs": [
+      {
+        "name": "challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

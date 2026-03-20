@@ -36,5 +36,24 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "isModuleEnabled",
+    "inputs": [
+      {
+        "name": "_module",
+        "type": "address",
+        "internalType": "contract IFaucetAuthModule"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

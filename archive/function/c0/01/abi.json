@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setConfig",
+    "inputs": [
+      {
+        "name": "_type",
+        "type": "uint8",
+        "internalType": "enum ConfigType"
+      },
+      {
+        "name": "_value",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

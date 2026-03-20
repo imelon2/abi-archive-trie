@@ -26,5 +26,71 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "encodeDepositTransaction",
+    "inputs": [
+      {
+        "name": "txn",
+        "type": "tuple",
+        "internalType": "struct Types.UserDepositTransaction",
+        "components": [
+          {
+            "name": "from",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "to",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "isCreation",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "mint",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasLimit",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "l1BlockHash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "logIndex",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
   }
 ]

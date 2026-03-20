@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "transferProxyAdminOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

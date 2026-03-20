@@ -1,0 +1,51 @@
+[
+  {
+    "type": "function",
+    "name": "claimData",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "parentIndex",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "counteredBy",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "claimant",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "bond",
+        "type": "uint128",
+        "internalType": "uint128"
+      },
+      {
+        "name": "claim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "position",
+        "type": "uint128",
+        "internalType": "Position"
+      },
+      {
+        "name": "clock",
+        "type": "uint128",
+        "internalType": "Clock"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

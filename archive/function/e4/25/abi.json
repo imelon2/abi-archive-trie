@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeDisputeGameFactory",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "provenWithdrawals",
+    "inputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "outputRoot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "timestamp",
+        "type": "uint128",
+        "internalType": "uint128"
+      },
+      {
+        "name": "l2OutputIndex",
+        "type": "uint128",
+        "internalType": "uint128"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

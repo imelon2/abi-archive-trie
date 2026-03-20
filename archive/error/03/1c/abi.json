@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "NoImplementation",
+    "inputs": [
+      {
+        "name": "gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ]
+  }
+]

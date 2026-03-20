@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "withdrawERC721",
+    "inputs": [
+      {
+        "name": "_asset",
+        "type": "address",
+        "internalType": "contract ERC721"
+      },
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_id",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

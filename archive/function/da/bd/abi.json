@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "maxClockDuration",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "maxClockDuration_",
+        "type": "uint64",
+        "internalType": "Duration"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

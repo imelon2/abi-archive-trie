@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeL1ERC721Bridge",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

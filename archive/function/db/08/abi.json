@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "ATTESTATION_STATION",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract AttestationStation"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

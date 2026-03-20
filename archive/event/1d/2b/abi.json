@@ -1,0 +1,52 @@
+[
+  {
+    "type": "event",
+    "name": "ConfigUpdate",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "updateType",
+        "type": "uint8",
+        "indexed": true,
+        "internalType": "enum SystemConfig.UpdateType"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ConfigUpdate",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "updateType",
+        "type": "uint8",
+        "indexed": true,
+        "internalType": "enum ProtocolVersions.UpdateType"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

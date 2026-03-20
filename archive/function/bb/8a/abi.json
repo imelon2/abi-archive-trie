@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "gameAtIndex",
+    "inputs": [
+      {
+        "name": "_index",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "gameType_",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "timestamp_",
+        "type": "uint64",
+        "internalType": "Timestamp"
+      },
+      {
+        "name": "proxy_",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "ExecutionFailed",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

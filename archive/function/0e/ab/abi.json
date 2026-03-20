@@ -1,0 +1,71 @@
+[
+  {
+    "type": "function",
+    "name": "multiRevokeByDelegation",
+    "inputs": [
+      {
+        "name": "multiDelegatedRequests",
+        "type": "tuple[]",
+        "internalType": "struct MultiDelegatedRevocationRequest[]",
+        "components": [
+          {
+            "name": "schema",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "data",
+            "type": "tuple[]",
+            "internalType": "struct RevocationRequestData[]",
+            "components": [
+              {
+                "name": "uid",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "value",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "signatures",
+            "type": "tuple[]",
+            "internalType": "struct Signature[]",
+            "components": [
+              {
+                "name": "v",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "r",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "s",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          },
+          {
+            "name": "revoker",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "deadline",
+            "type": "uint64",
+            "internalType": "uint64"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

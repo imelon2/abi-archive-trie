@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "OTHER_BRIDGE",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract StandardBridge"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

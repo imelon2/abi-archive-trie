@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "setRequired",
+    "inputs": [
+      {
+        "name": "_required",
+        "type": "uint256",
+        "internalType": "ProtocolVersion"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "cfg",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract DeployConfig"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

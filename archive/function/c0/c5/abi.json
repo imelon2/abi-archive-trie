@@ -21,5 +21,74 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_l2Oracle",
+        "type": "address",
+        "internalType": "contract L2OutputOracle"
+      },
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract SystemConfig"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_messenger",
+        "type": "address",
+        "internalType": "contract CrossDomainMessenger"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      },
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract SystemConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      },
+      {
+        "name": "_portal",
+        "type": "address",
+        "internalType": "contract OptimismPortal"
+      },
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract SystemConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

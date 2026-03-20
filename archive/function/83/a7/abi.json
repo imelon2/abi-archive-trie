@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "RELAY_CONSTANT_OVERHEAD",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "targetContracts",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "targetedContracts_",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

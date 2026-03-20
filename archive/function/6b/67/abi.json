@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "clockExtension",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "clockExtension_",
+        "type": "uint64",
+        "internalType": "Duration"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

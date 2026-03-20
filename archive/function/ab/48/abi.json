@@ -1,0 +1,84 @@
+[
+  {
+    "type": "function",
+    "name": "prove_proveWithdrawalTransaction_paused8",
+    "inputs": [
+      {
+        "name": "_tx",
+        "type": "tuple",
+        "internalType": "struct Types.WithdrawalTransaction",
+        "components": [
+          {
+            "name": "nonce",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "sender",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "target",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gasLimit",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_l2OutputIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_outputRootProof",
+        "type": "tuple",
+        "internalType": "struct Types.OutputRootProof",
+        "components": [
+          {
+            "name": "version",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "stateRoot",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "messagePasserStorageRoot",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "latestBlockhash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_withdrawalProof",
+        "type": "bytes[]",
+        "internalType": "bytes[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

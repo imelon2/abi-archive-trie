@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "infiniteGas",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

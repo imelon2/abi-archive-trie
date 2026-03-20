@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "startingBlockNumber",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "startingBlockNumber_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "startingBlockNumber",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

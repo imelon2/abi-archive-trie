@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setAddressManager",
+    "inputs": [
+      {
+        "name": "_address",
+        "type": "address",
+        "internalType": "contract AddressManager"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

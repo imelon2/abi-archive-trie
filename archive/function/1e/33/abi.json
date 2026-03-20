@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setInitBond",
+    "inputs": [
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "_initBond",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

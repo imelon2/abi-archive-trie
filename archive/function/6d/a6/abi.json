@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "pause",
+    "inputs": [
+      {
+        "name": "_identifier",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

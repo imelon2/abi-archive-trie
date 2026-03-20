@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "deployProxies",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

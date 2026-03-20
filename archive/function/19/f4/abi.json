@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "BASE_URI_ATTESTOR",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

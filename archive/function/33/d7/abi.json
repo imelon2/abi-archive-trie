@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "systemConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract SystemConfig"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

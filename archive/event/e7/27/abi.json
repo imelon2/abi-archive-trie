@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "OptimismMintableERC721Created",
+    "inputs": [
+      {
+        "name": "localToken",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "remoteToken",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "deployer",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

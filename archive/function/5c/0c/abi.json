@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "anchorStateRegistry",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "registry_",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

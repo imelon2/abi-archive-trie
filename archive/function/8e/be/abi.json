@@ -1,0 +1,33 @@
+[
+  {
+    "type": "function",
+    "name": "getClaimableInviteWithNewNonce",
+    "inputs": [
+      {
+        "name": "_issuer",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OptimistInviter.ClaimableInvite",
+        "components": [
+          {
+            "name": "issuer",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

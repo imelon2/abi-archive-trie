@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isOutputFinalized",
+    "inputs": [
+      {
+        "name": "_l2OutputIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

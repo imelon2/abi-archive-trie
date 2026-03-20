@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "addressManager",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract AddressManager"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

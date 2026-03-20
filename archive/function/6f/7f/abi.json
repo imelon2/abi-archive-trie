@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "enableCustomGasToken",
+    "inputs": [
+      {
+        "name": "_token",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

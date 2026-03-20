@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "resolve",
+    "inputs": [
+      {
+        "name": "challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "resolveData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

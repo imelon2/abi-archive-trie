@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setRecommended",
+    "inputs": [
+      {
+        "name": "_recommended",
+        "type": "uint256",
+        "internalType": "ProtocolVersion"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

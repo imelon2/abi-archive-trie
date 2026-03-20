@@ -1,0 +1,40 @@
+[
+  {
+    "type": "event",
+    "name": "RespectedGameTypeSet",
+    "inputs": [
+      {
+        "name": "newGameType",
+        "type": "uint32",
+        "indexed": true,
+        "internalType": "GameType"
+      },
+      {
+        "name": "updatedAt",
+        "type": "uint64",
+        "indexed": true,
+        "internalType": "Timestamp"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "RespectedGameTypeSet",
+    "inputs": [
+      {
+        "name": "gameType",
+        "type": "uint32",
+        "indexed": true,
+        "internalType": "GameType"
+      },
+      {
+        "name": "updatedAt",
+        "type": "uint64",
+        "indexed": true,
+        "internalType": "Timestamp"
+      }
+    ],
+    "anonymous": false
+  }
+]

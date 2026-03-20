@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "Move",
+    "inputs": [
+      {
+        "name": "parentIndex",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "claim",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "Claim"
+      },
+      {
+        "name": "claimant",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

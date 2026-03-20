@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "status",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum GameStatus"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "otherMessenger",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract CrossDomainMessenger"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

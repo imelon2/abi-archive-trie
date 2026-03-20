@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_disputeGameFactory",
+        "type": "address",
+        "internalType": "contract DisputeGameFactory"
+      },
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract SystemConfig"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      },
+      {
+        "name": "_initialRespectedGameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

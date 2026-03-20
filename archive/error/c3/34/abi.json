@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidDelayedAccPreimage",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "BadProposal",
+    "inputs": []
   }
 ]

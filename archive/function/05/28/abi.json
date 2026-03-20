@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "setBytes32",
+    "inputs": [
+      {
+        "name": "slots",
+        "type": "tuple[]",
+        "internalType": "struct StorageSetter.Slot[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "value",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

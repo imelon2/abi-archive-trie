@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "loadBlobPreimagePart",
+    "inputs": [
+      {
+        "name": "_z",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_y",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_commitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_proof",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_partOffset",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "checkWithdrawal",
+    "inputs": [
+      {
+        "name": "_withdrawalHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_proofSubmitter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

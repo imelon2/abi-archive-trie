@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "L1",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

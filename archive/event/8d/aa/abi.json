@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "WhitelistStatusChanged",
+    "inputs": [
+      {
+        "name": "deployer",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "whitelisted",
+        "type": "bool",
+        "indexed": false,
+        "internalType": "bool"
+      }
+    ],
+    "anonymous": false
+  }
+]

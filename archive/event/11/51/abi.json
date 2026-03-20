@@ -24,5 +24,18 @@
       }
     ],
     "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ChangedGuard",
+    "inputs": [
+      {
+        "name": "guard",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

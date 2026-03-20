@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "portal",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OptimismPortal"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

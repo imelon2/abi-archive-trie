@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setRespectedGameType",
+    "inputs": [
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

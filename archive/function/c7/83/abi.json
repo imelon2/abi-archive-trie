@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "loadInitializedSlot",
+    "inputs": [
+      {
+        "name": "_contractName",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "initialized_",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

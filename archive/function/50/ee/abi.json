@@ -1,0 +1,37 @@
+[
+  {
+    "type": "function",
+    "name": "claimInvite",
+    "inputs": [
+      {
+        "name": "_claimer",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_claimableInvite",
+        "type": "tuple",
+        "internalType": "struct OptimistInviter.ClaimableInvite",
+        "components": [
+          {
+            "name": "issuer",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_signature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

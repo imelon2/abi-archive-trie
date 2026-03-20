@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "consumeNonce",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

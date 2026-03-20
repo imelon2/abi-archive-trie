@@ -1,0 +1,43 @@
+[
+  {
+    "type": "function",
+    "name": "getSchema",
+    "inputs": [
+      {
+        "name": "uid",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct SchemaRecord",
+        "components": [
+          {
+            "name": "uid",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "resolver",
+            "type": "address",
+            "internalType": "contract ISchemaResolver"
+          },
+          {
+            "name": "revocable",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "schema",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

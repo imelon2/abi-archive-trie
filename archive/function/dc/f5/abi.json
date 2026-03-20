@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "hashOutputRootProof",
+    "inputs": [
+      {
+        "name": "_version",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_stateRoot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_messagePasserStorageRoot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_latestBlockhash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "absolutePrestate",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "absolutePrestate_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

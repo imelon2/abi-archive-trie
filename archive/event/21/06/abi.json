@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "WhatHappened",
+    "inputs": [
+      {
+        "name": "success",
+        "type": "bool",
+        "indexed": false,
+        "internalType": "bool"
+      },
+      {
+        "name": "returndata",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

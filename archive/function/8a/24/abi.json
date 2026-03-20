@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeDelayedWETH",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "type": "event",
+    "name": "Registered",
+    "inputs": [
+      {
+        "name": "uid",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "registerer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "schema",
+        "type": "tuple",
+        "indexed": false,
+        "internalType": "struct SchemaRecord",
+        "components": [
+          {
+            "name": "uid",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "resolver",
+            "type": "address",
+            "internalType": "contract ISchemaResolver"
+          },
+          {
+            "name": "revocable",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "schema",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      }
+    ],
+    "anonymous": false
+  }
+]

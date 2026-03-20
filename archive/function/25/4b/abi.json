@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "findLatestGames",
+    "inputs": [
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "_start",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_n",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "games_",
+        "type": "tuple[]",
+        "internalType": "struct IDisputeGameFactory.GameSearchResult[]",
+        "components": [
+          {
+            "name": "index",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "metadata",
+            "type": "bytes32",
+            "internalType": "GameId"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint64",
+            "internalType": "Timestamp"
+          },
+          {
+            "name": "rootClaim",
+            "type": "bytes32",
+            "internalType": "Claim"
+          },
+          {
+            "name": "extraData",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

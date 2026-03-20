@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "DEPOSITOR_ACCOUNT",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "addr_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

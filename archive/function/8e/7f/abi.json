@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeOptimismPortal",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

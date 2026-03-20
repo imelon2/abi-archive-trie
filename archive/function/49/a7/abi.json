@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "solver",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract GameSolver"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

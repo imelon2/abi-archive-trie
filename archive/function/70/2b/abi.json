@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "attest",
+    "inputs": [
+      {
+        "name": "_about",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_key",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_val",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

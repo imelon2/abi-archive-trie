@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setUpInlined",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

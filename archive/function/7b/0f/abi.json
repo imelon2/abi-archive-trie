@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "defend",
+    "inputs": [
+      {
+        "name": "_disputed",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "_parentIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_claim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "create",
+    "inputs": [
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "_rootClaim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "_extraData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "proxy_",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeSystemConfig",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

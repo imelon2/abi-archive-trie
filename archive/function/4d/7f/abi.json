@@ -1,0 +1,80 @@
+[
+  {
+    "type": "function",
+    "name": "drips",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "status",
+        "type": "uint8",
+        "internalType": "enum Drippie.DripStatus"
+      },
+      {
+        "name": "config",
+        "type": "tuple",
+        "internalType": "struct Drippie.DripConfig",
+        "components": [
+          {
+            "name": "reentrant",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "interval",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "dripcheck",
+            "type": "address",
+            "internalType": "contract IDripCheck"
+          },
+          {
+            "name": "checkparams",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "actions",
+            "type": "tuple[]",
+            "internalType": "struct Drippie.DripAction[]",
+            "components": [
+              {
+                "name": "target",
+                "type": "address",
+                "internalType": "address payable"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              },
+              {
+                "name": "value",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "last",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "count",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

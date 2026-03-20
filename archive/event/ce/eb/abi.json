@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "StandardL2TokenCreated",
+    "inputs": [
+      {
+        "name": "remoteToken",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "localToken",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

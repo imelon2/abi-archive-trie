@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "showLiveness",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

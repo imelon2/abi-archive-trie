@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "expectNoCall",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

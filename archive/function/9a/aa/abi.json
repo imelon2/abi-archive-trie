@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "proposeL2Output",
+    "inputs": [
+      {
+        "name": "_outputRoot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_l2BlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_l1BlockHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_l1BlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

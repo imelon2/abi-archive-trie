@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ConfigUpdate",
+    "inputs": [
+      {
+        "name": "updateType",
+        "type": "uint8",
+        "indexed": true,
+        "internalType": "enum SuperchainConfig.UpdateType"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "WITHDRAWAL_NETWORK",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum FeeVault.WithdrawalNetwork"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

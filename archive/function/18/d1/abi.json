@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setUnsafeBlockSigner",
+    "inputs": [
+      {
+        "name": "_unsafeBlockSigner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

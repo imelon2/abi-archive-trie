@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initLPP",
+    "inputs": [
+      {
+        "name": "_uuid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_partOffset",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "_claimedSize",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

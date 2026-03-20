@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setGasLimit",
+    "inputs": [
+      {
+        "name": "_gasLimit",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

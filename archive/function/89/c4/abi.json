@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "deleteL2Outputs",
+    "inputs": [
+      {
+        "name": "_l2OutputIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

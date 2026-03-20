@@ -1,0 +1,89 @@
+[
+  {
+    "type": "function",
+    "name": "step",
+    "inputs": [
+      {
+        "name": "_stateData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_proof",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_localContext",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "step",
+    "inputs": [
+      {
+        "name": "_stateData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_proof",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_localContext",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "postState_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "step",
+    "inputs": [
+      {
+        "name": "_stateData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_localContext",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "postState_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

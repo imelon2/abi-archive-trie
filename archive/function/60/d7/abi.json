@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "register",
+    "inputs": [
+      {
+        "name": "schema",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "resolver",
+        "type": "address",
+        "internalType": "contract ISchemaResolver"
+      },
+      {
+        "name": "revocable",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

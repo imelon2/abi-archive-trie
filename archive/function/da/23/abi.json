@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "transferDelayedWETHOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -11,5 +11,31 @@
     ],
     "name": "FailedRelayedMessage",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "FailedRelayedMessage",
+    "inputs": [
+      {
+        "name": "messageHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "FailedRelayedMessage",
+    "inputs": [
+      {
+        "name": "msgHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
   }
 ]

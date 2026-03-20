@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "target",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "target_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

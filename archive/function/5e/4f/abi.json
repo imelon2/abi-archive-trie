@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "OPTIMIST_INVITER",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

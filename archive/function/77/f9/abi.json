@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeSuperchainConfig",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

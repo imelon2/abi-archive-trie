@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "claimCredit",
+    "inputs": [
+      {
+        "name": "_recipient",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

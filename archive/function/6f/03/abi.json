@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "move",
+    "inputs": [
+      {
+        "name": "_disputed",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "_challengeIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_claim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "_isAttack",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

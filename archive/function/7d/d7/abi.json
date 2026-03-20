@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "transferDisputeGameFactoryOwnership",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidInputData",
+    "inputs": [
+      {
+        "name": "providedDataCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "expectedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

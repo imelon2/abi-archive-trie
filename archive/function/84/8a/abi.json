@@ -1,0 +1,48 @@
+[
+  {
+    "type": "function",
+    "name": "getChallenge",
+    "inputs": [
+      {
+        "name": "challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct Challenge",
+        "components": [
+          {
+            "name": "challenger",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "lockedBond",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "startBlock",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "resolvedBlock",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

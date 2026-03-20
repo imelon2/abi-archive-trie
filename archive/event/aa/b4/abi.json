@@ -24,5 +24,18 @@
       }
     ],
     "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "DisabledModule",
+    "inputs": [
+      {
+        "name": "module",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
   }
 ]

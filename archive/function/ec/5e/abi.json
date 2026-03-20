@@ -1,0 +1,60 @@
+[
+  {
+    "type": "function",
+    "name": "challengeFirstLPP",
+    "inputs": [
+      {
+        "name": "_claimant",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_uuid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_postState",
+        "type": "tuple",
+        "internalType": "struct PreimageOracle.Leaf",
+        "components": [
+          {
+            "name": "input",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "index",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "stateCommitment",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_postStateProof",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "splitDepth",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "splitDepth_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

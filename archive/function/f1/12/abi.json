@@ -83,5 +83,41 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "checkpoints",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "pos",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct ERC20Votes.Checkpoint",
+        "components": [
+          {
+            "name": "fromBlock",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "votes",
+            "type": "uint224",
+            "internalType": "uint224"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

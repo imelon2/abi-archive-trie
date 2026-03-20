@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "getBool",
+    "inputs": [
+      {
+        "name": "_slot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "value_",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "DELEGATECALL",
+    "inputs": [
+      {
+        "name": "_target",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "success_",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "data_",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

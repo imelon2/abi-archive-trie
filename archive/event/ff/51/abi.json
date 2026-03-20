@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ImplementationSet",
+    "inputs": [
+      {
+        "name": "impl",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "gameType",
+        "type": "uint32",
+        "indexed": true,
+        "internalType": "GameType"
+      }
+    ],
+    "anonymous": false
+  }
+]

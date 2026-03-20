@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeL1StandardBridge",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

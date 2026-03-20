@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "withdrawERC20",
+    "inputs": [
+      {
+        "name": "_asset",
+        "type": "address",
+        "internalType": "contract ERC20"
+      },
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_amount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

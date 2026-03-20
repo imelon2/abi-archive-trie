@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "proposalMetadata",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "LPPMetaData"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

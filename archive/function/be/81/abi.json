@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "livenessGuard",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "livenessGuard_",
+        "type": "address",
+        "internalType": "contract LivenessGuard"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

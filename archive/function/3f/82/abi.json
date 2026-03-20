@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "MESSAGE_VERSION",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint16",
+        "internalType": "uint16"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

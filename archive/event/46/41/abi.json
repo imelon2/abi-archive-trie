@@ -11,5 +11,31 @@
     ],
     "name": "RelayedMessage",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "RelayedMessage",
+    "inputs": [
+      {
+        "name": "messageHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "RelayedMessage",
+    "inputs": [
+      {
+        "name": "msgHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      }
+    ],
+    "anonymous": false
   }
 ]

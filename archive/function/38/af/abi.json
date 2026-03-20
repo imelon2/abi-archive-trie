@@ -37,5 +37,18 @@
     ],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "livenessInterval",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "livenessInterval_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "WithdrewETH",
+    "inputs": [
+      {
+        "name": "withdrawer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "recipient",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

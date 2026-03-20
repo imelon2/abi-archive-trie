@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "resolveClaim",
+    "inputs": [
+      {
+        "name": "_claimIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_numToResolve",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

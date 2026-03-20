@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnexpectedRootClaim",
+    "inputs": [
+      {
+        "name": "rootClaim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ]
+  }
+]

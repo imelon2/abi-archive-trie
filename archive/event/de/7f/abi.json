@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ExecutingMessage",
+    "inputs": [
+      {
+        "name": "encodedId",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      },
+      {
+        "name": "message",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

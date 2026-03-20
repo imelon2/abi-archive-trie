@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "gameCreator",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "creator_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

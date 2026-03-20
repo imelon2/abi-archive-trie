@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeL1CrossDomainMessenger",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

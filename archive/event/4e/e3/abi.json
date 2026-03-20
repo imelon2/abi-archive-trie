@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "OutputsDeleted",
+    "inputs": [
+      {
+        "name": "prevNextOutputIndex",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "newNextOutputIndex",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "transferProxyToProxyAdmin",
+    "inputs": [
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

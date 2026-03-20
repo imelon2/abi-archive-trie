@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "loadLocalData",
+    "inputs": [
+      {
+        "name": "_ident",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_localContext",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_word",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_size",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_partOffset",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "key_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

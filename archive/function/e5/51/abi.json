@@ -1,0 +1,64 @@
+[
+  {
+    "type": "function",
+    "name": "create",
+    "inputs": [
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_config",
+        "type": "tuple",
+        "internalType": "struct Drippie.DripConfig",
+        "components": [
+          {
+            "name": "reentrant",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "interval",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "dripcheck",
+            "type": "address",
+            "internalType": "contract IDripCheck"
+          },
+          {
+            "name": "checkparams",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "actions",
+            "type": "tuple[]",
+            "internalType": "struct Drippie.DripAction[]",
+            "components": [
+              {
+                "name": "target",
+                "type": "address",
+                "internalType": "address payable"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              },
+              {
+                "name": "value",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

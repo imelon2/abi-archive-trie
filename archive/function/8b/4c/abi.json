@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "donateETH",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

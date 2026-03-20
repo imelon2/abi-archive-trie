@@ -160,5 +160,41 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_messenger",
+        "type": "address",
+        "internalType": "contract CrossDomainMessenger"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_config",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

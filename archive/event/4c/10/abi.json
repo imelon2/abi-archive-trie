@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "Forwarded",
+    "inputs": [
+      {
+        "name": "callHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "data",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

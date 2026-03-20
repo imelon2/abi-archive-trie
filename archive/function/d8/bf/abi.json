@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "vetoer",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "vetoer_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

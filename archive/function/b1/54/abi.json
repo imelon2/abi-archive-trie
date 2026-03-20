@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isDeployerAllowed",
+    "inputs": [
+      {
+        "name": "_deployer",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

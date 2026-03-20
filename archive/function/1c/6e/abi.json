@@ -1,0 +1,33 @@
+[
+  {
+    "type": "function",
+    "name": "getDigest",
+    "inputs": [
+      {
+        "name": "_claimableInvite",
+        "type": "tuple",
+        "internalType": "struct OptimistInviter.ClaimableInvite",
+        "components": [
+          {
+            "name": "issuer",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

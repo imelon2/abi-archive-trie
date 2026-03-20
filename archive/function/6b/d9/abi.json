@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "proxyType",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum ProxyAdmin.ProxyType"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

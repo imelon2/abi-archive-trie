@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "RevokedOffchain",
+    "inputs": [
+      {
+        "name": "revoker",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "data",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "timestamp",
+        "type": "uint64",
+        "indexed": true,
+        "internalType": "uint64"
+      }
+    ],
+    "anonymous": false
+  }
+]

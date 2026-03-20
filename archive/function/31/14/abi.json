@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeImplementations",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

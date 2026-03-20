@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "OwnerRemovalFailed",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

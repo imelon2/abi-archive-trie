@@ -9,5 +9,26 @@
     ],
     "name": "ERC3156ExceededMaxLoan",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidCommitmentLength",
+    "inputs": [
+      {
+        "name": "commitmentType",
+        "type": "uint8",
+        "internalType": "uint8"
+      },
+      {
+        "name": "expectedLength",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "actualLength",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
   }
 ]

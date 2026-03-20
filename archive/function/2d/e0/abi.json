@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "symbolicStorage",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

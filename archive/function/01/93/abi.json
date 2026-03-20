@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "challengeRootL2Block",
+    "inputs": [
+      {
+        "name": "_outputRootProof",
+        "type": "tuple",
+        "internalType": "struct Types.OutputRootProof",
+        "components": [
+          {
+            "name": "version",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "stateRoot",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "messagePasserStorageRoot",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "latestBlockhash",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_headerRLP",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

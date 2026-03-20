@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "ChallengeStatusChanged",
+    "inputs": [
+      {
+        "name": "challengedBlockNumber",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "challengedCommitment",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      },
+      {
+        "name": "status",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "enum ChallengeStatus"
+      }
+    ],
+    "anonymous": false
+  }
+]

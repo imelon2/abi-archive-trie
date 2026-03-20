@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "passMessageToL1",
+    "inputs": [
+      {
+        "name": "_message",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

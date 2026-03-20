@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setupOpPlasma",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

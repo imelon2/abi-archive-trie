@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "enableInterop",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

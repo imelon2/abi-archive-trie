@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "oracle",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "oracle_",
+        "type": "address",
+        "internalType": "contract IPreimageOracle"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "oracle",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IPreimageOracle"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "NonceIncreased",
+    "inputs": [
+      {
+        "name": "oldNonce",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "newNonce",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

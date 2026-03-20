@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_required",
+        "type": "uint256",
+        "internalType": "ProtocolVersion"
+      },
+      {
+        "name": "_recommended",
+        "type": "uint256",
+        "internalType": "ProtocolVersion"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

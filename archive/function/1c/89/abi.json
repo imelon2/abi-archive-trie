@@ -1,0 +1,45 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_submissionInterval",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_l2BlockTime",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_startingBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_startingTimestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_proposer",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_challenger",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_finalizationPeriodSeconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

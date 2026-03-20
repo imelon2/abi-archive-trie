@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "startingRootHash",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "startingRootHash_",
+        "type": "bytes32",
+        "internalType": "Hash"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

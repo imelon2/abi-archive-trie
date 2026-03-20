@@ -1,0 +1,28 @@
+[
+  {
+    "type": "event",
+    "name": "DisputeGameBlacklisted",
+    "inputs": [
+      {
+        "name": "disputeGame",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "DisputeGameBlacklisted",
+    "inputs": [
+      {
+        "name": "game",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "anonymous": false
+  }
+]

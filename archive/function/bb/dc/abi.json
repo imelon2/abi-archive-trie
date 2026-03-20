@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "gameType",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "gameType_",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

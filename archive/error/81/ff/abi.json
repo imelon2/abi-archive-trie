@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnknownCommitmentType",
+    "inputs": [
+      {
+        "name": "commitmentType",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ]
+  }
+]

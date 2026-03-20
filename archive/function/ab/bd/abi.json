@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "proposeAnotherOutput",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

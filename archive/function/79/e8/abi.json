@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "getChallengeStatus",
+    "inputs": [
+      {
+        "name": "challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum ChallengeStatus"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

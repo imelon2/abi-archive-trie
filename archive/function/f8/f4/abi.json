@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "addLocalData",
+    "inputs": [
+      {
+        "name": "_ident",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_execLeafIdx",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_partOffset",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "superchainConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "superchainConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "superchainConfig_",
+        "type": "address",
+        "internalType": "contract SuperchainConfig"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

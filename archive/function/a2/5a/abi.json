@@ -1,0 +1,38 @@
+[
+  {
+    "type": "function",
+    "name": "getL2Output",
+    "inputs": [
+      {
+        "name": "_l2OutputIndex",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct Types.OutputProposal",
+        "components": [
+          {
+            "name": "outputRoot",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint128",
+            "internalType": "uint128"
+          },
+          {
+            "name": "l2BlockNumber",
+            "type": "uint128",
+            "internalType": "uint128"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

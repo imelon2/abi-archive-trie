@@ -8,3 +8,4 @@ root:
   - "node_modules/@account-abstraction/contracts-0.6.0/artifacts/"
   - "node_modules/@account-abstraction/contracts-0.7.0/artifacts/"
   - "node_modules/@account-abstraction/contracts-0.8.0/artifacts/"
+  - "node_modules/@eth-optimism/contracts-bedrock/forge-artifacts/**/**/"

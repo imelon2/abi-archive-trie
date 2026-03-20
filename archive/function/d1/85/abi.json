@@ -1,0 +1,86 @@
+[
+  {
+    "type": "function",
+    "name": "squeezeLPP",
+    "inputs": [
+      {
+        "name": "_claimant",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_uuid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_stateMatrix",
+        "type": "tuple",
+        "internalType": "struct LibKeccak.StateMatrix",
+        "components": [
+          {
+            "name": "state",
+            "type": "uint64[25]",
+            "internalType": "uint64[25]"
+          }
+        ]
+      },
+      {
+        "name": "_preState",
+        "type": "tuple",
+        "internalType": "struct PreimageOracle.Leaf",
+        "components": [
+          {
+            "name": "input",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "index",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "stateCommitment",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_preStateProof",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      },
+      {
+        "name": "_postState",
+        "type": "tuple",
+        "internalType": "struct PreimageOracle.Leaf",
+        "components": [
+          {
+            "name": "input",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "index",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "stateCommitment",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_postStateProof",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "enableFaultProofs",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

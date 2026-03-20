@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "SentMessage",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": true
+  }
+]

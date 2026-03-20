@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "computeL2Timestamp",
+    "inputs": [
+      {
+        "name": "_l2BlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

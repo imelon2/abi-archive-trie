@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "params",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "prevBaseFee",
+        "type": "uint128",
+        "internalType": "uint128"
+      },
+      {
+        "name": "prevBoughtGas",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "prevBlockNum",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

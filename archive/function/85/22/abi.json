@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "targetArtifacts",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "targetedArtifacts_",
+        "type": "string[]",
+        "internalType": "string[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

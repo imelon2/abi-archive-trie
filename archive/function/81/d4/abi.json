@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeProtocolVersions",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

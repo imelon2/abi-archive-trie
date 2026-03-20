@@ -1,0 +1,39 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_startingAnchorRoots",
+        "type": "tuple[]",
+        "internalType": "struct AnchorStateRegistry.StartingAnchorRoot[]",
+        "components": [
+          {
+            "name": "gameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          },
+          {
+            "name": "outputRoot",
+            "type": "tuple",
+            "internalType": "struct OutputRoot",
+            "components": [
+              {
+                "name": "root",
+                "type": "bytes32",
+                "internalType": "Hash"
+              },
+              {
+                "name": "l2BlockNumber",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

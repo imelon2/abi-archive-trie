@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "gameImpls",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

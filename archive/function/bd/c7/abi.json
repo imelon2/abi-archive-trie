@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "enableArbitraryContractDeployment",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

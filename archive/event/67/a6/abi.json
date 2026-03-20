@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "WithdrawalProven",
+    "inputs": [
+      {
+        "name": "withdrawalHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "from",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "to",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

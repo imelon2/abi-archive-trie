@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "FfiFailed",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

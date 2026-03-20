@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "resolutionCheckpoints",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "initialCheckpointComplete",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "subgameIndex",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "leftmostPosition",
+        "type": "uint128",
+        "internalType": "Position"
+      },
+      {
+        "name": "counteredBy",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

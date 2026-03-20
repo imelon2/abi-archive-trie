@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidResolverRefundPercentage",
+    "inputs": [
+      {
+        "name": "invalidResolverRefundPercentage",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ]
+  }
+]

@@ -12,5 +12,12 @@
     "outputs": [],
     "stateMutability": "pure",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "unpause",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

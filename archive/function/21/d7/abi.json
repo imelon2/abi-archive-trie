@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setGasConfigEcotone",
+    "inputs": [
+      {
+        "name": "_basefeeScalar",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "_blobbasefeeScalar",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

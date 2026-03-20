@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "deputyGuardian",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "deputyGuardian_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

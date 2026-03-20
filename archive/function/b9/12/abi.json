@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "queuedAt",
+    "inputs": [
+      {
+        "name": "callHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "queuedAt_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

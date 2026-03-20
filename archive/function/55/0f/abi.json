@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "gasPayingTokenSymbol",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "symbol_",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "gasPayingTokenSymbol",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

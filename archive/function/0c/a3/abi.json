@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "recover",
+    "inputs": [
+      {
+        "name": "_wad",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

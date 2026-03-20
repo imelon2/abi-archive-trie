@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "BASE_URI_ATTESTATION_KEY",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

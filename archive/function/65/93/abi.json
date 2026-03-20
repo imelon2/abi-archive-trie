@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "initBonds",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

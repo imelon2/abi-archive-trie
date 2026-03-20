@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "initiator",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "initiator_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

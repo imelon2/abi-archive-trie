@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setRespectedGameType",
+    "inputs": [
+      {
+        "name": "_portal",
+        "type": "address",
+        "internalType": "contract OptimismPortal2"
+      },
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "excludeSenders",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "excludedSenders_",
+        "type": "address[]",
+        "internalType": "address[]"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

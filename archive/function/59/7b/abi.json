@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeL2OutputOracle",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

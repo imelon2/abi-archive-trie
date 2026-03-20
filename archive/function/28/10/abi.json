@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "resolve",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "status_",
+        "type": "uint8",
+        "internalType": "enum GameStatus"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "createdAt",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "Timestamp"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

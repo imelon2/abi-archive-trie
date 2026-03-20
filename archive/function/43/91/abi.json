@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "peel",
+    "inputs": [
+      {
+        "name": "_layers",
+        "type": "tuple[]",
+        "internalType": "struct TransferOnion.Layer[]",
+        "components": [
+          {
+            "name": "recipient",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "amount",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "shell",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "l1Head",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "l1Head_",
+        "type": "bytes32",
+        "internalType": "Hash"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

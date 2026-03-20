@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "deployImplementations",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "GameAlreadyExists",
+    "inputs": [
+      {
+        "name": "uuid",
+        "type": "bytes32",
+        "internalType": "Hash"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "getCannonMemoryProof",
+    "inputs": [
+      {
+        "name": "pc",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "insn",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "memAddr",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "memVal",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

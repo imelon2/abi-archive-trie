@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "l2BlockNumberChallenged",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

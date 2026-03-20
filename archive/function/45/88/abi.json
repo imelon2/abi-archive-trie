@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "disputeGameBlacklist",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

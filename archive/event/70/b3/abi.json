@@ -17,5 +17,35 @@
     ],
     "name": "RefundAddresses",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "_EventToExposeStructInABI__Params",
+    "inputs": [
+      {
+        "name": "params",
+        "type": "tuple",
+        "indexed": false,
+        "internalType": "struct CheckGelatoLow.Params",
+        "components": [
+          {
+            "name": "treasury",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "threshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "recipient",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "anonymous": false
   }
 ]

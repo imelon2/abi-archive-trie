@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "MIN_GAS_CALLDATA_OVERHEAD",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

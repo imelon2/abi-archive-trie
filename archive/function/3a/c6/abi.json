@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setupSuperchain",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "encodeScalarEcotone",
+    "inputs": [
+      {
+        "name": "_basefeeScalar",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "_blobbasefeeScalar",
+        "type": "uint32",
+        "internalType": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

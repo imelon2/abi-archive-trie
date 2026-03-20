@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "governanceToken",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract GovernanceToken"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

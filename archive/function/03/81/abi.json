@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "runKontrolDeploymentFaultProofs",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

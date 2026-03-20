@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "configure",
+    "inputs": [
+      {
+        "name": "_module",
+        "type": "address",
+        "internalType": "contract IFaucetAuthModule"
+      },
+      {
+        "name": "_config",
+        "type": "tuple",
+        "internalType": "struct Faucet.ModuleConfig",
+        "components": [
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "ttl",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "amount",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

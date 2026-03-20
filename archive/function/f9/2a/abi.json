@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_challengeWindow",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_resolveWindow",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_bondSize",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_resolverRefundPercentage",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

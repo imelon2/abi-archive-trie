@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "InitBondUpdated",
+    "inputs": [
+      {
+        "name": "gameType",
+        "type": "uint32",
+        "indexed": true,
+        "internalType": "GameType"
+      },
+      {
+        "name": "newBond",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

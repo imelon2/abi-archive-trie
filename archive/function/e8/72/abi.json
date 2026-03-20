@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "newDeployments",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct Deployment[]",
+        "components": [
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "addr",
+            "type": "address",
+            "internalType": "address payable"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

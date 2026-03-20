@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "optimismMintableERC20Factory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "addr_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

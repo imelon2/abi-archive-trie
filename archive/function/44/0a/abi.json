@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setL1BlockValuesEcotone",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

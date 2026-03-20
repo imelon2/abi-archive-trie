@@ -25,6 +25,7 @@
     "@types/node": "^25.3.3"
   },
   "dependencies": {
+    "@eth-optimism/contracts-bedrock": "^0.17.3",
     "ethers": "^6.16.0",
     "glob": "^13.0.6",
     "js-yaml": "^4.1.1",

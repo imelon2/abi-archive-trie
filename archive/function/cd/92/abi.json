@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "initializeOptimismMintableERC20Factory",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "post",
+    "inputs": [
+      {
+        "name": "_po",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

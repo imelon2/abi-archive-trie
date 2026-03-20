@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "Resolved",
+    "inputs": [
+      {
+        "name": "status",
+        "type": "uint8",
+        "indexed": true,
+        "internalType": "enum GameStatus"
+      }
+    ],
+    "anonymous": false
+  }
+]

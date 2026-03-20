@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "getDigestWithEIP712Domain",
+    "inputs": [
+      {
+        "name": "_proof",
+        "type": "tuple",
+        "internalType": "struct AdminFaucetAuthModule.Proof",
+        "components": [
+          {
+            "name": "recipient",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "nonce",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "id",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ]
+      },
+      {
+        "name": "_name",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_version",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_chainid",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_verifyingContract",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "solveGame",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "moves_",
+        "type": "tuple[]",
+        "internalType": "struct GameSolver.Move[]",
+        "components": [
+          {
+            "name": "kind",
+            "type": "uint8",
+            "internalType": "enum GameSolver.MoveKind"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "DripStatusUpdated",
+    "inputs": [
+      {
+        "name": "nameref",
+        "type": "string",
+        "indexed": true,
+        "internalType": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "indexed": false,
+        "internalType": "string"
+      },
+      {
+        "name": "status",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "enum Drippie.DripStatus"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "allowCallsToAddress",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]
