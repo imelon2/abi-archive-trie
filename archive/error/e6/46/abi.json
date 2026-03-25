@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidRoleAddress",
+    "inputs": [
+      {
+        "name": "role",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

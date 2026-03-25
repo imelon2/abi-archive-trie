@@ -1,0 +1,107 @@
+[
+  {
+    "type": "function",
+    "name": "implementations",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OPContractsManager.Implementations",
+        "components": [
+          {
+            "name": "superchainConfigImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "protocolVersionsImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1ERC721BridgeImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismPortalImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismPortalInteropImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ethLockboxImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "systemConfigImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismMintableERC20FactoryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1CrossDomainMessengerImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1StandardBridgeImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "disputeGameFactoryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "anchorStateRegistryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "delayedWETHImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "mipsImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "faultDisputeGameV2Impl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "permissionedDisputeGameV2Impl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "superFaultDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "superPermissionedDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

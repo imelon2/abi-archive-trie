@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnsupportedERCVersion",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ]
+  }
+]

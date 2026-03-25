@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "SuperchainConfigMismatch",
+    "inputs": [
+      {
+        "name": "systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ]
+  }
+]

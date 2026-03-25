@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidContractAddress",
+    "inputs": [
+      {
+        "name": "_who",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

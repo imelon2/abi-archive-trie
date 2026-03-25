@@ -1,0 +1,95 @@
+[
+  {
+    "type": "function",
+    "name": "addGameType",
+    "inputs": [
+      {
+        "name": "_gameConfigs",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManager.AddGameInput[]",
+        "components": [
+          {
+            "name": "saltMixer",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "delayedWETH",
+            "type": "address",
+            "internalType": "contract IDelayedWETH"
+          },
+          {
+            "name": "disputeGameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          },
+          {
+            "name": "disputeAbsolutePrestate",
+            "type": "bytes32",
+            "internalType": "Claim"
+          },
+          {
+            "name": "disputeMaxGameDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "disputeSplitDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "disputeClockExtension",
+            "type": "uint64",
+            "internalType": "Duration"
+          },
+          {
+            "name": "disputeMaxClockDuration",
+            "type": "uint64",
+            "internalType": "Duration"
+          },
+          {
+            "name": "initialBond",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "vm",
+            "type": "address",
+            "internalType": "contract IBigStepper"
+          },
+          {
+            "name": "permissioned",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManager.AddGameOutput[]",
+        "components": [
+          {
+            "name": "delayedWETH",
+            "type": "address",
+            "internalType": "contract IDelayedWETH"
+          },
+          {
+            "name": "faultDisputeGame",
+            "type": "address",
+            "internalType": "contract IFaultDisputeGame"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

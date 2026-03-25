@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "Deployed",
+    "inputs": [
+      {
+        "name": "l2ChainId",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "deployer",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "deployOutput",
+        "type": "bytes",
+        "indexed": false,
+        "internalType": "bytes"
+      }
+    ],
+    "anonymous": false
+  }
+]

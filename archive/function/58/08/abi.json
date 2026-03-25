@@ -1,0 +1,103 @@
+[
+  {
+    "type": "function",
+    "name": "migrate",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerInteropMigrator.MigrateInput",
+        "components": [
+          {
+            "name": "usePermissionlessGame",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "startingAnchorRoot",
+            "type": "tuple",
+            "internalType": "struct Proposal",
+            "components": [
+              {
+                "name": "root",
+                "type": "bytes32",
+                "internalType": "Hash"
+              },
+              {
+                "name": "l2SequenceNumber",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "gameParameters",
+            "type": "tuple",
+            "internalType": "struct OPContractsManagerInteropMigrator.GameParameters",
+            "components": [
+              {
+                "name": "proposer",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "challenger",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "maxGameDepth",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "splitDepth",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "clockExtension",
+                "type": "uint64",
+                "internalType": "Duration"
+              },
+              {
+                "name": "maxClockDuration",
+                "type": "uint64",
+                "internalType": "Duration"
+              }
+            ]
+          },
+          {
+            "name": "opChainConfigs",
+            "type": "tuple[]",
+            "internalType": "struct OPContractsManager.OpChainConfig[]",
+            "components": [
+              {
+                "name": "systemConfigProxy",
+                "type": "address",
+                "internalType": "contract ISystemConfig"
+              },
+              {
+                "name": "cannonPrestate",
+                "type": "bytes32",
+                "internalType": "Claim"
+              },
+              {
+                "name": "cannonKonaPrestate",
+                "type": "bytes32",
+                "internalType": "Claim"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "opcmUpgrader",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OPContractsManagerUpgrader"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

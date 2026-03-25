@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "upgradeSuperchainConfig",
+    "inputs": [
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract ISuperchainConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

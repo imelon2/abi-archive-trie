@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "upgrade",
+    "inputs": [
+      {
+        "name": "_opChainConfigs",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManager.OpChainConfig[]",
+        "components": [
+          {
+            "name": "systemConfigProxy",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "cannonPrestate",
+            "type": "bytes32",
+            "internalType": "Claim"
+          },
+          {
+            "name": "cannonKonaPrestate",
+            "type": "bytes32",
+            "internalType": "Claim"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

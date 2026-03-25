@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "blueprints",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OPContractsManager.Blueprints",
+        "components": [
+          {
+            "name": "addressManager",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "proxy",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "proxyAdmin",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1ChugSplashProxy",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "resolvedDelegateProxy",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

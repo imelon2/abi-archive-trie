@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "Upgraded",
+    "inputs": [
+      {
+        "name": "l2ChainId",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      },
+      {
+        "name": "systemConfig",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "upgrader",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "InvalidDevFeatureAccess",
+    "inputs": [
+      {
+        "name": "devFeature",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
+  }
+]

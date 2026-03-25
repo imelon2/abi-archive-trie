@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "AddressNotFound",
+    "inputs": [
+      {
+        "name": "who",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

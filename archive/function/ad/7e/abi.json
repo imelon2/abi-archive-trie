@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "preimageOracleVersion",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

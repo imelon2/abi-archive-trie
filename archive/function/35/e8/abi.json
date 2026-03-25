@@ -24,5 +24,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "superchainConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract ISuperchainConfig"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

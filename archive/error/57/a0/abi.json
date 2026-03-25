@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "UnexpectedPreambleData",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

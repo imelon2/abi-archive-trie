@@ -1,0 +1,32 @@
+[
+  {
+    "type": "function",
+    "name": "updatePrestate",
+    "inputs": [
+      {
+        "name": "_prestateUpdateInputs",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManager.UpdatePrestateInput[]",
+        "components": [
+          {
+            "name": "systemConfigProxy",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "cannonPrestate",
+            "type": "bytes32",
+            "internalType": "Claim"
+          },
+          {
+            "name": "cannonKonaPrestate",
+            "type": "bytes32",
+            "internalType": "Claim"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

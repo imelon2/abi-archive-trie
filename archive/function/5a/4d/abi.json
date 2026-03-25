@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "contractsContainer",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OPContractsManagerContractsContainer"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

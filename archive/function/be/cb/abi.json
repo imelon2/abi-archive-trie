@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "opcmGameTypeAdder",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OPContractsManagerGameTypeAdder"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]
