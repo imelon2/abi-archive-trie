@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setL1BlockValuesIsthmus",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

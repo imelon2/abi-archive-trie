@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setL1BlockValuesJovian",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]
