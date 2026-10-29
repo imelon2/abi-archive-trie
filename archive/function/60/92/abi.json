@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "clearLivenessModule",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

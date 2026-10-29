@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "migrateLiquidity",
+    "inputs": [
+      {
+        "name": "_lockbox",
+        "type": "address",
+        "internalType": "contract IETHLockbox"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

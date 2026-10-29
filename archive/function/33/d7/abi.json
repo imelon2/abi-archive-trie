@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "systemConfig",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

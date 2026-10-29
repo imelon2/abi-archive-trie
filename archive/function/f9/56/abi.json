@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_bridge",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_remoteChainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_remoteToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_symbol",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

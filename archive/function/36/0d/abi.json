@@ -1,0 +1,56 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidDelayedWETH",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_sysCfg",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "_weth",
+        "type": "address",
+        "internalType": "contract IDelayedWETH"
+      },
+      {
+        "name": "_admin",
+        "type": "address",
+        "internalType": "contract IProxyAdmin"
+      },
+      {
+        "name": "_l1PAOMultisig",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_delayedWETHImpl",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_withdrawalDelaySeconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_errorPrefix",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "maxProveDuration",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "maxProveDuration_",
+        "type": "uint64",
+        "internalType": "Duration"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

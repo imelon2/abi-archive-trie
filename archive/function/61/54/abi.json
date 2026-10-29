@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "skipIfForkTest",
+    "inputs": [
+      {
+        "name": "message",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

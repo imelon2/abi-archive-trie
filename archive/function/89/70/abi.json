@@ -66,5 +66,73 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "validateWithOverrides",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerStandardValidator.ValidationInputDev",
+        "components": [
+          {
+            "name": "sysCfg",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "cannonPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "cannonKonaPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "l2ChainID",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "proposer",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      },
+      {
+        "name": "_allowFailure",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "_overrides",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerStandardValidator.ValidationOverrides",
+        "components": [
+          {
+            "name": "l1PAOMultisig",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "challenger",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

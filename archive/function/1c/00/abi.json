@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

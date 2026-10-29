@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "authorizePortal",
+    "inputs": [
+      {
+        "name": "_portal",
+        "type": "address",
+        "internalType": "contract IOptimismPortal2"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

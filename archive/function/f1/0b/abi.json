@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "getSchemaRegistry",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract ISchemaRegistry"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

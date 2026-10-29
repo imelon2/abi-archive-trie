@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "DeputyPauseModule_ExecutionFailed",
+    "inputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

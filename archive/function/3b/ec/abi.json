@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "computeSalt",
+    "inputs": [
+      {
+        "name": "_l2ChainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_saltMixer",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_contractName",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

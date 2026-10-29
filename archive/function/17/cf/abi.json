@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setAnchorState",
+    "inputs": [
+      {
+        "name": "_game",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

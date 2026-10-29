@@ -1,0 +1,52 @@
+[
+  {
+    "type": "event",
+    "name": "TransactionScheduled",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract Safe"
+      },
+      {
+        "name": "txHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "executionTime",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "TransactionScheduled",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract ISafe"
+      },
+      {
+        "name": "txHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "executionTime",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

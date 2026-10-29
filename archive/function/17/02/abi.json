@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "verifierType",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

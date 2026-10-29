@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "cancelTransaction",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract Safe"
+      },
+      {
+        "name": "_txHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_nonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_signatures",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "cancelTransaction",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract ISafe"
+      },
+      {
+        "name": "_txHash",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_nonce",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_signatures",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "makeGameArgs",
+    "inputs": [
+      {
+        "name": "_l2ChainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_anchorStateRegistry",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      },
+      {
+        "name": "_delayedWETH",
+        "type": "address",
+        "internalType": "contract IDelayedWETH"
+      },
+      {
+        "name": "_gcfg",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig",
+        "components": [
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "initBond",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          },
+          {
+            "name": "gameArgs",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

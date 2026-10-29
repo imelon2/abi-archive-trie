@@ -16,5 +16,34 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "getUnresolvedGames",
+    "inputs": [
+      {
+        "name": "_factory",
+        "type": "address",
+        "internalType": "contract IDisputeGameFactory"
+      },
+      {
+        "name": "_creationRangeStart",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_creationRangeEnd",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "unresolvedGames_",
+        "type": "address[]",
+        "internalType": "contract IDisputeGame[]"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

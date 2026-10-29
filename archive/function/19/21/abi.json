@@ -1,0 +1,35 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_guardianSafe",
+        "type": "address",
+        "internalType": "contract Safe"
+      },
+      {
+        "name": "_foundationSafe",
+        "type": "address",
+        "internalType": "contract Safe"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract ISuperchainConfig"
+      },
+      {
+        "name": "_deputy",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_deputySignature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

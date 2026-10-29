@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "popError",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

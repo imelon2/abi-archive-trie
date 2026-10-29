@@ -1,0 +1,64 @@
+[
+  {
+    "type": "function",
+    "name": "livenessSafeConfiguration",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract Safe"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct LivenessModule2.ModuleConfig",
+        "components": [
+          {
+            "name": "livenessResponsePeriod",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fallbackOwner",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "livenessSafeConfiguration",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract ISafe"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct ILivenessModule2.ModuleConfig",
+        "components": [
+          {
+            "name": "livenessResponsePeriod",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fallbackOwner",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -23,5 +23,30 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "targetArtifactSelectors",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "targetedArtifactSelectors_",
+        "type": "tuple[]",
+        "internalType": "struct StdInvariant.FuzzArtifactSelector[]",
+        "components": [
+          {
+            "name": "artifact",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "selectors",
+            "type": "bytes4[]",
+            "internalType": "bytes4[]"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

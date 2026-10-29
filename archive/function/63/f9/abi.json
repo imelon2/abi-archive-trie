@@ -1,0 +1,38 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_ownerAddr",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_token",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_upgrader",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_governanceToken",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

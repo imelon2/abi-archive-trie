@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "setIsthmus",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

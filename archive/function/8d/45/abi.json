@@ -11,5 +11,31 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "absolutePrestate",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "absolutePrestate_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "absolutePrestate",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "absolutePrestate_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

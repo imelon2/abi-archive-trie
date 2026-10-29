@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "SuperchainConfig_NotAlreadyPaused",
+    "inputs": [
+      {
+        "name": "identifier",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

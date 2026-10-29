@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "stakingData",
+    "inputs": [
+      {
+        "name": "account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "stakedAmount",
+        "type": "uint128",
+        "internalType": "uint128"
+      },
+      {
+        "name": "beneficiary",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

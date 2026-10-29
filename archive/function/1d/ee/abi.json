@@ -1,0 +1,94 @@
+[
+  {
+    "type": "function",
+    "name": "loadBytes",
+    "inputs": [
+      {
+        "name": "_source",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "loadBytes",
+    "inputs": [
+      {
+        "name": "_source",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

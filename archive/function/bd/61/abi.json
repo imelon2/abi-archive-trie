@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "simulate",
+    "inputs": [
+      {
+        "name": "targetContract",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "calldataPayload",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "response",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -61,5 +61,257 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "checkTransaction",
+    "inputs": [
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_operation",
+        "type": "uint8",
+        "internalType": "enum Enum.Operation"
+      },
+      {
+        "name": "_safeTxGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_baseGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasPrice",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_refundReceiver",
+        "type": "address",
+        "internalType": "address payable"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_msgSender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "checkTransaction",
+    "inputs": [
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_operation",
+        "type": "uint8",
+        "internalType": "enum Enum.Operation"
+      },
+      {
+        "name": "_safeTxGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_baseGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasPrice",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_refundReceiver",
+        "type": "address",
+        "internalType": "address payable"
+      },
+      {
+        "name": "_signatures",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_msgSender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "checkTransaction",
+    "inputs": [
+      {
+        "name": "_to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_value",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_operation",
+        "type": "uint8",
+        "internalType": "enum IEnum.Operation"
+      },
+      {
+        "name": "_safeTxGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_baseGas",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasPrice",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_gasToken",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_refundReceiver",
+        "type": "address",
+        "internalType": "address payable"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_msgSender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "checkTransaction",
+    "inputs": [
+      {
+        "name": "to",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "value",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum Enum.Operation"
+      },
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address payable"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "msgSender",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

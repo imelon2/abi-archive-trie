@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "foundationSafe",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "foundationSafe_",
+        "type": "address",
+        "internalType": "contract Safe"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

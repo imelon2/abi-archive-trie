@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_minProposalSize",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_challengePeriod",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

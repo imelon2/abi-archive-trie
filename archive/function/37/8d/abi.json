@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "bondDistributionMode",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum BondDistributionMode"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

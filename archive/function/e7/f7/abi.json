@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isPermittedUpgradeSequence",
+    "inputs": [
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ETHUnlocked",
+    "inputs": [
+      {
+        "name": "portal",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IOptimismPortal2"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

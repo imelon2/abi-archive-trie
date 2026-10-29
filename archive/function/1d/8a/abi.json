@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "devFeatureBitmap",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "bitmap_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

@@ -11,5 +11,18 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setAddressManager",
+    "inputs": [
+      {
+        "name": "_address",
+        "type": "address",
+        "internalType": "contract IAddressManager"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

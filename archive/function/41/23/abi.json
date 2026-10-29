@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_proofMaturityDelaySeconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_delay",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_disputeGameFinalityDelaySeconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

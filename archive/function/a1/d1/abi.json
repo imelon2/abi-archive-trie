@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "enableAltDA",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

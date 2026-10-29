@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "OPContractsManagerUtils_DowngradeNotAllowed",
+    "inputs": [
+      {
+        "name": "_contract",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

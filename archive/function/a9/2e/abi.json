@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "skipIfCoverage",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

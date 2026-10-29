@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "anchorGame",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

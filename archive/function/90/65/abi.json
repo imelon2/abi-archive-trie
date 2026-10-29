@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_gasPayingTokenName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_gasPayingTokenSymbol",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

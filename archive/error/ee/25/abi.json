@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "FeatureFlags_UnknownFeature",
+    "inputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ]
+  }
+]

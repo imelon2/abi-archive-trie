@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidProxyAdmin",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_admin",
+        "type": "address",
+        "internalType": "contract IProxyAdmin"
+      },
+      {
+        "name": "_l1PAOMultisig",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

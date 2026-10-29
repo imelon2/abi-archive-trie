@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "GameClosed",
+    "inputs": [
+      {
+        "name": "bondDistributionMode",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "enum BondDistributionMode"
+      }
+    ],
+    "anonymous": false
+  }
+]

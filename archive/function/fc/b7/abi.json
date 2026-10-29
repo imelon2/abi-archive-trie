@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "removeOwnerWrapped",
+    "inputs": [
+      {
+        "name": "prevOwner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "owner",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

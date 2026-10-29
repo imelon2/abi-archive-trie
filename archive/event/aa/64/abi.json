@@ -1,0 +1,27 @@
+[
+  {
+    "type": "event",
+    "name": "PauseTriggered",
+    "inputs": [
+      {
+        "name": "deputy",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "nonce",
+        "type": "bytes32",
+        "indexed": false,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "identifier",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

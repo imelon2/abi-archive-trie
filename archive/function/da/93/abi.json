@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "pauseMessageTypehash",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "pauseMessageTypehash_",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

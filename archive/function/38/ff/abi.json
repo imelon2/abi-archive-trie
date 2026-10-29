@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "crossDomainMessageSender",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "sender_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "returnIfForkTest",
+    "inputs": [
+      {
+        "name": "message",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

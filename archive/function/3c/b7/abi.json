@@ -24,5 +24,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "messenger",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract ICrossDomainMessenger"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

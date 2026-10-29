@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "migrateLiquidity",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

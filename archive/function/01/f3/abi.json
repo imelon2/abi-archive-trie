@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "opcmMigrator",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerMigrator"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

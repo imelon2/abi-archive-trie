@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "maxChallengeDuration",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "maxChallengeDuration_",
+        "type": "uint64",
+        "internalType": "Duration"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

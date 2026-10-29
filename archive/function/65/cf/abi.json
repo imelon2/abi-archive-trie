@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "configureTimelockGuard",
+    "inputs": [
+      {
+        "name": "_timelockDelay",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

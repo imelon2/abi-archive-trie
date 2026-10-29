@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setBatcherHash",
+    "inputs": [
+      {
+        "name": "_batcher",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

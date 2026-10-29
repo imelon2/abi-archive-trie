@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "Proved",
+    "inputs": [
+      {
+        "name": "prover",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

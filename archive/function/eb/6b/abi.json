@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "resolveFeaturesFromEnv",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

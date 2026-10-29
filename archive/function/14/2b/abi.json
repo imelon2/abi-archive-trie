@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "pause",
+    "inputs": [
+      {
+        "name": "_nonce",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_identifier",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_signature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

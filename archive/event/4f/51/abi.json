@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ProxyCreation",
+    "inputs": [
+      {
+        "name": "proxy",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract SafeProxy"
+      },
+      {
+        "name": "singleton",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

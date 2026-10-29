@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "addressManager",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IAddressManager"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

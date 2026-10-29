@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setSystemConfig",
+    "inputs": [
+      {
+        "name": "_sysCfg",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

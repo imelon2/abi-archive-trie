@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "upgradePredeploys",
+    "inputs": [
+      {
+        "name": "_l2ContractsManager",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

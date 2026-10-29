@@ -1,0 +1,64 @@
+[
+  {
+    "type": "event",
+    "name": "PortalMigrated",
+    "inputs": [
+      {
+        "name": "oldLockbox",
+        "type": "address",
+        "indexed": false,
+        "internalType": "contract IETHLockbox"
+      },
+      {
+        "name": "newLockbox",
+        "type": "address",
+        "indexed": false,
+        "internalType": "contract IETHLockbox"
+      },
+      {
+        "name": "oldAnchorStateRegistry",
+        "type": "address",
+        "indexed": false,
+        "internalType": "contract IAnchorStateRegistry"
+      },
+      {
+        "name": "newAnchorStateRegistry",
+        "type": "address",
+        "indexed": false,
+        "internalType": "contract IAnchorStateRegistry"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "PortalMigrated",
+    "inputs": [
+      {
+        "name": "oldLockbox",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newLockbox",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "oldAnchorStateRegistry",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newAnchorStateRegistry",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

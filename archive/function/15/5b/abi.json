@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setOperatorFeeScalars",
+    "inputs": [
+      {
+        "name": "_operatorFeeScalar",
+        "type": "uint32",
+        "internalType": "uint32"
+      },
+      {
+        "name": "_operatorFeeConstant",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

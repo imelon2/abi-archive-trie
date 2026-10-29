@@ -1,0 +1,51 @@
+[
+  {
+    "type": "function",
+    "name": "getCannonMemory64Proof",
+    "inputs": [
+      {
+        "name": "addr0",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "value0",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "addr1",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "value1",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "memAddr2",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "memVal2",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "type": "function",
+    "name": "migrate",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerMigrator.MigrateInput",
+        "components": [
+          {
+            "name": "chainSystemConfigs",
+            "type": "address[]",
+            "internalType": "contract ISystemConfig[]"
+          },
+          {
+            "name": "disputeGameConfigs",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig[]",
+            "components": [
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "gameArgs",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "startingAnchorRoot",
+            "type": "tuple",
+            "internalType": "struct Proposal",
+            "components": [
+              {
+                "name": "root",
+                "type": "bytes32",
+                "internalType": "Hash"
+              },
+              {
+                "name": "l2SequenceNumber",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "startingRespectedGameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "migrate",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerMigrator.MigrateInput",
+        "components": [
+          {
+            "name": "chainSystemConfigs",
+            "type": "address[]",
+            "internalType": "contract ISystemConfig[]"
+          },
+          {
+            "name": "disputeGameConfigs",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig[]",
+            "components": [
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "gameArgs",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "startingAnchorRoot",
+            "type": "tuple",
+            "internalType": "struct Proposal",
+            "components": [
+              {
+                "name": "root",
+                "type": "bytes32",
+                "internalType": "Hash"
+              },
+              {
+                "name": "l2SequenceNumber",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ]
+          },
+          {
+            "name": "startingRespectedGameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

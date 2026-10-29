@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "l2SequenceNumber",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "l2SequenceNumber_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

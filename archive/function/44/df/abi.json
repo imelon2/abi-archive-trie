@@ -12,5 +12,12 @@
     "inputs": [],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "burn",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "payable"
   }
 ]

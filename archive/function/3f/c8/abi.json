@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "weth",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "weth_",
+        "type": "address",
+        "internalType": "contract IDelayedWETH"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

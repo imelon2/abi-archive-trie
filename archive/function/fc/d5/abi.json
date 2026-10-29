@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "opcmUtils",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerUtils"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

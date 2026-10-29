@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "lockETH",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "payable"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "type": "event",
+    "name": "CancellationThresholdUpdated",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract Safe"
+      },
+      {
+        "name": "oldThreshold",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "newThreshold",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "CancellationThresholdUpdated",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract ISafe"
+      },
+      {
+        "name": "oldThreshold",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "newThreshold",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

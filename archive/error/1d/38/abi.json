@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "L2ContractsManager_EmptyImplementation",
+    "inputs": [
+      {
+        "name": "_target",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

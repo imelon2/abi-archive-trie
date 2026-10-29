@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "SUPER_ROOT_GAMES_MIGRATION",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

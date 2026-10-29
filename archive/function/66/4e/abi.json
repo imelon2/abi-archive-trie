@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "name": "getStartingAnchorRoot",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct Proposal",
+        "components": [
+          {
+            "name": "root",
+            "type": "bytes32",
+            "internalType": "Hash"
+          },
+          {
+            "name": "l2SequenceNumber",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

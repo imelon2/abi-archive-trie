@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "changeBeneficiary",
+    "inputs": [
+      {
+        "name": "_beneficiary",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

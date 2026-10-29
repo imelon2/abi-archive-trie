@@ -1,0 +1,138 @@
+[
+  {
+    "type": "function",
+    "name": "validateMigratedChainWithOverrides",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerMigrationValidator.MigrationValidationInput",
+        "components": [
+          {
+            "name": "dgf",
+            "type": "address",
+            "internalType": "contract IDisputeGameFactory"
+          },
+          {
+            "name": "chainSystemConfigs",
+            "type": "address[]",
+            "internalType": "contract ISystemConfig[]"
+          },
+          {
+            "name": "cannonPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "cannonKonaPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "proposer",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      },
+      {
+        "name": "_allowFailure",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "_overrides",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerStandardValidator.ValidationOverrides",
+        "components": [
+          {
+            "name": "l1PAOMultisig",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "challenger",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "validateMigratedChainWithOverrides",
+    "inputs": [
+      {
+        "name": "_input",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerMigrationValidator.MigrationValidationInput",
+        "components": [
+          {
+            "name": "dgf",
+            "type": "address",
+            "internalType": "contract IDisputeGameFactory"
+          },
+          {
+            "name": "chainSystemConfigs",
+            "type": "address[]",
+            "internalType": "contract ISystemConfig[]"
+          },
+          {
+            "name": "cannonPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "cannonKonaPrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "proposer",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      },
+      {
+        "name": "_allowFailure",
+        "type": "bool",
+        "internalType": "bool"
+      },
+      {
+        "name": "_overrides",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerStandardValidator.ValidationOverrides",
+        "components": [
+          {
+            "name": "l1PAOMultisig",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "challenger",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "AnchorUpdated",
+    "inputs": [
+      {
+        "name": "game",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "anonymous": false
+  }
+]

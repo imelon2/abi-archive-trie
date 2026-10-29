@@ -1,0 +1,66 @@
+[
+  {
+    "type": "function",
+    "name": "batchUpgrade",
+    "inputs": [
+      {
+        "name": "_inputs",
+        "type": "tuple[]",
+        "internalType": "struct IOPContractsManagerV2.UpgradeInput[]",
+        "components": [
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "disputeGameConfigs",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig[]",
+            "components": [
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "gameArgs",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "extraInstructions",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+            "components": [
+              {
+                "name": "key",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

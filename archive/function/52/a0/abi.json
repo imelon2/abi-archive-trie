@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "sp1Verifier",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "sp1Verifier_",
+        "type": "address",
+        "internalType": "contract ISP1Verifier"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -36,5 +36,12 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "setJovian",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

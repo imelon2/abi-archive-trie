@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "MinWithdrawalAmountUpdated",
+    "inputs": [
+      {
+        "name": "oldWithdrawalAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "newWithdrawalAmount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

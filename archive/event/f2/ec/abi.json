@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "WithdrawalNetworkUpdated",
+    "inputs": [
+      {
+        "name": "oldWithdrawalNetwork",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "enum Types.WithdrawalNetwork"
+      },
+      {
+        "name": "newWithdrawalNetwork",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "enum Types.WithdrawalNetwork"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "opcmV2",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract OPContractsManagerV2"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "opcmV2",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerV2"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

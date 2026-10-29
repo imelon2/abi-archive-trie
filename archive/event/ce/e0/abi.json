@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "RespectedGameTypeSet",
+    "inputs": [
+      {
+        "name": "gameType",
+        "type": "uint32",
+        "indexed": false,
+        "internalType": "GameType"
+      }
+    ],
+    "anonymous": false
+  }
+]

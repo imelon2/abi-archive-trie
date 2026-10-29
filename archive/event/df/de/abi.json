@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ChallengeSucceeded",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "fallbackOwner",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

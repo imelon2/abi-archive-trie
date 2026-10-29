@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "LockboxAuthorized",
+    "inputs": [
+      {
+        "name": "lockbox",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IETHLockbox"
+      }
+    ],
+    "anonymous": false
+  }
+]

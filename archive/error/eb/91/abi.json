@@ -14,5 +14,10 @@
         "internalType": "uint256"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "LivenessModule2_ResponsePeriodEnded",
+    "inputs": []
   }
 ]

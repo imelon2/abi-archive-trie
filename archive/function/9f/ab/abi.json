@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "lastUsedOPCMVersion",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "version_",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

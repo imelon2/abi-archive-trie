@@ -21,5 +21,28 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "gameData",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "gameType_",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "rootClaim_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "extraData_",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

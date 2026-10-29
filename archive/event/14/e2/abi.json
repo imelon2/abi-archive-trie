@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "PredeploysUpgraded",
+    "inputs": [
+      {
+        "name": "l2ContractsManager",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

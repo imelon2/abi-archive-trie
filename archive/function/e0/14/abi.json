@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "deterministicDeploymentProxy",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "deterministicDeploymentProxy_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

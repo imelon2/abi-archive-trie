@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setRecipient",
+    "inputs": [
+      {
+        "name": "_newRecipient",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "type": "function",
+    "name": "_setupSafe",
+    "inputs": [
+      {
+        "name": "ownerPKs",
+        "type": "uint256[]",
+        "internalType": "uint256[]"
+      },
+      {
+        "name": "threshold",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct SafeInstance",
+        "components": [
+          {
+            "name": "instanceId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "ownerPKs",
+            "type": "uint256[]",
+            "internalType": "uint256[]"
+          },
+          {
+            "name": "owners",
+            "type": "address[]",
+            "internalType": "address[]"
+          },
+          {
+            "name": "threshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "safe",
+            "type": "address",
+            "internalType": "contract DeployedSafe"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

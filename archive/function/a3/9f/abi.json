@@ -1,0 +1,52 @@
+[
+  {
+    "type": "function",
+    "name": "getAddresses",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct ISystemConfig.Addresses",
+        "components": [
+          {
+            "name": "l1CrossDomainMessenger",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1ERC721Bridge",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1StandardBridge",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismPortal",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismMintableERC20Factory",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "delayedWETH",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "opcm",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

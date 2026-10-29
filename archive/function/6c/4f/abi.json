@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "isGameClaimValid",
+    "inputs": [
+      {
+        "name": "_game",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

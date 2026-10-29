@@ -1,0 +1,30 @@
+[
+  {
+    "type": "function",
+    "name": "loadPrecompilePreimagePart",
+    "inputs": [
+      {
+        "name": "_partOffset",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_precompile",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_requiredGas",
+        "type": "uint64",
+        "internalType": "uint64"
+      },
+      {
+        "name": "_input",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

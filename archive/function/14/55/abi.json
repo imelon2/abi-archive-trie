@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidSuperRootDisputeGames",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_sysCfg",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

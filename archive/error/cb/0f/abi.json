@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "ConditionalDeployer_DeploymentFailed",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

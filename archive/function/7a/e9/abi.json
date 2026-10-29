@@ -21,5 +21,28 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "resolve",
+    "inputs": [
+      {
+        "name": "_challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_resolveData",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

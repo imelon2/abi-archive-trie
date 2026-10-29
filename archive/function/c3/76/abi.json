@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "isGameRegistered",
+    "inputs": [
+      {
+        "name": "_factory",
+        "type": "address",
+        "internalType": "contract IDisputeGameFactory"
+      },
+      {
+        "name": "_game",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "isValid_",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

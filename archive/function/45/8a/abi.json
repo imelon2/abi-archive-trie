@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "unstake",
+    "inputs": [
+      {
+        "name": "_amount",
+        "type": "uint128",
+        "internalType": "uint128"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

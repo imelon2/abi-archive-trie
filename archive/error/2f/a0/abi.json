@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "OPContractsManagerUtils_ConfigLoadFailed",
+    "inputs": [
+      {
+        "name": "_name",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "FeatureSet",
+    "inputs": [
+      {
+        "name": "feature",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "enabled",
+        "type": "bool",
+        "indexed": true,
+        "internalType": "bool"
+      }
+    ],
+    "anonymous": false
+  }
+]

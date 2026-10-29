@@ -22,5 +22,29 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getChallengeStatus",
+    "inputs": [
+      {
+        "name": "_challengedBlockNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_challengedCommitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum ChallengeStatus"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

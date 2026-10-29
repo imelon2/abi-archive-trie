@@ -11,5 +11,75 @@
     ],
     "stateMutability": "view",
     "type": "function"
+  },
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "tuple",
+        "internalType": "struct ISuperFaultDisputeGame.GameConstructorParams",
+        "components": [
+          {
+            "name": "maxGameDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "splitDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "clockExtension",
+            "type": "uint64",
+            "internalType": "Duration"
+          },
+          {
+            "name": "maxClockDuration",
+            "type": "uint64",
+            "internalType": "Duration"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_params",
+        "type": "tuple",
+        "internalType": "struct IFaultDisputeGame.GameConstructorParams",
+        "components": [
+          {
+            "name": "maxGameDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "splitDepth",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "clockExtension",
+            "type": "uint64",
+            "internalType": "Duration"
+          },
+          {
+            "name": "maxClockDuration",
+            "type": "uint64",
+            "internalType": "Duration"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

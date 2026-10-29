@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "L2ProxyAdmin__L2ContractsManagerNotDeployed",
+    "inputs": [
+      {
+        "name": "l2ContractsManager",
+        "type": "address",
+        "internalType": "address"
+      }
+    ]
+  }
+]

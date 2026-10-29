@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "_disputeGameFactory",
+        "type": "address",
+        "internalType": "contract IDisputeGameFactory"
+      },
+      {
+        "name": "_startingAnchorRoot",
+        "type": "tuple",
+        "internalType": "struct Proposal",
+        "components": [
+          {
+            "name": "root",
+            "type": "bytes32",
+            "internalType": "Hash"
+          },
+          {
+            "name": "l2SequenceNumber",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      },
+      {
+        "name": "_startingRespectedGameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

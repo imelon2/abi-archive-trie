@@ -1,0 +1,148 @@
+[
+  {
+    "type": "function",
+    "name": "loadOrDeployProxy",
+    "inputs": [
+      {
+        "name": "_source",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "_args",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerUtils.ProxyDeployArgs",
+        "components": [
+          {
+            "name": "proxyAdmin",
+            "type": "address",
+            "internalType": "contract IProxyAdmin"
+          },
+          {
+            "name": "addressManager",
+            "type": "address",
+            "internalType": "contract IAddressManager"
+          },
+          {
+            "name": "l2ChainId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "saltMixer",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      },
+      {
+        "name": "_contractName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address payable"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "loadOrDeployProxy",
+    "inputs": [
+      {
+        "name": "_source",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_selector",
+        "type": "bytes4",
+        "internalType": "bytes4"
+      },
+      {
+        "name": "_args",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerUtils.ProxyDeployArgs",
+        "components": [
+          {
+            "name": "proxyAdmin",
+            "type": "address",
+            "internalType": "contract IProxyAdmin"
+          },
+          {
+            "name": "addressManager",
+            "type": "address",
+            "internalType": "contract IAddressManager"
+          },
+          {
+            "name": "l2ChainId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "saltMixer",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      },
+      {
+        "name": "_contractName",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address payable"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

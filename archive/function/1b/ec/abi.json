@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setDevFeatureBitmap",
+    "inputs": [
+      {
+        "name": "_bitmap",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "type": "event",
+    "name": "ExecutingMessage",
+    "inputs": [
+      {
+        "name": "msgHash",
+        "type": "bytes32",
+        "indexed": true,
+        "internalType": "bytes32"
+      },
+      {
+        "name": "id",
+        "type": "tuple",
+        "indexed": false,
+        "internalType": "struct Identifier",
+        "components": [
+          {
+            "name": "origin",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "blockNumber",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "logIndex",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "chainId",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "anonymous": false
+  }
+]

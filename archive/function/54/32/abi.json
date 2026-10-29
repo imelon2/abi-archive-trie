@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidPreimageOracle",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_oracle",
+        "type": "address",
+        "internalType": "contract IPreimageOracle"
+      },
+      {
+        "name": "_errorPrefix",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

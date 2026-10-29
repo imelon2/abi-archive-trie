@@ -1,0 +1,102 @@
+[
+  {
+    "type": "function",
+    "name": "upgradeSuperchain",
+    "inputs": [
+      {
+        "name": "_inp",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerV2.SuperchainUpgradeInput",
+        "components": [
+          {
+            "name": "superchainConfig",
+            "type": "address",
+            "internalType": "contract ISuperchainConfig"
+          },
+          {
+            "name": "extraInstructions",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+            "components": [
+              {
+                "name": "key",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerV2.SuperchainContracts",
+        "components": [
+          {
+            "name": "superchainConfig",
+            "type": "address",
+            "internalType": "contract ISuperchainConfig"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "upgradeSuperchain",
+    "inputs": [
+      {
+        "name": "_inp",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerV2.SuperchainUpgradeInput",
+        "components": [
+          {
+            "name": "superchainConfig",
+            "type": "address",
+            "internalType": "contract ISuperchainConfig"
+          },
+          {
+            "name": "extraInstructions",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+            "components": [
+              {
+                "name": "key",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerV2.SuperchainContracts",
+        "components": [
+          {
+            "name": "superchainConfig",
+            "type": "address",
+            "internalType": "contract ISuperchainConfig"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "type": "function",
+    "name": "rootClaimByChainId",
+    "inputs": [
+      {
+        "name": "_chainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "outputRootClaim_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "rootClaimByChainId",
+    "inputs": [
+      {
+        "name": "_chainId",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "rootClaim_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "rootClaimByChainId",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "rootClaim_",
+        "type": "bytes32",
+        "internalType": "Claim"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

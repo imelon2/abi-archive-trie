@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "safe",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "safe_",
+        "type": "address",
+        "internalType": "contract Safe"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

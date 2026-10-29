@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "DEPLOY_V2_DISPUTE_GAMES",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

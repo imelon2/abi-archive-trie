@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "authorizedPortals",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IOptimismPortal2"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

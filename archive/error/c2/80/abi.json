@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "OPContractsManagerV2_DuplicateUpgradeInstruction",
+    "inputs": [
+      {
+        "name": "_key",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

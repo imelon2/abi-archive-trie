@@ -1,0 +1,40 @@
+[
+  {
+    "type": "function",
+    "name": "upgrade",
+    "inputs": [
+      {
+        "name": "_proxyAdmin",
+        "type": "address",
+        "internalType": "contract IProxyAdmin"
+      },
+      {
+        "name": "_target",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_implementation",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_slot",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_offset",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "type": "error",
+    "name": "L2ProxyAdmin__UpgradeFailed",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ]
+  }
+]

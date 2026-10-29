@@ -11,5 +11,18 @@
     ],
     "outputs": [],
     "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "validateCommitment",
+    "inputs": [
+      {
+        "name": "_commitment",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "pure"
   }
 ]

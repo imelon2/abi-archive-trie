@@ -24,5 +24,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "gasPayingTokenName",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "name_",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

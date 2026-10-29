@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidSuperchainConfig",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract ISuperchainConfig"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

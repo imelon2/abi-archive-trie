@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "prove",
+    "inputs": [
+      {
+        "name": "_proofBytes",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum IZKDisputeGame.ProposalStatus"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

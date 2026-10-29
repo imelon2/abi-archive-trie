@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_recipient",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_minWithdrawalAmount",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_withdrawalNetwork",
+        "type": "uint8",
+        "internalType": "enum Types.WithdrawalNetwork"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

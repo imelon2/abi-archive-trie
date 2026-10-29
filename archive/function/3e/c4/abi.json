@@ -16,5 +16,50 @@
       }
     ],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "claimData",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IZKDisputeGame.ClaimData",
+        "components": [
+          {
+            "name": "parentIndex",
+            "type": "uint32",
+            "internalType": "uint32"
+          },
+          {
+            "name": "status",
+            "type": "uint8",
+            "internalType": "enum IZKDisputeGame.ProposalStatus"
+          },
+          {
+            "name": "challenger",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "prover",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "deadline",
+            "type": "uint64",
+            "internalType": "Timestamp"
+          },
+          {
+            "name": "claim",
+            "type": "bytes32",
+            "internalType": "Claim"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

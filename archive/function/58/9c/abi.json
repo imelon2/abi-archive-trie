@@ -1,0 +1,50 @@
+[
+  {
+    "type": "function",
+    "name": "encodeSuperRootProof",
+    "inputs": [
+      {
+        "name": "proof",
+        "type": "tuple",
+        "internalType": "struct Types.SuperRootProof",
+        "components": [
+          {
+            "name": "version",
+            "type": "bytes1",
+            "internalType": "bytes1"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "outputRoots",
+            "type": "tuple[]",
+            "internalType": "struct Types.OutputRootWithChainId[]",
+            "components": [
+              {
+                "name": "chainId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "root",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

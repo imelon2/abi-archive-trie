@@ -9,5 +9,16 @@
     ],
     "name": "StringTooLong",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "StringTooLong",
+    "inputs": [
+      {
+        "name": "str",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
   }
 ]

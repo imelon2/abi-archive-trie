@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "setDeputy",
+    "inputs": [
+      {
+        "name": "_deputy",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_deputySignature",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

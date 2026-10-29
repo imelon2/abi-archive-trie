@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "verify",
+    "inputs": [
+      {
+        "name": "_programId",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      },
+      {
+        "name": "_publicValues",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_proof",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "view"
+  }
+]

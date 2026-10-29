@@ -1,0 +1,58 @@
+[
+  {
+    "type": "function",
+    "name": "createGameWithClaims",
+    "inputs": [
+      {
+        "name": "_dgf",
+        "type": "address",
+        "internalType": "contract IDisputeGameFactory"
+      },
+      {
+        "name": "_gameType",
+        "type": "uint32",
+        "internalType": "GameType"
+      },
+      {
+        "name": "_rootClaim",
+        "type": "bytes32",
+        "internalType": "Claim"
+      },
+      {
+        "name": "_extraData",
+        "type": "bytes",
+        "internalType": "bytes"
+      },
+      {
+        "name": "_moves",
+        "type": "tuple[]",
+        "internalType": "struct GameHelper.Move[]",
+        "components": [
+          {
+            "name": "parentIdx",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claim",
+            "type": "bytes32",
+            "internalType": "Claim"
+          },
+          {
+            "name": "attack",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "gameAddr_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

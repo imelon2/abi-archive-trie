@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "unpause",
+    "inputs": [
+      {
+        "name": "_identifier",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

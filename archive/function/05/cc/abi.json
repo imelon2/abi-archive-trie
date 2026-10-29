@@ -1,0 +1,52 @@
+[
+  {
+    "type": "function",
+    "name": "configureLivenessModule",
+    "inputs": [
+      {
+        "name": "_config",
+        "type": "tuple",
+        "internalType": "struct LivenessModule2.ModuleConfig",
+        "components": [
+          {
+            "name": "livenessResponsePeriod",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fallbackOwner",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "configureLivenessModule",
+    "inputs": [
+      {
+        "name": "_config",
+        "type": "tuple",
+        "internalType": "struct ILivenessModule2.ModuleConfig",
+        "components": [
+          {
+            "name": "livenessResponsePeriod",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fallbackOwner",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

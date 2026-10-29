@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "migrationValidator",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerMigrationValidator"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "gameArgs",
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint32",
+        "internalType": "GameType"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

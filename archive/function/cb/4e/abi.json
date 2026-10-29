@@ -1,0 +1,31 @@
+[
+  {
+    "type": "function",
+    "name": "search",
+    "inputs": [
+      {
+        "name": "_factory",
+        "type": "address",
+        "internalType": "contract IDisputeGameFactory"
+      },
+      {
+        "name": "_targetTimestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_direction",
+        "type": "uint8",
+        "internalType": "enum DisputeMonitorHelper.SearchDirection"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "index_",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

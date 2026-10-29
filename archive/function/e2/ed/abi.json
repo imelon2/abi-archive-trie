@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setDevFeatureEnabled",
+    "inputs": [
+      {
+        "name": "_feature",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

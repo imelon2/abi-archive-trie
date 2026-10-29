@@ -1,0 +1,84 @@
+[
+  {
+    "type": "function",
+    "name": "hasInstruction",
+    "inputs": [
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_key",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "hasInstruction",
+    "inputs": [
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_key",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

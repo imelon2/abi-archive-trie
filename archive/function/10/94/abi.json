@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "standardValidatorUtils",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IStandardValidatorUtils"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

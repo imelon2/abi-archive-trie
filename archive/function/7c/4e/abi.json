@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "ZK_DISPUTE_GAME",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

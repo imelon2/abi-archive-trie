@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setMinBaseFee",
+    "inputs": [
+      {
+        "name": "_minBaseFee",
+        "type": "uint64",
+        "internalType": "uint64"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

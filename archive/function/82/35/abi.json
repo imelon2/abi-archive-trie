@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "withdrawalNetwork",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum Types.WithdrawalNetwork"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

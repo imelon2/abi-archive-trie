@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "authorizedLockboxes",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IETHLockbox"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

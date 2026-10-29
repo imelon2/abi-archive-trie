@@ -14,5 +14,16 @@
         "internalType": "uint256"
       }
     ]
+  },
+  {
+    "type": "error",
+    "name": "DisputeGames_UnsupportedGameArg",
+    "inputs": [
+      {
+        "name": "gameArg",
+        "type": "uint8",
+        "internalType": "enum DisputeGames.GameArg"
+      }
+    ]
   }
 ]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "ChallengeStarted",
+    "inputs": [
+      {
+        "name": "safe",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "challengeStartTime",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

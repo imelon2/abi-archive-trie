@@ -1,0 +1,21 @@
+[
+  {
+    "type": "event",
+    "name": "LiquidityReceived",
+    "inputs": [
+      {
+        "name": "lockbox",
+        "type": "address",
+        "indexed": true,
+        "internalType": "contract IETHLockbox"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]

@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "vm",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "vm_",
+        "type": "address",
+        "internalType": "contract IBigStepper"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

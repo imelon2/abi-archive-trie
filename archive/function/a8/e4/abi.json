@@ -24,5 +24,18 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "proposer",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "proposer_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "pure"
   }
 ]

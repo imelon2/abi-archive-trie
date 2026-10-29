@@ -1,0 +1,18 @@
+[
+  {
+    "type": "error",
+    "name": "OPContractsManagerV2_InvalidUpgradeSequence",
+    "inputs": [
+      {
+        "name": "_lastVersion",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_thisVersion",
+        "type": "string",
+        "internalType": "string"
+      }
+    ]
+  }
+]

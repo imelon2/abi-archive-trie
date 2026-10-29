@@ -1,0 +1,28 @@
+[
+  {
+    "type": "function",
+    "name": "challenge",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract Safe"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "challenge",
+    "inputs": [
+      {
+        "name": "_safe",
+        "type": "address",
+        "internalType": "contract ISafe"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

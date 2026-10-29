@@ -1,0 +1,266 @@
+[
+  {
+    "type": "function",
+    "name": "upgrade",
+    "inputs": [
+      {
+        "name": "_inp",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerV2.UpgradeInput",
+        "components": [
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "disputeGameConfigs",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig[]",
+            "components": [
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "gameArgs",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "extraInstructions",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+            "components": [
+              {
+                "name": "key",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerV2.ChainContracts",
+        "components": [
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "proxyAdmin",
+            "type": "address",
+            "internalType": "contract IProxyAdmin"
+          },
+          {
+            "name": "addressManager",
+            "type": "address",
+            "internalType": "contract IAddressManager"
+          },
+          {
+            "name": "l1CrossDomainMessenger",
+            "type": "address",
+            "internalType": "contract IL1CrossDomainMessenger"
+          },
+          {
+            "name": "l1ERC721Bridge",
+            "type": "address",
+            "internalType": "contract IL1ERC721Bridge"
+          },
+          {
+            "name": "l1StandardBridge",
+            "type": "address",
+            "internalType": "contract IL1StandardBridge"
+          },
+          {
+            "name": "optimismPortal",
+            "type": "address",
+            "internalType": "contract IOptimismPortal2"
+          },
+          {
+            "name": "ethLockbox",
+            "type": "address",
+            "internalType": "contract IETHLockbox"
+          },
+          {
+            "name": "optimismMintableERC20Factory",
+            "type": "address",
+            "internalType": "contract IOptimismMintableERC20Factory"
+          },
+          {
+            "name": "disputeGameFactory",
+            "type": "address",
+            "internalType": "contract IDisputeGameFactory"
+          },
+          {
+            "name": "anchorStateRegistry",
+            "type": "address",
+            "internalType": "contract IAnchorStateRegistry"
+          },
+          {
+            "name": "delayedWETH",
+            "type": "address",
+            "internalType": "contract IDelayedWETH"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "upgrade",
+    "inputs": [
+      {
+        "name": "_inp",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerV2.UpgradeInput",
+        "components": [
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "disputeGameConfigs",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.DisputeGameConfig[]",
+            "components": [
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "initBond",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "gameArgs",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          },
+          {
+            "name": "extraInstructions",
+            "type": "tuple[]",
+            "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+            "components": [
+              {
+                "name": "key",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "data",
+                "type": "bytes",
+                "internalType": "bytes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerV2.ChainContracts",
+        "components": [
+          {
+            "name": "systemConfig",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "proxyAdmin",
+            "type": "address",
+            "internalType": "contract IProxyAdmin"
+          },
+          {
+            "name": "addressManager",
+            "type": "address",
+            "internalType": "contract IAddressManager"
+          },
+          {
+            "name": "l1CrossDomainMessenger",
+            "type": "address",
+            "internalType": "contract IL1CrossDomainMessenger"
+          },
+          {
+            "name": "l1ERC721Bridge",
+            "type": "address",
+            "internalType": "contract IL1ERC721Bridge"
+          },
+          {
+            "name": "l1StandardBridge",
+            "type": "address",
+            "internalType": "contract IL1StandardBridge"
+          },
+          {
+            "name": "optimismPortal",
+            "type": "address",
+            "internalType": "contract IOptimismPortal2"
+          },
+          {
+            "name": "ethLockbox",
+            "type": "address",
+            "internalType": "contract IETHLockbox"
+          },
+          {
+            "name": "optimismMintableERC20Factory",
+            "type": "address",
+            "internalType": "contract IOptimismMintableERC20Factory"
+          },
+          {
+            "name": "disputeGameFactory",
+            "type": "address",
+            "internalType": "contract IDisputeGameFactory"
+          },
+          {
+            "name": "anchorStateRegistry",
+            "type": "address",
+            "internalType": "contract IAnchorStateRegistry"
+          },
+          {
+            "name": "delayedWETH",
+            "type": "address",
+            "internalType": "contract IDelayedWETH"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

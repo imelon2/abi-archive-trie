@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "deauthorizeMinter",
+    "inputs": [
+      {
+        "name": "_minter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

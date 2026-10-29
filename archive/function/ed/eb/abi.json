@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "emitLog",
+    "inputs": [
+      {
+        "name": "_topics",
+        "type": "bytes32[]",
+        "internalType": "bytes32[]"
+      },
+      {
+        "name": "_data",
+        "type": "bytes",
+        "internalType": "bytes"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

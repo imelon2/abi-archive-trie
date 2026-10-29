@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "updateRetirementTimestamp",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

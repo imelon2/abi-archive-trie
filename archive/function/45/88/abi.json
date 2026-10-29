@@ -17,5 +17,24 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "disputeGameBlacklist",
+    "inputs": [
+      {
+        "name": "_disputeGame",
+        "type": "address",
+        "internalType": "contract IDisputeGame"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

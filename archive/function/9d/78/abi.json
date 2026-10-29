@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "guardianSafe",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "guardianSafe_",
+        "type": "address",
+        "internalType": "contract Safe"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

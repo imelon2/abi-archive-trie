@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "migrateToSharedDisputeGame",
+    "inputs": [
+      {
+        "name": "_newLockbox",
+        "type": "address",
+        "internalType": "contract IETHLockbox"
+      },
+      {
+        "name": "_newAnchorStateRegistry",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

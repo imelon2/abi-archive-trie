@@ -90,5 +90,28 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "_anchorStateRegistry",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      },
+      {
+        "name": "_ethLockbox",
+        "type": "address",
+        "internalType": "contract IETHLockbox"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]

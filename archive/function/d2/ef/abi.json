@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "challenge",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum IZKDisputeGame.ProposalStatus"
+      }
+    ],
+    "stateMutability": "payable"
+  }
+]

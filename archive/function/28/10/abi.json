@@ -11,5 +11,18 @@
       }
     ],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "resolve",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "enum GameStatus"
+      }
+    ],
+    "stateMutability": "nonpayable"
   }
 ]

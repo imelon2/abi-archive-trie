@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "lastUsedOPCM",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "addr_",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

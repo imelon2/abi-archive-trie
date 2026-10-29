@@ -1,0 +1,98 @@
+[
+  {
+    "type": "function",
+    "name": "getInstructionByKey",
+    "inputs": [
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct OPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_key",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct OPContractsManagerUtils.ExtraInstruction",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "getInstructionByKey",
+    "inputs": [
+      {
+        "name": "_instructions",
+        "type": "tuple[]",
+        "internalType": "struct IOPContractsManagerUtils.ExtraInstruction[]",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      },
+      {
+        "name": "_key",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerUtils.ExtraInstruction",
+        "components": [
+          {
+            "name": "key",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "data",
+            "type": "bytes",
+            "internalType": "bytes"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "pure"
+  }
+]

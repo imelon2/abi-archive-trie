@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "skipIfOpsRepoTest",
+    "inputs": [
+      {
+        "name": "message",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

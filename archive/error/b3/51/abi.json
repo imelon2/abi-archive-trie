@@ -3,5 +3,10 @@
     "inputs": [],
     "name": "InvalidShortString",
     "type": "error"
+  },
+  {
+    "type": "error",
+    "name": "InvalidShortString",
+    "inputs": []
   }
 ]

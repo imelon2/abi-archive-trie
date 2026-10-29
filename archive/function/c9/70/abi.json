@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "L2Fork",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

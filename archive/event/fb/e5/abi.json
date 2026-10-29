@@ -1,0 +1,15 @@
+[
+  {
+    "type": "event",
+    "name": "ImplementationExists",
+    "inputs": [
+      {
+        "name": "implementation",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

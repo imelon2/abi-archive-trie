@@ -1,0 +1,25 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_standardValidator",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerStandardValidator"
+      },
+      {
+        "name": "_migrator",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerMigrator"
+      },
+      {
+        "name": "_utils",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerUtils"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

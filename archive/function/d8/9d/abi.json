@@ -1,0 +1,132 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_standardValidatorUtils",
+        "type": "address",
+        "internalType": "contract IStandardValidatorUtils"
+      },
+      {
+        "name": "_migrationValidator",
+        "type": "address",
+        "internalType": "contract IOPContractsManagerMigrationValidator"
+      },
+      {
+        "name": "_implementations",
+        "type": "tuple",
+        "internalType": "struct IOPContractsManagerStandardValidator.Implementations",
+        "components": [
+          {
+            "name": "l1ERC721BridgeImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismPortalImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "ethLockboxImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "systemConfigImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "optimismMintableERC20FactoryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1CrossDomainMessengerImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "l1StandardBridgeImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "disputeGameFactoryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "anchorStateRegistryImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "delayedWETHImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "mipsImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "faultDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "permissionedDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "superFaultDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "superPermissionedDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "zkDisputeGameImpl",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      },
+      {
+        "name": "_superchainConfig",
+        "type": "address",
+        "internalType": "contract ISuperchainConfig"
+      },
+      {
+        "name": "_l1PAOMultisig",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_challenger",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_withdrawalDelaySeconds",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_devFeatureBitmap",
+        "type": "bytes32",
+        "internalType": "bytes32"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "function",
+    "name": "__constructor__",
+    "inputs": [
+      {
+        "name": "_addressManager",
+        "type": "address",
+        "internalType": "contract IAddressManager"
+      },
+      {
+        "name": "_implementationName",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

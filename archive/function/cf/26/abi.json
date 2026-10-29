@@ -1,0 +1,36 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidMipsVm",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_mips",
+        "type": "address",
+        "internalType": "contract IMIPS64"
+      },
+      {
+        "name": "_mipsImpl",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_errorPrefix",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

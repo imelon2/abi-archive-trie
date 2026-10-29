@@ -1,0 +1,15 @@
+[
+  {
+    "type": "function",
+    "name": "setDAFootprintGasScalar",
+    "inputs": [
+      {
+        "name": "_daFootprintGasScalar",
+        "type": "uint16",
+        "internalType": "uint16"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

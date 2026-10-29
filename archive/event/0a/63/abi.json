@@ -4,5 +4,11 @@
     "inputs": [],
     "name": "EIP712DomainChanged",
     "type": "event"
+  },
+  {
+    "type": "event",
+    "name": "EIP712DomainChanged",
+    "inputs": [],
+    "anonymous": false
   }
 ]

@@ -11,5 +11,31 @@
       }
     ],
     "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "anchorStateRegistry",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "registry_",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      }
+    ],
+    "stateMutability": "pure"
+  },
+  {
+    "type": "function",
+    "name": "anchorStateRegistry",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IAnchorStateRegistry"
+      }
+    ],
+    "stateMutability": "view"
   }
 ]

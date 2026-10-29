@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "pausable",
+    "inputs": [
+      {
+        "name": "_identifier",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

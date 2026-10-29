@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "upgrade",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

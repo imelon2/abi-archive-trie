@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidDisputeGameFactory",
+    "inputs": [
+      {
+        "name": "_errors",
+        "type": "string",
+        "internalType": "string"
+      },
+      {
+        "name": "_sysCfg",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "_admin",
+        "type": "address",
+        "internalType": "contract IProxyAdmin"
+      },
+      {
+        "name": "_impl",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_l1PAOMultisig",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

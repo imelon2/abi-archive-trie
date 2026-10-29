@@ -1,0 +1,179 @@
+[
+  {
+    "type": "function",
+    "name": "assertValidDisputeGame",
+    "inputs": [
+      {
+        "name": "_args",
+        "type": "tuple",
+        "internalType": "struct DisputeGameValidationArgs",
+        "components": [
+          {
+            "name": "errors",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "sysCfg",
+            "type": "address",
+            "internalType": "contract ISystemConfig"
+          },
+          {
+            "name": "game",
+            "type": "tuple",
+            "internalType": "struct DisputeGameImplementation",
+            "components": [
+              {
+                "name": "gameAddress",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "maxGameDepth",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "splitDepth",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "maxClockDuration",
+                "type": "uint64",
+                "internalType": "Duration"
+              },
+              {
+                "name": "clockExtension",
+                "type": "uint64",
+                "internalType": "Duration"
+              },
+              {
+                "name": "gameType",
+                "type": "uint32",
+                "internalType": "GameType"
+              },
+              {
+                "name": "l2SequenceNumber",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "absolutePrestate",
+                "type": "bytes32",
+                "internalType": "Claim"
+              },
+              {
+                "name": "vm",
+                "type": "address",
+                "internalType": "contract IBigStepper"
+              },
+              {
+                "name": "asr",
+                "type": "address",
+                "internalType": "contract IAnchorStateRegistry"
+              },
+              {
+                "name": "weth",
+                "type": "address",
+                "internalType": "contract IDelayedWETH"
+              },
+              {
+                "name": "l2ChainId",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "challenger",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "proposer",
+                "type": "address",
+                "internalType": "address"
+              }
+            ]
+          },
+          {
+            "name": "absolutePrestate",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          },
+          {
+            "name": "l2ChainID",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "admin",
+            "type": "address",
+            "internalType": "contract IProxyAdmin"
+          },
+          {
+            "name": "gameType",
+            "type": "uint32",
+            "internalType": "GameType"
+          },
+          {
+            "name": "errorPrefix",
+            "type": "string",
+            "internalType": "string"
+          }
+        ]
+      },
+      {
+        "name": "_impls",
+        "type": "tuple",
+        "internalType": "struct DisputeGameImpls",
+        "components": [
+          {
+            "name": "expectedGameImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "mipsImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "delayedWETHImpl",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "anchorStateRegistryImpl",
+            "type": "address",
+            "internalType": "address"
+          }
+        ]
+      },
+      {
+        "name": "_cfg",
+        "type": "tuple",
+        "internalType": "struct DisputeGameConfig",
+        "components": [
+          {
+            "name": "l1PAOMultisig",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "withdrawalDelaySeconds",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "errors_",
+        "type": "string",
+        "internalType": "string"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]

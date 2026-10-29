@@ -1,0 +1,9 @@
+[
+  {
+    "type": "function",
+    "name": "closeGame",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
+]

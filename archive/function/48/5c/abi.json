@@ -196,5 +196,41 @@
     ],
     "outputs": [],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_messenger",
+        "type": "address",
+        "internalType": "contract ICrossDomainMessenger"
+      },
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_systemConfig",
+        "type": "address",
+        "internalType": "contract ISystemConfig"
+      },
+      {
+        "name": "_portal",
+        "type": "address",
+        "internalType": "contract IOptimismPortal2"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
   }
 ]
